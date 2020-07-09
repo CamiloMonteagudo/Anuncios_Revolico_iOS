@@ -190,7 +190,7 @@
     NSString* line = lines[idx];
     if( [line hasPrefix:@"//"] ) break;
     
-    [Desc appendFormat:@"%@\r\n", line];
+    [Desc appendFormat:@"%@\n", line];
     ++idx;
     }
   
@@ -224,8 +224,8 @@
 
   NSArray<NSString*> * Lines = [Datos ReadLinesOfFile:fileName];
   
-  [Datos ParseLines:Lines];
-  
+  [Datos ParseLines: Lines ];
+
   return Datos;
   }
 
@@ -239,7 +239,10 @@
   NSString *Txt = [NSString stringWithContentsOfFile:fileName usedEncoding:&Enc error:&Err];
   if( Txt == nil ) return [NSArray<NSString*> new];
 
-  return [Txt componentsSeparatedByString:@"\r\n"];
+  Txt = [Txt stringByReplacingOccurrencesOfString:@"\r" withString:@""];
+
+  NSCharacterSet* sep = [NSCharacterSet characterSetWithCharactersInString:@"\n"];
+  return [Txt componentsSeparatedByCharactersInSet: sep ];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------

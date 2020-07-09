@@ -6,6 +6,9 @@
 // Descripción-AttrName = description
 // Mail-TagName = input
 // Mail-AttrName = email
+// Categoria-TagName = select
+// Categoria-AttrName = subcategory
+// Categoria-Txt = Venta -> Otros
 // Mail-Txt = {ID}{Dia}{Mes}@gmail.com
 // Telef-TagName = input
 // Telef-AttrName = phone

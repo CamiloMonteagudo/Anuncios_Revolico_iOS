@@ -41,8 +41,7 @@
 // Escapa los caracteres que pueden ser conflictivo en las cadenas Javascript
 -(NSString*) EscapeText:(NSMutableString*) sVal
   {
-  [sVal replaceOccurrencesOfString:@"\r\n" withString:@"\\n" options:NSLiteralSearch range:NSMakeRange(0, sVal.length)];
-  [sVal replaceOccurrencesOfString:@"\r"   withString:@"\\n" options:NSLiteralSearch range:NSMakeRange(0, sVal.length)];
+ // [sVal replaceOccurrencesOfString:@"\\"   withString:@"\\\\" options:NSLiteralSearch range:NSMakeRange(0, sVal.length)];
   [sVal replaceOccurrencesOfString:@"\n"   withString:@"\\n" options:NSLiteralSearch range:NSMakeRange(0, sVal.length)];
 
   [sVal replaceOccurrencesOfString:@"\""   withString:@"\\\"" options:NSLiteralSearch range:NSMakeRange(0, sVal.length)];
@@ -53,9 +52,9 @@
 
 //--------------------------------------------------------------------------------------------------------------------------------------
 // Si hay alguna marca de sustitución en texto de llenado lo resuelve en otro caso retorna la misma cadena
--(NSString*) ParseValue:(NSString*) sVal1
+-(NSString*) ParseValue:(NSString*) sVal
   {
-  NSMutableString* str = [NSMutableString stringWithString:sVal1];
+  NSMutableString* str = [NSMutableString stringWithString:sVal];
   for(;;)
     {
     NSRange ini = [str rangeOfString:@"{"];
@@ -66,17 +65,18 @@
     if( fin.length == 0) break;
     
     NSRange rg = NSMakeRange(ini.location, fin.location-ini.location+1);
-    NSString* cmd = [[str substringWithRange:rg] uppercaseString];
+    NSString* cmd = [str substringWithRange:rg];
     
     NSString* ret = cmd;
-         if( [cmd isEqualToString:@"{ID}"    ] ) ret = [self GetAnuncioID];
-    else if( [cmd isEqualToString:@"{DIA}"   ] ) ret = [self GetDia];
-    else if( [cmd isEqualToString:@"{MES}"   ] ) ret = [self GetMes];
-    else if( [cmd isEqualToString:@"{H}"     ] ) ret = [self GetTitleHeader];
-    else if( [cmd isEqualToString:@"{DIASEM}"] ) ret = [self GetSemanaDia];
-    else if( [cmd isEqualToString:@"{DIASTR}"] ) ret = [self GetStringDia];
+    NSString* CMD = [cmd uppercaseString];
+         if( [CMD isEqualToString:@"{ID}"    ] ) ret = [self GetAnuncioID];
+    else if( [CMD isEqualToString:@"{DIA}"   ] ) ret = [self GetDia];
+    else if( [CMD isEqualToString:@"{MES}"   ] ) ret = [self GetMes];
+    else if( [CMD isEqualToString:@"{H}"     ] ) ret = [self GetTitleHeader];
+    else if( [CMD isEqualToString:@"{DIASEM}"] ) ret = [self GetSemanaDia];
+    else if( [CMD isEqualToString:@"{DIASTR}"] ) ret = [self GetStringDia];
     
-    [str replaceOccurrencesOfString:cmd   withString:ret options:NSLiteralSearch range:NSMakeRange(0, str.length)];
+    [str replaceOccurrencesOfString:cmd withString:ret options:NSLiteralSearch range:NSMakeRange(0, str.length)];
     }
   
   if(_Escape ) [self EscapeText:str];
@@ -143,7 +143,7 @@
   {
   NSInteger dia = [Cldr component:NSCalendarUnitDay fromDate:Now];
   
-  return [NSString stringWithFormat:@"%2ld", dia];
+  return [NSString stringWithFormat:@"%2d", (int)dia];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------

@@ -30,13 +30,14 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnProximo;
 @property (weak, nonatomic) IBOutlet UIButton *btnDetener;
 @property (weak, nonatomic) IBOutlet UIButton *btnLlenar;
+@property (weak, nonatomic) IBOutlet UIButton *btnTest;
 
-- (IBAction)OnShowMore:(id)sender;
 - (IBAction)OnPrev:(id)sender;
 - (IBAction)OnPublicar:(id)sender;
 - (IBAction)OnProximo:(id)sender;
 - (IBAction)OnDetener:(id)sender;
 - (IBAction)OnLlenar:(id)sender;
+- (IBAction)OnTest:(id)sender;
 
 @end
 
@@ -47,8 +48,10 @@
   {
   [super viewDidLoad];
   
-  AnuncFile = @"Revolico Medicinas 1";
-  [self LoadAnunciosFromFile ];
+  NSUserDefaults* UserDef = [NSUserDefaults standardUserDefaults];
+  
+  NSString* lastFile = [UserDef objectForKey:@"lastAnuncFile"];
+  [self LoadAnunciosFromFile: lastFile ];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -69,18 +72,12 @@
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-// Selecciona opciones adicionales para llenar las páginas
-- (IBAction)OnShowMore:(id)sender
-  {
-  [self MsgTitle:@"Alerta" Text:@"Ir a mostrar más información"];
-  }
-
-//--------------------------------------------------------------------------------------------------------------------------------------------------------
 // Se mueve al anuncio anterior
 - (IBAction)OnPrev:(id)sender
   {
   --nowAnunc;
   [self ShowNowAnuncioInfo];
+  [self SaveLastAnunc];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -94,6 +91,10 @@
   
   NSURL *url = [NSURL URLWithString: nowItem.Url];
   
+//  NSBundle *Bundle = [NSBundle mainBundle];
+//  NSString* file = [Bundle pathForResource:@"PageTest" ofType:@"html" ];
+//  url = [NSURL URLWithString: file];
+  
   [_webPage loadRequest:[NSURLRequest requestWithURL:url]];
   _curWait.hidden = false;
   
@@ -106,6 +107,7 @@
   {
   ++nowAnunc;
   [self ShowNowAnuncioInfo];
+  [self SaveLastAnunc];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -125,20 +127,73 @@
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-// Carga el fichero de definición de los anuncios desde un fichero
-- (void) LoadAnunciosFromFile
+// Boton para pruebas
+- (IBAction)OnTest:(id)sender
   {
-  NSString* file = [AnuncFile stringByAppendingString:@".txt"];
+  [self SetJavascriptFunctions];
+  
+  AnuncioInfo* Anuncio = Anuncios.Items[nowAnunc];
+  
+  for( NSInteger i=0; i<Anuncio.FillInfo.count; i++)
+    {
+    HtmlInfo* info = Anuncio.FillInfo[i];
+    
+    NSString* jsSet = [NSString stringWithFormat:@"ShowEventsForID('%@')", info.AttrName];
+    
+    [_webPage stringByEvaluatingJavaScriptFromString: jsSet ];
+    }
+  }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+// Carga el fichero de definición de los anuncios desde un fichero
+- (void) LoadAnunciosFromFile:(NSString*) fName
+  {
+  NSString* file = [fName stringByAppendingString:@".txt"];
   
   NSBundle *Bundle = [NSBundle mainBundle];
   file = [Bundle.bundlePath stringByAppendingPathComponent:file];
-  
+
   Anuncios = [DataAnuncios LoadFromFile:file];
   
   _curWait.hidden = true;
   
+  AnuncFile = fName;
+  
+  [self GetNowAnunc];
+  if( nowAnunc<0 || nowAnunc>=Anuncios.Items.count ) nowAnunc = 0;
+  
   [self ShowNowAnuncioInfo];
   [self ShowButtonsMode:0];
+  }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+// Guarda el ultimo anuncio que se esta trabajando
+- (void) SaveLastAnunc
+  {
+  if( AnuncFile==nil ) return;
+  
+  NSUserDefaults* UserDef = [NSUserDefaults standardUserDefaults];
+    
+  NSNumber* lastAnunc = [NSNumber numberWithInteger:nowAnunc];
+    
+  [UserDef setObject:lastAnunc forKey:AnuncFile];
+  }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+// Obtiene cual fue el ultimo que se trabajo en el fichero actual
+- (void) GetNowAnunc
+  {
+  if( AnuncFile!=nil )
+    {
+    NSUserDefaults* UserDef = [NSUserDefaults standardUserDefaults];
+    
+    NSNumber* lastAnunc = [UserDef objectForKey:AnuncFile];
+    nowAnunc = (lastAnunc != nil)? lastAnunc.intValue : 0;
+    
+    [UserDef setObject:AnuncFile forKey:@"lastAnuncFile"];
+    }
+  else
+    nowAnunc = 0;
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -152,6 +207,7 @@
     _btnProximo.hidden  = false;
     _btnDetener.hidden  = true;
     _btnLlenar.hidden   = true;
+    _btnTest.hidden     = true;
     }
   else
     {
@@ -160,6 +216,7 @@
     _btnProximo.hidden  = true;
     _btnDetener.hidden  = false;
     _btnLlenar.hidden   = false;
+    _btnTest.hidden     = false;
     }
   
   }
@@ -219,7 +276,30 @@
       
   @"    return \"3\";"
   @"    }"
-  @"  }" ;
+  @"  }"
+  
+  @"function ShowEventsForID( IdElem )"
+  @"  {"
+  @"  var elem = document.getElementById( IdElem ) ;"
+  @"  if( !elem ) return \"0\";"
+    
+  @"  var msg = \"\";"
+    
+  @"  if( elem.onblur     ) msg += \"onBlur \";"
+  @"  if( elem.onchange   ) msg += \"onchange \";"
+  @"  if( elem.onclick    ) msg += \"onclick \";"
+  @"  if( elem.onfocus    ) msg += \"onfocus \";"
+  @"  if( elem.onkeydown  ) msg += \"onkeydown \";"
+  @"  if( elem.onkeypress ) msg += \"onkeypress \";"
+  @"  if( elem.onkeyup    ) msg += \"onkeyup \";"
+  @"  if( elem.oninput    ) msg += \"oninput \";"
+    
+  @"  if( msg.length>0 )"
+  @"    alert( \"El elemento '\" + IdElem + \"' tiene los siguientes eventos asignados:\r\n\" + msg );"
+    
+  @"  return \"1\";"
+  @"  }"
+  ;
   
   [_webPage stringByEvaluatingJavaScriptFromString: jsSet ];
   }
@@ -300,7 +380,7 @@
 
   AnuncioInfo* nowItem = Anuncios.Items[nowAnunc];
   TextEval* eVal = [TextEval TextEvalWithAnucio:nowItem];
-  eVal.Escape = false;
+  //eVal.Escape = false;
 
   _lbInfo.text = [NSString stringWithFormat:@"%d de %d  Identif: %@", (int)nowAnunc+1, (int)num, nowItem.ID ];
   _lbTitle.text = [eVal ParseValue:nowItem.GetTitle];
@@ -325,8 +405,8 @@
   
   if( [ID isEqualToString:@"Back"] )
     {
-    AnuncFile = ((SelFileViewController*) Ctrller).SelectedFile;
-    [self LoadAnunciosFromFile ];
+    NSString* file = ((SelFileViewController*) Ctrller).SelectedFile;
+    [self LoadAnunciosFromFile: file ];
     }
   }
 

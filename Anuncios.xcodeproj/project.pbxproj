@@ -21,6 +21,7 @@
 		842EBA5C235BABBC00BD9E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842EBA5B235BABBC00BD9E08 /* Assets.xcassets */; };
 		842EBA5F235BABBC00BD9E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842EBA5D235BABBC00BD9E08 /* LaunchScreen.storyboard */; };
 		842EBA62235BABBC00BD9E08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842EBA61235BABBC00BD9E08 /* main.m */; };
+		8446BB3C2366828300E802A3 /* Todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8446BB3B2366828200E802A3 /* Todo.txt */; };
 		84C632B42361433B00FFFE9C /* SelFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C632B32361433B00FFFE9C /* SelFileViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +46,7 @@
 		842EBA5E235BABBC00BD9E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842EBA60235BABBC00BD9E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842EBA61235BABBC00BD9E08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8446BB3B2366828200E802A3 /* Todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Todo.txt; sourceTree = "<group>"; };
 		84C632B22361433B00FFFE9C /* SelFileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelFileViewController.h; sourceTree = "<group>"; };
 		84C632B32361433B00FFFE9C /* SelFileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelFileViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +65,7 @@
 		841B6F93235FBD7A0030E42C /* Anuncios Files */ = {
 			isa = PBXGroup;
 			children = (
+				8446BB3B2366828200E802A3 /* Todo.txt */,
 				841B6F8D235FBD660030E42C /* PorLaLivre Lavadoras.txt */,
 				841B6F8B235FBD660030E42C /* Revolico Lavadoras.txt */,
 				841B6F8A235FBD660030E42C /* Revolico Medicinas 1.txt */,
@@ -169,6 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8446BB3C2366828300E802A3 /* Todo.txt in Resources */,
 				841B6F91235FBD670030E42C /* Revolico Medicinas 2.txt in Resources */,
 				842EBA5F235BABBC00BD9E08 /* LaunchScreen.storyboard in Resources */,
 				842BEA92235E8A9900981623 /* PageTest.html in Resources */,
