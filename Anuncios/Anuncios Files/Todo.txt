@@ -1,7 +1,7 @@
 // Url-Txt = https://www.revolico.com/compra-venta/otros/insertar-anuncio.html
 // Categoria-TagName = select
-// Categoria-AttrName = subcategory-select
-// Categoria-Txt = Venta -> Otros
+// Categoria-AttrName = subcategory
+// Categoria-Txt = 44
 // Titulo-TagName = input
 // Titulo-AttrName = ad-title
 // Descripción-TagName = textarea
@@ -11,10 +11,11 @@
 // Mail-Txt = {ID}{Dia}{Mes}@gmail.com
 // Telef-TagName = input
 // Telef-AttrName = ad-phone
-// Telef-Txt = 7 832 8768 ó 5 331 7003
+// Telef-Txt = 7 832 8768, 5 331 7003
+// WordsKey0-Txt = Acido Folico, Artritis, Azitromicina, Bismuto, Cervical, Chanca Piedra, Cialis, Ciprofloxacina, Diclofenac, Diclofenac Sódico, Diclofenaco, Diclofenaco Potásico, Dolores, Estomago, Fin de Semana, Glibendamida, Glucosamina, Ibuprofeno, Inyectable, Loperamida, Mambo, Medicamentos, Medicinas, Metronidazol, Nistatina, Omega, Omeprazol, Paracetamol, Pastillas, Pepto-Bismol, Potasico, Ranitidina, Reumatismo, Sildena_fil, Sulfapril, Sódico, Tadalafil, Viagr_a, Vitamina C, Vitamina E, Voltaren, Voltaren, {DiaStr}De{Mes}, {ID}{DiaSem}
 
 // Anuncio-Txt = 01Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC, "IBUPROFENO", 'OMEGA 3', OVULOS, OMEPRAZOL, RANITIDINA, VITAMINAS
+{H}••••DICLOFENAC, OMEGA 3, OVULOS, RANITIDINA, PILDORA DEL DIA DESPUÉS y más
 : 7 832 8768/5 331 7003   
 
 Productos:
@@ -35,7 +36,7 @@ Productos:
 4 cuc.. (Lascovagil, ovulos de metronidazol+nistatina) blister de 10 ovulos. 
 3 cuc.. (Tadalafil de 20 mg) un blister de 4 pastilla, tambien conocido como Cialis o Pildora del fin de semana.
 1 cuc.. (Mambo 36 = Tadalafil) a 1 cuc la pastilla, tambien conocido como Cialis o Pildora del fin de semana.
-3 cuc.. (V_i_a_g_r_a de 100 mg) un blister de 8 pastilla.
+3 cuc.. (Viagr_a de 100 mg) un blister de 8 pastilla.
 3 cuc.. (Prueba de Embarazo).
 5 cuc.. (Píldora del día después).
 8 cuc.. (Vitaminas complejo B) una caja de 100 pastillas.
@@ -44,21 +45,23 @@ Productos:
 12 cuc. (MultiVitaminas y Minerales) un pomo de 100 capsulas.
 2 cuc.. (Loperamida) un blister de 10 pastilla (Antidiarreico de efecto rápido y prolongado).
 2 cuc.. (Azitromicina) una cajita de 3 pastilla de 500 mg.
-1.5 cuc (Sulfapril) un bliter de 10 pastilla de (80/400) mg.
+1.5 cuc (Sulfaprin) un bliter de 10 pastilla de (80/400) mg.
 1.5 cuc (Ciprofloxacina) un bliter de 10 pastilla de 500 mg.
 1 cuc.. (Metronidazol) un bliter de 10 pastilla de 500 mg.
-1 cuc.. (Glibendamida) un bliter de 10 pastilla de 5 mg.
+1 cuc.. (Glibenclamida) un bliter de 10 pastilla de 5 mg.
 
 La CHANCA PIEDRA, es para eliminar calculos renales, biliares y sustancias nocivas en el higado.
 
 GLUCOSAMINA CHONDROITINA, Es un generador de cartilogos, para mejorar los dolores de artritis, juega un papel importante en la formación de tendones y ligamentos, regenerando Manos, Pies, Rodillas, Espalda, Cuellos, Caderas, Tobillos.
 
-{ID}{DiaSem} / {DiaStr}De{Mes} / Pepto-Bismol / Vitamina C / V_i_a_g_r_a / Azitromicina / Paracetamol / Acido Folico / Diclofenac / Estomago / Omega / Vitamina E / Sódico / Fin de Semana / Glucosamina / Medicamentos / Potásico / Ranitidina / Medicinas / Inyectable / Diclofenaco / Ibuprofeno / Chanca Piedra / Bismuto / Voltaren / Cialis / Tadalafil / Mambo /
+{WordsKey0}
+
+{ID}{DiaSem} / {DiaStr}De{Mes} / Pepto-Bismol / Vitamina C / Viagr_a / Azitromicina / Paracetamol / Acido Folico / Diclofenac / Estomago / Omega / Vitamina E / Sódico / Fin de Semana / Glucosamina / Medicamentos / Potásico / Ranitidina / Medicinas / Inyectable / Diclofenaco / Ibuprofeno / Chanca Piedra / Bismuto / Voltaren / Cialis / Tadalafil / Mambo /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 02Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC, TEST DE EMBARAZO, CHANCA PIEDRA, OVULOS, VITAMINA, IBUPROFENO
+{H}••••DICLOFENAC, TEST DE EMBARAZO, PÍLDORA DEL DÍA DESPUÉS, OVULOS, IBUPROFENO
 Tef: 7 832 8768 / 5 331 7003 
 
 El Diclofenac es una Analgesico, Antineuretico, Antineuralgico y Antirreumatico, que sive para padecimientos como Artritis, Reumatismo, Dolores Lumbargícos, Cervicales, branquiales, faciales, del trigemino intercostal, hepaticos, radiculitis, neuropatias alcohólicas y diabéticas, fibromiología, espndilitis, toceduras, esquinces, fracturas, etc.
@@ -90,10 +93,10 @@ PRUEBA DE EMBARAZO a 3 cuc x un Kit.
 ACIDO FOLICO, a 8 cuc, una caja de 100 pastillas de 5 mg.
 PÍLDORA DEL DÍA DESPUÉS a 5 cuc x pastilla.
 AZITROMICINA a 2 cuc x una cajita de 3 cápsulas de 500 mg.
-SULFAPRIL a 1.5 cuc x un bliter de 10 cápsulas de (80/400) mg.
+SULFAPRIN a 1.5 cuc x un bliter de 10 cápsulas de (80/400) mg.
 CIPROFLOXACINA a 1.5 cuc x un bliter de 10 pastilla de 500 mg.
 METRONIDAZOL a 1 cuc x un bliter de 10 pastilla de 500 mg.
-GLIBENDAMIDA a 1 cuc x un bliter de 10 pastilla de 5 mg.
+GLIBENCLAMIDA a 1 cuc x un bliter de 10 pastilla de 5 mg.
 LOPERAMIDA a 2 cuc x un blister de 10 pastilla.
 PEPTO-BISMOL a 10 cuc de frasco de 236 ml.
   
@@ -101,14 +104,15 @@ Teléfonos:
    Cel : 5 331 7003
    Fijo: 7 832 8768
 
-Diclofenac / Pepto-Bismol / Acido Folico / Tadalafil / Vitamina C / Vitamina E / Glucosamina / Azitromicina / Paracetamol / V_i_a_g_r_a / Inyectable / Bismuto / Sódico / Ranitidina / Potásico / {DiaStr}De{Mes} / Diclofenaco / Medicinas / Cervical / Medicamentos / {ID}{DiaSem} / Voltaren / Ibuprofeno / Chanca Piedra / Cialis / Mambo / Fin de Semana / Sodico / Omeprazol /
+Diclofenac / Pepto-Bismol / Acido Folico / Tadalafil / Vitamina C / Vitamina E / Glucosamina / Azitromicina / Paracetamol / Viagr_a / Inyectable / Bismuto / Sódico / Ranitidina / Potásico / {DiaStr}De{Mes} / Diclofenaco / Medicinas / Cervical / Medicamentos / {ID}{DiaSem} / Voltaren / Ibuprofeno / Chanca Piedra / Cialis / Mambo / Fin de Semana / Sodico / Omeprazol /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 03Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••V_I_A_G_R_A.blíster.de.8.pastillas.por.solo.x.3.CUC 5,331,7003\7,832,8768
-1 blíster de 8 por 3 cuc, son adquiridas en el extranjero, fecha de venciento 2021.
-cada v_i_a_g_r_a tiene 100mg de Sidenafil Citrato, con lo que se logra la potencia y máxima duración.
+{H}••••V_I_A_G_R_A y T_A_D_A_L_A_F_I_L por solo 3 CUC y MAMBO 36 por 1 CUC
+5,331,7003 \ 7,832,8768
+1 blíster de 8 por 3 cuc, son adquiridas en el extranjero
+cada viagr_a tiene 100mg de Sidenafil Citrato, con lo que se logra la potencia y máxima duración.
 
 Tambien tengo:
 Diclofenac Potásico + Vitamina B: 2.5 cuc x blister de 10, son tabletas de 100mg, Ademas contiene Vitamina B1, B2, B6 y B12, fecha de vencimiento en 2023
@@ -141,7 +145,7 @@ Azitromicina a 2 cuc una cajita de 3 tabletas de 500 mg.
 Sulfapril a 1.5 cuc un bliter de 10 cápsulas de (80/400) mg.
 Ciprofloxacina a 1.5 cuc un bliter de 10 pastilla de 500 mg.
 Metronidazol a 1 cuc un bliter de 10 pastilla de 500 mg.
-Glibendamida a 1 cuc un bliter de 10 pastilla de 5 mg.
+Glibenclamida a 1 cuc un bliter de 10 pastilla de 5 mg.
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
@@ -149,7 +153,7 @@ Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega
 Teléfono Cel : 5 331 7003
 Teléfono Fijo: 7 832 8768
 
-Key Words: Diclofenac Sódico / Ranitidina / Glucosamina / Diclofenaco Potásico / Acido Folico / Pepto-Bismol / Ibuprofeno / Estomago / Paracetamol / Azitromicina / Medicamentos / Medicinas / Vitamina E / Inyectable / {ID}{DiaSem} / V_i_a_g_r_a / {DiaStr}De{Mes} / Voltaren / Chanca Piedra / Cicatricure / Tadalafil / Cialis / Mambo / Fin de Semana / Bismuto / Sodico / Vitamina C / Omeprazol /
+Key Words: Diclofenac Sódico / Ranitidina / Glucosamina / Diclofenaco Potásico / Acido Folico / Pepto-Bismol / Ibuprofeno / Estomago / Paracetamol / Azitromicina / Medicamentos / Medicinas / Vitamina E / Inyectable / {ID}{DiaSem} / Viagr_a / {DiaStr}De{Mes} / Voltaren / Chanca Piedra / Cicatricure / Tadalafil / Cialis / Mambo / Fin de Semana / Bismuto / Sodico / Vitamina C / Omeprazol /
 
 // Anuncio-Txt = 04Lavad --------------------------------------------------------------------------------------------------------------------------------
 {H}••••Piezas de Lavadora, Timer, Busing, Correas, Sello, Botones, Tapon+muelle
@@ -181,7 +185,7 @@ Todas las piezas son nuevas, traidas del extranjero.
 
 
 // Anuncio-Txt = 05Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}•••••CHANCA PIEDRA, OVULOS, IBUPROFENO, DICLOFENAC, OMEPRAZOL, OMEGA 369 
+{H}•••••OVULOS, IBUPROFENO, DICLOFENAC, OMEGA 3, PÍLDORA DEL DÍA DESPUÉS ...
 5 331 7003 ó 7 832 8768
 
 Además tengo:
@@ -204,13 +208,13 @@ Además tengo:
 -Vitamina E de 1000 UI, suplemento nutricional, 15 cuc x caja de 100 Capsulas blandas.
 -Vitamina C de 500 mg, suplemento nutricional, 1 cuc x blister de 10 tabletas.
 -Azitromicina de 500 mg, antibiotico en 3 dosis - 2 cuc.
--Sulfapril de (80/400)mg, antibiotico - 1.5 cuc.
+-Sulfaprin de (80/400)mg, antibiotico - 1.5 cuc.
 -Ciprofloxacina de 500mg, antibiotico - 1.5 cuc.
 -Metronidazol de 500mg, antibiotico - 1 cuc.
--Glibendamida de 5 mg, para los diabeticos - 1 cuc.
+-Glibenclamida de 5 mg, para los diabeticos - 1 cuc.
 -Mambo 36 (Tadalafil) de 20 mg, a 1 cuc la pastilla, tambien conocido como Cialis o Pildora del fin de semana.
 -Tadalafil de 20 mg, a 3 cuc blister de 4 pastilla, tambien conocido como Cialis o Pildora del fin de semana.
--V_i_a_g_r_a de 10 mg a 3 cuc blister de 8 pastilla
+-Viagr_a de 10 mg a 3 cuc blister de 8 pastilla
 -Prueba de Embarazo a 3 cuc el Kit
 -Píldora del día después a 5 cuc cada pastilla.
 -Vitaminas complejo B a 8 cuc una caja de 100 tabletas.
@@ -221,10 +225,10 @@ Además tengo:
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
-Azitromicina / Vitamina E / Diclofenac / Acido Folico / Vitamina C / Sódico / Medicamentos / Chanca Piedra / Pepto-Bismol / Paracetamol / Medicinas / Fin de Semana / Bismuto / Diclofenaco / {DiaStr}De{Mes} / Dolores / Potásico / Inyectable / Pastillas / {ID}{DiaSem} / Mambo / Ibuprofeno / Voltaren / Sodico / Tadalafil / Glucosamina / Cialis / V_i_a_g_r_a / Omeprazol /
+Azitromicina / Vitamina E / Diclofenac / Acido Folico / Vitamina C / Sódico / Medicamentos / Chanca Piedra / Pepto-Bismol / Paracetamol / Medicinas / Fin de Semana / Bismuto / Diclofenaco / {DiaStr}De{Mes} / Dolores / Potásico / Inyectable / Pastillas / {ID}{DiaSem} / Mambo / Ibuprofeno / Voltaren / Sodico / Tadalafil / Glucosamina / Cialis / Viagr_a / Omeprazol /
 
 // Anuncio-Txt = 06Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC Potásico+Complejo B + MENTOL + OVULOS + VITAMINAS + IBUPROFENO
+{H}••••DICLOFENAC Potásico+Complejo B + OVULOS + CIPROFLOXACINA + IBUPROFENO ..
 : 7 832 8768 / 5 331 7003
  
 Diclofenac: (Para los dolores)
@@ -259,19 +263,19 @@ MultiVitaminas y Minerales: ( Suplemento nutricional)
 .... 12 cuc x un pomo de 100 capsulas.  
 Azitromicina: (Antibiotico en tabletas)
 .... 2 cuc x una cajita de 3 cápsulas de 500 mg.
-Sulfapril: (Antibiotico en tabletas)
+Sulfaprim: (Antibiotico en tabletas)
 .... 1.5 cuc x un bliter de 10 cápsulas de (80/400) mg.
 Ciprofloxacina: (Antibiotico en tabletas)
 .... 1.5 cuc x un bliter de 10 pastilla de 500 mg.
 Metronidazol: (Antibiotico en tabletas)
 .... 1 cuc x un bliter de 10 pastilla de 500 mg.
-Glibendamida: (Para los diabeticos)
+Glibenclamida: (Para los diabeticos)
 .... 1 cuc x un bliter de 10 pastilla de 5 mg.
 Tadalafil: (Para la disfunción eréctil) (tambien conocido como Cialis, Mambo o Pildora del fin de semana) 
 .... 3 cuc x un blister de 4 pastillas de Tadalafil de 20 mg.  (Igual a Cialis, Mambo, fin de semana)
 .... 3 cuc x un sobre de 1 pastilla de Mambo 36 (Tadalafil).   (Tambien conocido como Cialis o Pildora del fin de semana)
-V_i_a_g_r_a: (Para de disfunción eréctil)  
-.... 3 cuc x un blister de 8 pastillas de V_i_a_g_r_a de 100 mg.
+Viagr_a: (Para de disfunción eréctil)  
+.... 3 cuc x un blister de 8 pastillas de Viagr_a de 100 mg.
 Embarazo: 
 .... 3 cuc x un kit de Prueba de Embarazo.
 .... 5 cuc x una Píldora del día después.
@@ -284,15 +288,15 @@ Pepto-Bismol: (Problemas estomacales, Acidez, Indigestion, Malestar, Diarrea)
  
 Glucosamina Chondroitina, es un generador de cartilogos, para mejorar los dolores de artritis, juega un papel importante en la formación de tendones y ligamentos, regenerando Manos, Pies, Rodillas, Espalda, Cuellos, Caderas, Tobillos.
 
-Diclofenac / Azitromicina / Bismuto / Sódico / Tadalafil / Vitamina C / Pepto-Bismol / Medicamentos / V_i_a_g_r_a / Voltaren / Acido Folico / Paracetamol / Vitamina E / Medicinas / Pastillas / Artritis / Reumatismo / Fin de Semana / Mambo / Diclofenaco / Ibuprofeno / Ranitidina / {DiaStr}De{Mes} / Potásico / Cialis / Estomago / Dolores / {ID}{DiaSem} / Chanca Piedra / 
+Diclofenac / Azitromicina / Bismuto / Sódico / Tadalafil / Vitamina C / Pepto-Bismol / Medicamentos / Viagr_a / Voltaren / Acido Folico / Paracetamol / Vitamina E / Medicinas / Pastillas / Artritis / Reumatismo / Fin de Semana / Mambo / Diclofenaco / Ibuprofeno / Ranitidina / {DiaStr}De{Mes} / Potásico / Cialis / Estomago / Dolores / {ID}{DiaSem} / Chanca Piedra / 
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
 // Anuncio-Txt = 07Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Medicamentos:V_I_A_G_R_A, Omeprazol y Diclofenac, Ovulos, Vatamina E
-tel: 5,331,7003 \ 7,832,8768, 8 v_i_a_g_r_a_s por 3 cuc, son originales compradas en el extranjero.
-Son de máxima duración y potencia. Cada v_i_a_g_r_a contiene 100mg de Citrato de Sidenafil, 
+{H}••••Medicamentos:V_I_A_G_R_A, Diclofenac, Ovulos, Píldora del día después
+tel: 5,331,7003 \ 7,832,8768, 8 viagr_as por 3 cuc, son originales compradas en el extranjero.
+Son de máxima duración y potencia. Cada viagr_a contiene 100mg de Citrato de Sidenafil, 
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
@@ -334,7 +338,7 @@ Teléfonos:
    Cel : 5 331 7003
    Fijo: 7 832 8768
    
-Key Words: Diclofenac Sódico / Bismuto / Ranitidina / Diclofenaco Potásico / Estomago / Azitromicina / Medicamentos / Ibuprofeno / Paracetamol / Pepto-Bismol / Medicinas / Vitamina E /  Inyectable / {ID}{DiaSem} / V_i_a_g_r_a / {DiaStr}De{Mes} / Voltaren / Acido Folico / Chanca Piedra / Cicatricure / Tadalafil / Cialis / Mambo / Fin de Semana / Sodico / Vitamina C / Glucosamina / Omeprazol /
+Key Words: Diclofenac Sódico / Bismuto / Ranitidina / Diclofenaco Potásico / Estomago / Azitromicina / Medicamentos / Ibuprofeno / Paracetamol / Pepto-Bismol / Medicinas / Vitamina E /  Inyectable / {ID}{DiaSem} / Viagr_a / {DiaStr}De{Mes} / Voltaren / Acido Folico / Chanca Piedra / Cicatricure / Tadalafil / Cialis / Mambo / Fin de Semana / Sodico / Vitamina C / Glucosamina / Omeprazol /
 
 // Anuncio-Txt = 08Lavad --------------------------------------------------------------------------------------------------------------------------------
 {H}••••Para Lavadora: Busing, Timer, Sello, Manguera, Correa, Tef: 7 832 8768
@@ -369,12 +373,8 @@ Acordeon / Timer / Lavadoras / {DiaStr}De{Mes} / Tapón / Botones / Tansmisión 
 Todos los piezas son nuevas.
 
 // Anuncio-Txt = 09Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC, OMEPRAZOL, IBUPROFENO, CHANCA PIEDRA, OVULOS, VITAMINA, OMEGA
+{H}••••DICLOFENAC, IBUPROFENO, OVULOS, GLUCOSAMINA+CHONDROTINA, OMEGA y más ...
 5,331,7003 / 7,832,8768
-
-Las Friciones de Mentol, son un ungüento efectivo contra los dolores e inflamaciones localizadas como: Dolores musculares, Artritis, Dolores en la espalda, Golpes, Toceduas, Bronquitis, Dolor de garganta, Dolor de cabeza, Reumatismo, Picaduras de insertos.
-
-Envase cellado, comprado en el extranjero y contiene 150 ml. 
 
 Para otros tipos de dolores tengo:
 .... Diclofenac Potásico + Complejo B: 2.50 cuc x blister de 10, son tabletas de 100mg, Ademas contiene Vitamina B1, B2, B6 y B12, fecha de vencimiento en 2020
@@ -410,7 +410,7 @@ Para la salud en general (Colesterol, triglicedidos, etc.):
  
 Para la disfunción eréctil:
 .... Tadalafil de 20 mg a 3 cuc blister de 4 pastilla (tambien conocido como Cialis o Pildora del fin de semana).
-.... V_i_a_g_r_a de 100 mg a 3 cuc blister de 8 pastillas.
+.... Viagr_a de 100 mg a 3 cuc blister de 8 pastillas.
 .... Mambo 36 de 20 mg, a 1 cuc sobre de una pastilla, tambien conocido como Cialis o Pildora del fin de semana.
 
 Para en Embarazos:
@@ -431,13 +431,17 @@ Para los Diabeticos:
  
 Glucosamina Chondroitina , Es un generador de cartilogos, para mejorar los dolores de artritis, juega un papel importante en la formación de tendones y ligamentos, regenerando Manos, Pies, Rodillas, Espalda, Cuellos, Caderas, Tobillos.
 
-Medicinas / V_i_a_g_r_a / Chanca Piedra / Acido Folico /Bismuto /  Diclofenac / Sódico / Vitamina C / Azitromicina / Diclofenaco / Glucosamina / Paracetamol / Medicamentos / Vitamina E / Potásico / Inyectable / {DiaStr}De{Mes} / Ranitidina / {ID}{DiaSem} / Ibuprofeno / Glucosamina / Pepto-Bismol / Voltaren / Cialis / Tadalafil / Mambo / Fin de Semana / Potasico / Sodico / Omeprazol /
+Las Friciones de Mentol, son un ungüento efectivo contra los dolores e inflamaciones localizadas como: Dolores musculares, Artritis, Dolores en la espalda, Golpes, Toceduas, Bronquitis, Dolor de garganta, Dolor de cabeza, Reumatismo, Picaduras de insertos.
+
+Envase cellado, comprado en el extranjero y contiene 150 ml. 
+
+Medicinas / Viagr_a / Chanca Piedra / Acido Folico /Bismuto /  Diclofenac / Sódico / Vitamina C / Azitromicina / Diclofenaco / Glucosamina / Paracetamol / Medicamentos / Vitamina E / Potásico / Inyectable / {DiaStr}De{Mes} / Ranitidina / {ID}{DiaSem} / Ibuprofeno / Glucosamina / Pepto-Bismol / Voltaren / Cialis / Tadalafil / Mambo / Fin de Semana / Potasico / Sodico / Omeprazol /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales, Fecha de vencimiento Agosto del 2020
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
 // Anuncio-Txt = 10Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Vendo: OVULOS, VITAMINA E, RANITIDINA, OMEPRAZOL, DICLOFENAC, IBUPROFENO
+{H}••••Vendo: OVULOS,RANITIDINA,DICLOFENAC,IBUPROFENO,PÍLDORA DEL DÍA DESPUÉS ..
 7-832-8768 / 5-331-7003 
 
 El Diclofenac es una Analgesico, Antineuretico, Antineuralgico y Antirreumatico, que sive para padecimientos como Artritis, Reumatismo, Dolores Lumbargícos, Cervicales, branquiales, faciales, del trigemino intercostal, hepaticos, radiculitis, neuropatias alcohólicas y diabéticas, fibromiología, espondilitis, toceduras, esquinces, fracturas, etc.
@@ -469,7 +473,7 @@ Acido Folico a 8 cuc, una caja de 100 pastillas de 5 mg.
 
 Tadalafil de 20 mg a 3 cuc blister de 4 pastilla (tambien conocido como Cialis, Mambo o Pildora del fin de semana).
 Mambo 36 (Tadalafil) a 1 cuc la pastilla, igual al Tadalafil.
-V_i_a_g_r_a de 100 mg a 3 cuc blister de 8 pastillas.
+Viagr_a de 100 mg a 3 cuc blister de 8 pastillas.
 
 Prueba de Embarazo a 3 cuc el Kit
 Píldora del día después a 5 cuc cada pastilla.
@@ -489,7 +493,7 @@ Todos los medicamentos son traidos del extranjero y estan en sus envases origina
 Teléfono Cel : 5 331 7003 
 Teléfono Fijo: 7 832 8768
 
-Diclofenac Sódico / Ranitidina / Glucosamina / Acido Folico / Diclofenaco Potásico / Azitromicina / V_i_a_g_r_a / Vitamina C / Estomago / Cialis / Paracetamol / Medicamentos / Medicinas / Tadalafil / Pepto-Bismol / Ibuprofeno / Vitamina E / Inyectable / {ID}{DiaSem} / {DiaStr}De{Mes} / Voltaren / Chanca Piedra / Fin de Semana / Sodico / Omeprazol / Mambo / 
+Diclofenac Sódico / Ranitidina / Glucosamina / Acido Folico / Diclofenaco Potásico / Azitromicina / Viagr_a / Vitamina C / Estomago / Cialis / Paracetamol / Medicamentos / Medicinas / Tadalafil / Pepto-Bismol / Ibuprofeno / Vitamina E / Inyectable / {ID}{DiaSem} / {DiaStr}De{Mes} / Voltaren / Chanca Piedra / Fin de Semana / Sodico / Omeprazol / Mambo / 
 
 // Anuncio-Txt = 11Viag --------------------------------------------------------------------------------------------------------------------------------
 {H}••••V_I_A_G_R_A.y.T_A_D_A_L_A_F_I_L.compradas.en.el.extranjero, 7•832•8768
@@ -534,7 +538,7 @@ Teléfono Fijo: 7 832 8768
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Key Words: Diclofenac / Sódico / Bismuto / Tadalafil / Voltaren / Ibuprofeno / Azitromicina / {DiaStr}De{Mes} / Medicamentos / Paracetamol / Ranitidina / Cicatricure / Pepto-Bismol / Diclofenaco / V_i_a_g_r_a / Potásico / Medicinas / Vitamina E / {ID}{DiaSem}  / Chanca Piedra / Cialis / Mambo / Glucosamina / Vitamina C / Sodico / Acido Folico / Fin de Semana / Omeprazol /
+Key Words: Diclofenac / Sódico / Bismuto / Tadalafil / Voltaren / Ibuprofeno / Azitromicina / {DiaStr}De{Mes} / Medicamentos / Paracetamol / Ranitidina / Cicatricure / Pepto-Bismol / Diclofenaco / Viagr_a / Potásico / Medicinas / Vitamina E / {ID}{DiaSem}  / Chanca Piedra / Cialis / Mambo / Glucosamina / Vitamina C / Sodico / Acido Folico / Fin de Semana / Omeprazol /
 
 // Anuncio-Txt = 12Lavad --------------------------------------------------------------------------------------------------------------------------------
 {H}•••••Vendo piezas de lavadora (Correa, Timer, Busing, Manguera, Sello, Tapon)
@@ -565,7 +569,7 @@ Todos las piezas son traidas del extranjero y son nuevas.
 Timer / Sello / MyLavPiezas / Tapón / Acordeon / Busing / {DiaStr}De{Mes} / Botones / Manguera de Salida / Tansmisión / Lavadoras / Correa / {ID}{DiaSem} / 
 
 // Anuncio-Txt = 13Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC(Tabletas,Inyecciones,Gel), CHANCA PIEDRA, OMEGA 3, OVULOS..
+{H}••••DICLOFENAC(Tabletas,Inyecciones,Gel), OMEGA 3, OVULOS, CIPROFLOXACINA ...
 telf: 5.331.7003 ó 7.832.8768, 4 cuc el pomo de 150 ml
 
 Es un ungüento efectivo contra los dolores e inflamaciones localizadas, Además es microrelajante, Actua contra Dolores musculares, Artritis, Dolores en la espalda, Golpes, Toceduas, Bronquitis, Dolor de garganta, Dolor de cabeza, Reumatismo, Picaduras de insertos, etc.
@@ -590,7 +594,7 @@ Tambien vendo:
 15. cuc, x 100 Capsulas de Vitamina E, 1000 UI. 
 15. cuc, x 10 tabletas de Vitamina C, 500 mg. 
 3.. cuc, x 4 pastillas de Tadalafil de 20 mg (tambien conocido como Cialis o Pildora del fin de semana).
-3.. cuc, x 8 pastillas de V_i_a_g_r_a de 100 mg.
+3.. cuc, x 8 pastillas de Viagr_a de 100 mg.
 1.. cuc, x 1 pastilla de Mambo 36 (Tadalafil) de 20 mg.
 2.. cuc, x 1 cajita de Azitromicina de 500 mg.
 1.5 cuc, x 1 bliter de 10 pastillas Sulfapril de (80/400) mg.
@@ -608,12 +612,12 @@ Tambien vendo:
 Teléfono Cel : 5 331 7003
 Teléfono Fijo: 7 832 8768
 
-Diclofenac / Vitamina E / Chanca Piedra / Inyectable / Omega / Sódico / Glucosamina / Vitamina C / Bismuto / Medicamentos / Azitromicina / Medicinas / Acido Folico / Paracetamol / Omeprazol / Pastillas / Ranitidina / Ibuprofeno / Diclofenaco / {DiaStr}De{Mes} / {ID}{DiaSem} / V_i_a_g_r_a / Tadalafil / Potásico / Voltaren / Mambo / Pepto-Bismol / Fin de Semana / Cialis / Sodico /
+Diclofenac / Vitamina E / Chanca Piedra / Inyectable / Omega / Sódico / Glucosamina / Vitamina C / Bismuto / Medicamentos / Azitromicina / Medicinas / Acido Folico / Paracetamol / Omeprazol / Pastillas / Ranitidina / Ibuprofeno / Diclofenaco / {DiaStr}De{Mes} / {ID}{DiaSem} / Viagr_a / Tadalafil / Potásico / Voltaren / Mambo / Pepto-Bismol / Fin de Semana / Cialis / Sodico /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 14Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••VITAMINA E, DICLOFENAC, OVULOS VARGIALES, TEST DE EMBARAZO, IBUPROFENO...
+{H}••••DICLOFENAC, OVULOS VARGIALES, TEST DE EMBARAZO, PÍLDORA DEL DÍA DESPUÉS
 7.832 8768 / 5.331 7003
 
 Las Tabletas son de 100mg, fecha de vencimiento Agosto del 2020
@@ -662,10 +666,10 @@ LA GLIBENDAMIDA es a 1 cuc un bliter de 10 pastillas de 5 mg.
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Diclofenac / Sódico / Voltaren / {DiaStr}De{Mes} / Medicamentos / Ranitidina / Diclofenaco / Potásico / Vitamina C / Azitromicina / Ibuprofeno / Bismuto / Medicinas / Acido Folico / Vitamina E / Paracetamol / {ID}{DiaSem}  / Chanca Piedra / Cialis / Mambo / V_i_a_g_r_a / Sodico / Fin de Semana / Tadalafil / Pepto-Bismol / Omeprazol /
+Diclofenac / Sódico / Voltaren / {DiaStr}De{Mes} / Medicamentos / Ranitidina / Diclofenaco / Potásico / Vitamina C / Azitromicina / Ibuprofeno / Bismuto / Medicinas / Acido Folico / Vitamina E / Paracetamol / {ID}{DiaSem}  / Chanca Piedra / Cialis / Mambo / Viagr_a / Sodico / Fin de Semana / Tadalafil / Pepto-Bismol / Omeprazol /
 
 // Anuncio-Txt = 15Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Vendo, V_I_A_G_R_A, la más barata de revolico, Diclofenac y Omeprazol
+{H}••••Lo más barato de revolico, V_I_A_G_R_A, T_A_D_A_L_A_F_I_L y MAMBO 36 ...
  Cel : 5 331 7003, Fijo: 7 832 8768
 
 LA V_I_A_G_R_A es a 3 cuc x bister de 8 tambletas y sirve para la disfunción eréctil.
@@ -704,7 +708,7 @@ LA LOPERAMIDA es a 2 cuc, el blister de 10 cápsulas.       (Para las diarreas a
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Key Words: Pepto-Bismol / Diclofenac / Acido Folico / Estomago / Tadalafil / Azitromicina / {DiaStr}De{Mes} / Cicatricure / Omega / Sódico / Bismuto / Ibuprofeno / Paracetamol / Fin de Semana / Medicamentos / Potásico / Ranitidina / Medicinas / Inyectable / Diclofenaco / Glucosamina / Chanca Piedra / V_i_a_g_r_a / {ID}{DiaSem} / Vitamina C / Voltaren / Vitamina E / Cialis / Mambo /
+Key Words: Pepto-Bismol / Diclofenac / Acido Folico / Estomago / Tadalafil / Azitromicina / {DiaStr}De{Mes} / Cicatricure / Omega / Sódico / Bismuto / Ibuprofeno / Paracetamol / Fin de Semana / Medicamentos / Potásico / Ranitidina / Medicinas / Inyectable / Diclofenaco / Glucosamina / Chanca Piedra / Viagr_a / {ID}{DiaSem} / Vitamina C / Voltaren / Vitamina E / Cialis / Mambo /
 
 // Anuncio-Txt = 16Lavad --------------------------------------------------------------------------------------------------------------------------------
 {H}••••Piezas baratas para lavadora, Timer, Correa, Manguera, Tansmisión, Sello
@@ -735,7 +739,7 @@ Todas las piezas son traidos del extranjero.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
 // Anuncio-Txt = 17Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}•••• DICLOFENAC potasico+Vitam B, OVULOS, IBUPROFENO, CHANCA PIEDRA, OMEGA 3
+{H}••••DICLOFENAC potasico+Vitam B, OVULOS, IBUPROFENO, OMEGA 3, CIPROFLOXACINA
 5 331 7003 ó 7 832 8768
 
 Se usa para el tratamiento de dolore agudo y padecimientos infamatorios, de naturaleza reumatico y no reumetica
@@ -775,10 +779,10 @@ Otras medicinas:
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
-Diclofenac / Dolores / Sódico / Mambo / Medicamentos / Medicinas / Pastillas / V_i_a_g_r_a / Vitamina E / Vitamina C / Cialis / Azitromicina / Diclofenaco / Bismuto / Paracetamol / Ranitidina / Ibuprofeno / Inyectable / Omega / {DiaStr}De{Mes} / Artritis / Glucosamina / {ID}{DiaSem} / Tadalafil / Potásico / Voltaren / Chanca Piedra / Fin de Semana / Sodico / Acido Folico / Omeprazol / Pepto-Bismol / 
+Diclofenac / Dolores / Sódico / Mambo / Medicamentos / Medicinas / Pastillas / Viagr_a / Vitamina E / Vitamina C / Cialis / Azitromicina / Diclofenaco / Bismuto / Paracetamol / Ranitidina / Ibuprofeno / Inyectable / Omega / {DiaStr}De{Mes} / Artritis / Glucosamina / {ID}{DiaSem} / Tadalafil / Potásico / Voltaren / Chanca Piedra / Fin de Semana / Sodico / Acido Folico / Omeprazol / Pepto-Bismol / 
 
 // Anuncio-Txt = 18Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Vendo: OVULOS, DICLOFENACO(tabletas e Inyectable), LOPERAMIDA, IBUPROFENO
+{H}••••OVULOS, DICLOFENACO, LOPERAMIDA, IBUPROFENO, PÍLDORA DEL DÍA DESPUÉS ...
 5 331 7003 ó 7 832 8768
 
 Formas de DICLOFENAC:
@@ -819,13 +823,13 @@ Glucosamina Chondroitina: Es un generador de cartilogos, para mejorar los dolore
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Pepto-Bismol / Diclofenac / Sódico / Glucosamina / Voltaren / Vitamina E / Medicamentos / Cialis / V_i_a_g_r_a / {DiaStr}De{Mes} / Medicinas / Vitamina C / Pastillas / Ibuprofeno / Azitromicina / Bismuto / Inyectable / Paracetamol / Ranitidina / Omega / Diclofenaco / Tadalafil / Potásico / {ID}{DiaSem} / Acido Folico / Mambo / Fin de Semana / Sodico / Omeprazol / Chanca Piedra /
+Pepto-Bismol / Diclofenac / Sódico / Glucosamina / Voltaren / Vitamina E / Medicamentos / Cialis / Viagr_a / {DiaStr}De{Mes} / Medicinas / Vitamina C / Pastillas / Ibuprofeno / Azitromicina / Bismuto / Inyectable / Paracetamol / Ranitidina / Omega / Diclofenaco / Tadalafil / Potásico / {ID}{DiaSem} / Acido Folico / Mambo / Fin de Semana / Sodico / Omeprazol / Chanca Piedra /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 19Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••La.pastilla.azul.para.los.hombres.llamar.al. 5•331•7003 \ 7•832•8768 
- a 3 cuc x blister de 8 pastillas.
+{H}••••Pastillas azul y Amarilas para los hombres llama al 5•331•7003\7•832•8768 
+por solo 3 cuc x blister.
 
 Además: 
 __2 cuc (Diclofenac Sódico con Vitam. B1,B6,B12)
@@ -866,7 +870,7 @@ La CHANCA PIEDRA, es para eliminar calculos renales, biliares y sustancias nociv
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
-Key Words: Diclofenac / Sódico / Pepto-Bismol / Ibuprofeno / Azitromicina / Medicamentos / V_i_a_g_r_a / Chanca Piedra / Medicinas / Fin de Semana / Diclofenaco / Paracetamol / Cialis / {DiaStr}De{Mes} / Dolores / Bismuto / Potásico / Acido Folico / Inyectable / Pastillas / Glucosamina / Vitamina E / {ID}{DiaSem} / Voltaren / Vitamina C / Cicatricure / Tadalafil / Mambo / Sodico / Omeprazol /
+Key Words: Diclofenac / Sódico / Pepto-Bismol / Ibuprofeno / Azitromicina / Medicamentos / Viagr_a / Chanca Piedra / Medicinas / Fin de Semana / Diclofenaco / Paracetamol / Cialis / {DiaStr}De{Mes} / Dolores / Bismuto / Potásico / Acido Folico / Inyectable / Pastillas / Glucosamina / Vitamina E / {ID}{DiaSem} / Voltaren / Vitamina C / Cicatricure / Tadalafil / Mambo / Sodico / Omeprazol /
 
 // Anuncio-Txt = 20Lavad --------------------------------------------------------------------------------------------------------------------------------
 {H}••••Vendo: Manguera|Sello|Tapón|Timer|Busing|Correa|Botón..., para lavadoras
@@ -897,7 +901,7 @@ Todas las piezas son nuevas.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
 // Anuncio-Txt = 21Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••TEST DE EMBARAZO, IBUPROFENO, OVULOS, DICLOFENAC, OMEGA 3, CHANCA PIEDRA
+{H}••••TEST DE EMBARAZO, IBUPROFENO, OVULOS, DICLOFENAC, OMEGA 3, CIPROFLOXACINA
 5,331,7003 / 7,832,8768, a 6 cuc el pomo de 150ml
 
 Diclofenac con mentol, es un ungüento efectivo contra los dolores e inflamaciones localizadas, devido a la eficiencia de sus componetes activos, como el DICLOFENAC. Además es microrelajante devido a que contiene ACEITE DE EUCALIPTO y ESENCIA DE PINO. Actua contra Dolores musculares, Artritis, Dolores en la espalda, Golpes, Toceduas, Bronquitis, Dolor de garganta, Dolor de cabeza, Reumatismo, Picaduras de insertos, etc.
@@ -936,12 +940,12 @@ Otras medicinas:
 .10 cuc, PEPTO-BISMOL, frasco de 236 ml. (Diarrea, Acidez, Malestar, Indigestion)
 ..2 cuc, LOPERAMIDA, un blister de 10 cápsulas de 2 mg. (Antidiarreico de acción prolongada y efecto rápido)
 
-Diclofenaco / Voltaren / {DiaStr}De{Mes} / Pepto-Bismol / Inyectable / Glucosamina / Medicamentos / Diclofenac / V_i_a_g_r_a / Sódico / Medicinas / Ranitidina / Vitamina C / Ibuprofeno / Azitromicina / Pastillas / Cialis / Paracetamol / Potásico / Bismuto / {ID}{DiaSem} / Vitamina E / Estomago / Acido Folico / Tadalafil / Mambo / Chanca Piedra / Fin de Semana / Sodico / Omeprazol /
+Diclofenaco / Voltaren / {DiaStr}De{Mes} / Pepto-Bismol / Inyectable / Glucosamina / Medicamentos / Diclofenac / Viagr_a / Sódico / Medicinas / Ranitidina / Vitamina C / Ibuprofeno / Azitromicina / Pastillas / Cialis / Paracetamol / Potásico / Bismuto / {ID}{DiaSem} / Vitamina E / Estomago / Acido Folico / Tadalafil / Mambo / Chanca Piedra / Fin de Semana / Sodico / Omeprazol /
 
 Envase sellado, comprado en el extranjero y contiene 150 ml. 
 
 // Anuncio-Txt = 22Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Medicamentos: OVULOS, OMEPRAZOL, IBUPROFENO, DICLOFENAC(Sodico|Potasico)
+{H}••••OVULOS, IBUPROFENO, DICLOFENAC(Sodico|Potasico), PÍLDORA DEL DÍA DESPUÉS
 telf: 5.331.7003 ó 7.832.8768, Diclofenac Sódico por via oral, en pastillas de 100mg
 
 El Diclofenac es una Analgesico, Antineuretico, Antineuralgico y Antirreumatico, que sive para padecimientos como Artritis, Reumatismo, Dolores Lumbargícos, Cervicales, branquiales, faciales, del trigemino intercostal, hepaticos, radiculitis, neuropatias alcohólicas y diabéticas, fibromiología, espndilitis, toceduras, esquinces, fracturas, etc.
@@ -989,11 +993,11 @@ Todos los medicamentos son traidos del extranjero y estan en sus envases origina
 Teléfono Cel : 5 331 7003
 Teléfono Fijo: 7 832 8768
 
-Pastillas / Cialis / Glucosamina / Diclofenac / Diclofenaco / Sódico / Vitamina E / Medicamentos / Fin de Semana / V_i_a_g_r_a / Medicinas / Ibuprofeno / Mambo / Vitamina C / Pepto-Bismol / Inyectable / Azitromicina / {DiaStr}De{Mes} / Paracetamol / Bismuto / Estomago / Ranitidina / Tadalafil / Potásico / Acido Folico / {ID}{DiaSem} / Voltaren / Chanca Piedra / Sodico / Omeprazol /
+Pastillas / Cialis / Glucosamina / Diclofenac / Diclofenaco / Sódico / Vitamina E / Medicamentos / Fin de Semana / Viagr_a / Medicinas / Ibuprofeno / Mambo / Vitamina C / Pepto-Bismol / Inyectable / Azitromicina / {DiaStr}De{Mes} / Paracetamol / Bismuto / Estomago / Ranitidina / Tadalafil / Potásico / Acido Folico / {ID}{DiaSem} / Voltaren / Chanca Piedra / Sodico / Omeprazol /
 
 // Anuncio-Txt = 23Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••V*I*A*G*R*A: máx..duración,.máx..potencia.5•331•7003\7•832•8768
- 3 cuc x blister de 8 pastillas.
+{H}••••V*I*A*G*R*A: máx.duración, máx.potencia y máx.placer, 8 por solo 3 cuc
+5•331•7003 \ 7•832•8768, blister de 8 pastillas.
  
 Además tengo:
 -Mambo 36 (Tadalafil), Para disfunción erétil, 1 cuc la pastilla.
@@ -1033,7 +1037,7 @@ Además tengo:
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Key Words: Diclofenac / Azitromicina / Sódico / Pepto-Bismol / Vitamina E / Medicamentos / Voltaren / Medicinas / Pastillas / Ibuprofeno / Artritis / Reumatismo / Acido Folico / Paracetamol / Fin de Semana / Diclofenaco / Glucosamina / Ranitidina / {DiaStr}De{Mes} / Potásico / Bismuto / Estomago / Dolores / V_i_a_g_r_a / Vitamina C / {ID}{DiaSem} / Chanca Piedra / Tadalafil / Cialis / Cicatricure / Mambo / 
+Key Words: Diclofenac / Azitromicina / Sódico / Pepto-Bismol / Vitamina E / Medicamentos / Voltaren / Medicinas / Pastillas / Ibuprofeno / Artritis / Reumatismo / Acido Folico / Paracetamol / Fin de Semana / Diclofenaco / Glucosamina / Ranitidina / {DiaStr}De{Mes} / Potásico / Bismuto / Estomago / Dolores / Viagr_a / Vitamina C / {ID}{DiaSem} / Chanca Piedra / Tadalafil / Cialis / Cicatricure / Mambo / 
 
 // Anuncio-Txt = 24Lavad --------------------------------------------------------------------------------------------------------------------------------
 {H}••••Vendo Piezas de Lavadoras Semi-Automaticas, Timer, Correa, Manguera, etc. 
@@ -1067,7 +1071,7 @@ Teléfono Fijo: 7 832 8768
 Tapón / Botones / Tansmisión / Manguera de Salida / Timer / Busing / {DiaStr}De{Mes} / Lavadoras / Correa / Sello / MyLavPiezas / {ID}{DiaSem} / Acordeon / 
 
 // Anuncio-Txt = 25Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Vendo CHANCA PIEDRA, LOPERAMIDA, OMEPRAZOL, LASCOVAGIL, VITAMINA E, OMEGA
+{H}••••Vendo LOPERAMIDA, LASCOVAGIL, GLUCOSAMINA+CHONDROITINA, OMEGA 3, CIPROF.. 
 7-832-8768 / 5-331-7003
 
 CHANCA PIEDRA, 12 cuc x pomo con 60 capsulas de 500 mg.
@@ -1108,10 +1112,10 @@ Todos los medicamentos son traidos del extranjero y estan en sus envases origina
 Teléfono Cel : 5 331 7003 
 Teléfono Fijo: 7 832 8768
 
--> Diclofenac Sódico / Glucosamina / Ranitidina / Diclofenaco Potásico / Pepto-Bismol / Tadalafil / Cialis / Ibuprofeno / Estomago / Azitromicina / Medicamentos / Medicinas / Vitamina E / Inyectable / Mambo / Vitamina C / Bismuto / {ID}{DiaSem} / {DiaStr}De{Mes} / Voltaren / Paracetamol / Acido Folico / Chanca Piedra / Sodico / V_i_a_g_r_a / Omeprazol /
+-> Diclofenac Sódico / Glucosamina / Ranitidina / Diclofenaco Potásico / Pepto-Bismol / Tadalafil / Cialis / Ibuprofeno / Estomago / Azitromicina / Medicamentos / Medicinas / Vitamina E / Inyectable / Mambo / Vitamina C / Bismuto / {ID}{DiaSem} / {DiaStr}De{Mes} / Voltaren / Paracetamol / Acido Folico / Chanca Piedra / Sodico / Viagr_a / Omeprazol /
 
 // Anuncio-Txt = 26Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••OMEPRAZOL, TEST DE EMBARAZO, VITAMINA E, DICLOFENAC, OVULOS, LOPERAMIDA..
+{H}••••TEST DE EMBARAZO, DICLOFENAC, OVULOS, LOPERAMIDA, PÍLDORA DEL DÍA DESPUÉS
 Tef: 7 832 8768/5 331 7003
 
 OMEPRAZOL 10 encapsualdos de 20 mg por 1 CUC. 
@@ -1153,12 +1157,12 @@ Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega
 Teléfono Cel : 5 331 7003
 Teléfono Fijo: 7 832 8768
 
--> Diclofenac / Inyectable / Sódico / V_i_a_g_r_a / Ranitidina / Glucosamina / Bismuto / Tadalafil / Ibuprofeno / Vitamina E / Cialis / Azitromicina / Potásico / {DiaStr}De{Mes} / Diclofenaco / Medicinas / Vitamina C / Cervical / Medicamentos / {ID}{DiaSem} / Paracetamol / Pepto-Bismol / Voltaren / Chanca Piedra / Mambo / Sodico / Omeprazol / Acido Folico / 
+-> Diclofenac / Inyectable / Sódico / Viagr_a / Ranitidina / Glucosamina / Bismuto / Tadalafil / Ibuprofeno / Vitamina E / Cialis / Azitromicina / Potásico / {DiaStr}De{Mes} / Diclofenaco / Medicinas / Vitamina C / Cervical / Medicamentos / {ID}{DiaSem} / Paracetamol / Pepto-Bismol / Voltaren / Chanca Piedra / Mambo / Sodico / Omeprazol / Acido Folico / 
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 27Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••VIA_GRA|SILDENA_FIL llama ya que se acaban, Diclofenac y Omeprazol
+{H}••••VIA_GRA|SILDENA_FIL llama ya que se acaban, Diclofenac, CIPROFLOXACINA ..
 Tef.5,331,7003 \ 7,832,8768 a 3 cuc.
 
 Diclofenac: (Para los dolores)
@@ -1218,7 +1222,7 @@ Pepto-Bismol:(Para del estomago, Acidez, Malestar, Indigestión, Diarreas)
   
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 	
-Key Words: Azitromicina / Ibuprofeno / Diclofenac / Dolores / Sódico / Bismuto / Medicamentos / Medicinas / Pastillas / Vitamina E / Cialis / Diclofenaco / Ranitidina / Paracetamol / Inyectable / Omega / Glucosamina / {DiaStr}De{Mes} / Artritis / Cicatricure / {ID}{DiaSem} / Potásico / V_i_a_g_r_a / Vitamina C / Voltaren / Tadalafil / Mambo / Pepto-Bismol / Acido Folico / Chanca Piedra / Fin de Semana / Sodico / Omeprazol /
+Key Words: Azitromicina / Ibuprofeno / Diclofenac / Dolores / Sódico / Bismuto / Medicamentos / Medicinas / Pastillas / Vitamina E / Cialis / Diclofenaco / Ranitidina / Paracetamol / Inyectable / Omega / Glucosamina / {DiaStr}De{Mes} / Artritis / Cicatricure / {ID}{DiaSem} / Potásico / Viagr_a / Vitamina C / Voltaren / Tadalafil / Mambo / Pepto-Bismol / Acido Folico / Chanca Piedra / Fin de Semana / Sodico / Omeprazol /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
@@ -1253,7 +1257,7 @@ Tapón / Botones / Tansmisión / {DiaStr}De{Mes} / Busing / Acordeon / MyLavPiez
 Todas las piezas son compradas en el exterior y estan sin estrenar.
 
 // Anuncio-Txt = 29Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Medicamentos: DICLOFENAC POTASICO, OMEGA 3, CHANCA PIEDRA, OMEPRAZOL
+{H}••••Medicinas: DICLOFENAC POTASICO, OMEGA 3, PÍLDORA DEL DÍA DESPUÉS, OVULOS
 telf: 5.331.7003 ó 7.832.8768, 20 cuc el pomo de 60 capsulas de 1500 mg
 
 Envase cellado, comprado en el extranjero y contiene 150 ml. 
@@ -1295,7 +1299,7 @@ Otras medicinas:
 Teléfono Cel : 5 331 7003
 Teléfono Fijo: 7 832 8768
 
--> Diclofenac / Vitamina E / Pepto-Bismol / Chanca Piedra / Inyectable / Omega / Tadalafil / Bismuto / Sódico / Ibuprofeno / Glucosamina / V_i_a_g_r_a / Medicamentos / Medicinas / Azitromicina / Cialis / Omeprazol / Mambo / Vitamina C / Pastillas / Ranitidina / Diclofenaco / Paracetamol / {DiaStr}De{Mes} / {ID}{DiaSem} / Acido Folico / Potásico / Voltaren / Sodico /
+-> Diclofenac / Vitamina E / Pepto-Bismol / Chanca Piedra / Inyectable / Omega / Tadalafil / Bismuto / Sódico / Ibuprofeno / Glucosamina / Viagr_a / Medicamentos / Medicinas / Azitromicina / Cialis / Omeprazol / Mambo / Vitamina C / Pastillas / Ranitidina / Diclofenaco / Paracetamol / {DiaStr}De{Mes} / {ID}{DiaSem} / Acido Folico / Potásico / Voltaren / Sodico /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
@@ -1321,7 +1325,7 @@ Todos:
 ..1 cuc, Vitamina C 500 mg, un blister de 10 tabletas.
 ..1 cuc, Mambo 36 (Tadalafil) el sobre de una pastilla, tambien conocido como Cialis o Pildora del fin de semana.
 ..3 cuc, Tadalafil de 20 mg, el blister de 10 tabletas. tambien conocido como Cialis o Pildora del fin de semana.
-..3 cuc, V_i_a_g_r_a de 100 mg, el bister de 10 tabletas.
+..3 cuc, Viagr_a de 100 mg, el bister de 10 tabletas.
 ..3 cuc, Prueba de Embarazo, el Kit.
 ..5 cuc, Píldora del día después, 1 pastilla.
 ..8 cuc, Acido Folico, la caja de 100 pastillas 5 mg.
@@ -1340,10 +1344,10 @@ Glucosamina Chondroitina: Es un generador de cartilogos, para mejorar los dolore
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
--> Diclofenac / Sódico / Medicamentos / Chanca Piedra / Medicinas / Fin de Semana / Diclofenaco / Ibuprofeno / Glucosamina / Bismuto / Tadalafil / V_i_a_g_r_a / Acido Folico / {DiaStr}De{Mes} / Azitromicina / Dolores / Pepto-Bismol / Cialis / Potásico / Inyectable / Vitamina C / Mambo / Pastillas / Vitamina E / Paracetamol / {ID}{DiaSem} / Voltaren / Sodico / Omeprazol /
+-> Diclofenac / Sódico / Medicamentos / Chanca Piedra / Medicinas / Fin de Semana / Diclofenaco / Ibuprofeno / Glucosamina / Bismuto / Tadalafil / Viagr_a / Acido Folico / {DiaStr}De{Mes} / Azitromicina / Dolores / Pepto-Bismol / Cialis / Potásico / Inyectable / Vitamina C / Mambo / Pastillas / Vitamina E / Paracetamol / {ID}{DiaSem} / Voltaren / Sodico / Omeprazol /
 
 // Anuncio-Txt = 31Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Vendo medicamentos, V_I_A_G_R_A de 100mg y otros, traidos del extranjero
+{H}••••Vendo: T_A_D_A_L_A_F_I_L, V_I_A_G_R_A, PÍLDORA DEL DÍA DESPUÉS, OMEGA 3
 Tel: 5.331.7003 ó 7.332.8768, 2 cuc la tiera de 825
 
 2.. cuc, Diclofenac Sódico + Vitam. B, 10 pastillas de 100mg, Ademas contiene Vitamina B1, B6 y B12.
@@ -1382,7 +1386,7 @@ Tel: 5.331.7003 ó 7.332.8768, 2 cuc la tiera de 825
 Todos estan en sus envases originales y vencen en el 2020 o posterior
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Key Words: Diclofenac / Azitromicina / Sódico / Voltaren / Acido Folico / Vitamina E / Tadalafil / Medicamentos / Cialis / {DiaStr}De{Mes} / Ibuprofeno / Medicinas / Pastillas / Pepto-Bismol / Glucosamina / Paracetamol / Inyectable / Ranitidina / Bismuto / Omega / Diclofenaco / Potásico / Vitamina C / {ID}{DiaSem} / Cicatricure / Mambo / Fin de Semana / Sodico / V_i_a_g_r_a / Omeprazol / Chanca Piedra /
+Key Words: Diclofenac / Azitromicina / Sódico / Voltaren / Acido Folico / Vitamina E / Tadalafil / Medicamentos / Cialis / {DiaStr}De{Mes} / Ibuprofeno / Medicinas / Pastillas / Pepto-Bismol / Glucosamina / Paracetamol / Inyectable / Ranitidina / Bismuto / Omega / Diclofenaco / Potásico / Vitamina C / {ID}{DiaSem} / Cicatricure / Mambo / Fin de Semana / Sodico / Viagr_a / Omeprazol / Chanca Piedra /
 
 // Anuncio-Txt = 32Lavad --------------------------------------------------------------------------------------------------------------------------------
 {H}••••(Correa | Timer | Manguera | Tapón | Sello | Botón, etc.) de Lavadora
@@ -1411,7 +1415,7 @@ Todas las piezas estan nuevas sin extrenar.
 Sello / {ID}{DiaSem} / Acordeon / Timer / Tapón / Botones / Lavadoras / Correa / Manguera de Salida / Tansmisión / {DiaStr}De{Mes} / Busing / MyLavPiezas / 
 
 // Anuncio-Txt = 33Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••IBUPROFENO, LOPERAMIDA, OMEPRAZOL, RANITIDINA, OVULOS, TEST DE EMBARAZO
+{H}••••IBUPROFENO, RANITIDINA, OVULOS, TEST DE EMBARAZO, CIPROFLOXACINA, OMEGA 3
 : 7 832 8768/5 331 7003
  
 Listado: 
@@ -1435,7 +1439,7 @@ Omega 369, a 12 cuc x pomo de 100 pastillas de 3000 mg
 Ibuprofeno 600 mg, a 1 cuc el blister de 10 capsulas.
 Ibuprofeno 800 mg, a 1.5 cuc el blister de 10 capsulas.
 Tadalafil 20 mg, a 3 cuc blister de 4 pastilla, tambien conocido como Cialis o Pildora del fin de semana.
-V_i_a_g_r_a 100 mg, a 3 cuc blister de 8 pastillas.
+Viagr_a 100 mg, a 3 cuc blister de 8 pastillas.
 Mambo 36 (Tadalafil), a 1 cuc la pastilla, tambien conocido como Cialis o Pildora del fin de semana.
 Píldora del día después, a 5 cuc cada pastilla.
 Prueba de Embarazo, a 3 cuc el Kit
@@ -1447,13 +1451,13 @@ MultiVitaminas y Minerales, a 12 cuc un pomo de 100 capsulas.
 Pepto-Bismol, a 10 cuc x frasco de 236 ml.
 Loperamida, a 2 cuc un blister de 10 cápsulas de 2 mg.  (Antidiarreico de acción prolongada y efecto rápido)
 
--> Diclofenac / Sódico / Vitamina E / Medicamentos / Voltaren / Medicinas / Ibuprofeno / Pastillas / Artritis / Reumatismo / Fin de Semana / Pepto-Bismol / Diclofenaco / Azitromicina / Ranitidina / Glucosamina / {DiaStr}De{Mes} / Cialis / Acido Folico / Vitamina C / Potásico / Estomago / Dolores / {ID}{DiaSem} / Bismuto / Paracetamol / V_i_a_g_r_a / Mambo / Chanca Piedra / 
+-> Diclofenac / Sódico / Vitamina E / Medicamentos / Voltaren / Medicinas / Ibuprofeno / Pastillas / Artritis / Reumatismo / Fin de Semana / Pepto-Bismol / Diclofenaco / Azitromicina / Ranitidina / Glucosamina / {DiaStr}De{Mes} / Cialis / Acido Folico / Vitamina C / Potásico / Estomago / Dolores / {ID}{DiaSem} / Bismuto / Paracetamol / Viagr_a / Mambo / Chanca Piedra / 
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
 // Anuncio-Txt = 34Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC POTASICO, OVULOS/LASCOVAGIL, VITAMINA E, IBUPROFENO, OMEPRAZOL
+{H}••••DICLOFENAC, OVULOS/LASCOVAGIL, IBUPROFENO, PÍLDORA DEL DÍA DESPUÉS
                                                     
 T: 5,331,7003/7,832,8768, Regenera ligamentos y tendones.
 
@@ -1496,7 +1500,7 @@ Para la salud en general (Colesterol, triglicedidos, etc.):
   
 Para la disfunción eréctil:
 ... Tadalafil de 20 mg a 3 cuc blister de 4 pastilla (tambien conocido como Cialis o Pildora del fin de semana).
-... V_i_a_g_r_a de 100 mg a 3 cuc blister de 8 pastillas.
+... Viagr_a de 100 mg a 3 cuc blister de 8 pastillas.
 ... Mambo 36 (Tadalafil) de 20 mg a 1 cuc la pastilla, tambien conocido como Cialis o Pildora del fin de semana.
 
 Para el Embarazo:
@@ -1518,14 +1522,14 @@ Para los diabeticos:
 Para problemas estomacales: (Acidez, Indigestión, Malestar, Diarreas)
 ... Pepto-Bismol a 10 cuc el frasco de 236 ml.
 
--> Medicinas / Diclofenac / Sódico / Acido Folico / Ibuprofeno / Diclofenaco / Medicamentos / V_i_a_g_r_a / Potásico / Inyectable / {DiaStr}De{Mes} / Vitamina E / Bismuto / Ranitidina / {ID}{DiaSem} / Voltaren / Potasico / Azitromicina / Sodico / Glucosamina / Tadalafil / Vitamina C / Cialis / Mambo / Paracetamol / Pepto-Bismol / Omeprazol /
+-> Medicinas / Diclofenac / Sódico / Acido Folico / Ibuprofeno / Diclofenaco / Medicamentos / Viagr_a / Potásico / Inyectable / {DiaStr}De{Mes} / Vitamina E / Bismuto / Ranitidina / {ID}{DiaSem} / Voltaren / Potasico / Azitromicina / Sodico / Glucosamina / Tadalafil / Vitamina C / Cialis / Mambo / Paracetamol / Pepto-Bismol / Omeprazol /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales, Fecha de vencimiento Agosto del 2020
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
 // Anuncio-Txt = 35Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Medicamentos: V_I_A_G_R_A: MÁS PLACER, MÁS POTENCIA, MÁS PODER 5,331,7003
- ó 7,832,8768 la tira de 8 pastillas sale a 3 cuc, fecha de caducidad 2021
+{H}••••V_I_A_G_R_A ó T_A_D_A_L_A_F_I_L: MÁS PLACER, MÁS POTENCIA, MÁS PODER ...
+  5,331,7003 ó 7,832,8768 la tira de 8 pastillas sale a 3 cuc, fecha de caducidad 2021
  
 Difrute las relaciones con su pareja al máximo, no deje pasar la oportunidad.
 
@@ -1588,7 +1592,7 @@ PARA DIABETICOS:
 Telefonos: 5 331 7003 (movil) y 7 832 8768 (fijo) con Camilo.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Key Words: Diclofenac / Vitamina E / Azitromicina / Chanca Piedra / V_i_a_g_r_a / Inyectable / Tadalafil / Cialis / Omega / Sódico / Glucosamina / Ibuprofeno / Medicamentos / Bismuto / Medicinas / Paracetamol / Omeprazol / Pastillas / Ranitidina / Vitamina C / Diclofenaco / Pepto-Bismol / Acido Folico / {DiaStr}De{Mes} / {ID}{DiaSem} / Potásico / Voltaren / Cicatricure / Mambo / Fin de Semana / Sodico /
+Key Words: Diclofenac / Vitamina E / Azitromicina / Chanca Piedra / Viagr_a / Inyectable / Tadalafil / Cialis / Omega / Sódico / Glucosamina / Ibuprofeno / Medicamentos / Bismuto / Medicinas / Paracetamol / Omeprazol / Pastillas / Ranitidina / Vitamina C / Diclofenaco / Pepto-Bismol / Acido Folico / {DiaStr}De{Mes} / {ID}{DiaSem} / Potásico / Voltaren / Cicatricure / Mambo / Fin de Semana / Sodico /
 
 // Anuncio-Txt = 36Lavad --------------------------------------------------------------------------------------------------------------------------------
 {H}••••Piezas de Lavadora: Correas (A620,A700,A785,M20.5), Busing (LG,Daewoo) ..
@@ -1613,7 +1617,7 @@ MyLavPiezas / Manguera de Salida / Busing / Tapón / Timer / Botones / Lavadoras
 Todas las piezas son compradas en el extranjero.
 
 // Anuncio-Txt = 37Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••VITAMINA E, IBUPROFENO, GLUCOSAMINA+CHONDROITINA, LASCOVAGIL, OMEPRAZOL
+{H}••••IBUPROFENO, GLUCOSAMINA+CHONDROITINA, LASCOVAGIL, PÍLDORA DEL DÍA DESPUÉS
 7 832 8768/5 331 7003
 
 Lista de Medicinas.
@@ -1652,7 +1656,7 @@ Lista de Medicinas.
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
--> Diclofenac / Glucosamina / Ibuprofeno / Estomago / {DiaStr}De{Mes} / Omega / Sódico / Fin de Semana / Medicamentos / Pepto-Bismol / Potásico / Cialis / Vitamina E / Mambo / Ranitidina / Bismuto / Medicinas / Acido Folico / Inyectable / Azitromicina / Diclofenaco / Chanca Piedra / V_i_a_g_r_a / Vitamina C / {ID}{DiaSem} / Voltaren / Paracetamol / 
+-> Diclofenac / Glucosamina / Ibuprofeno / Estomago / {DiaStr}De{Mes} / Omega / Sódico / Fin de Semana / Medicamentos / Pepto-Bismol / Potásico / Cialis / Vitamina E / Mambo / Ranitidina / Bismuto / Medicinas / Acido Folico / Inyectable / Azitromicina / Diclofenaco / Chanca Piedra / Viagr_a / Vitamina C / {ID}{DiaSem} / Voltaren / Paracetamol / 
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
@@ -1697,15 +1701,15 @@ Medicinas:
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
--> Paracetamol / Ibuprofeno / Diclofenac / Dolores / Sódico / V_i_a_g_r_a / Medicamentos / Medicinas / Bismuto / Pastillas / Vitamina E / Diclofenaco / Ranitidina / Inyectable / Omega / Cialis / {DiaStr}De{Mes} / Artritis / Mambo / {ID}{DiaSem} / Potásico / Voltaren / Glucosamina / Vitamina C / Chanca Piedra / Pepto-Bismol / Acido Folico / Azitromicina / Fin de Semana / Sodico / Tadalafil / Omeprazol /
+-> Paracetamol / Ibuprofeno / Diclofenac / Dolores / Sódico / Viagr_a / Medicamentos / Medicinas / Bismuto / Pastillas / Vitamina E / Diclofenaco / Ranitidina / Inyectable / Omega / Cialis / {DiaStr}De{Mes} / Artritis / Mambo / {ID}{DiaSem} / Potásico / Voltaren / Glucosamina / Vitamina C / Chanca Piedra / Pepto-Bismol / Acido Folico / Azitromicina / Fin de Semana / Sodico / Tadalafil / Omeprazol /
 
 // Anuncio-Txt = 39Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••V_I_A_G_R_A la más económica en revolico, llamar al Tef:5 3317 003
-el costo es 3 cuc la tira de 8 pastillas
+{H}••••V_I_A_G_R_A la más económica en revolico, tambien T_A_D_A_L_A_F_I_L 
+Tef:5 3317 003 ó  el costo es 3 cuc la tira de 8 pastillas
 
 Tambien tengo: DICLOFENAC en Pastillas a 2 cuc y en Crema a 2 cuc, TADALAFIL a 1 cuc, RANITIDINA a 1 cuc, OMEPRAZOL a 1 cuc, VITAMINA E a 15 cuc, CICATRICURE a 10 cuc, CHANCA PIEDRA 12 cuc, Vitaminas complejo B a 8 cuc, Prueba de Embarazo a 3 cuc, Píldora del día después a 5 cuc, Glucosamina con Chondrotina a 18 cuc, MultiVitaminas y Minerales a 12 cuc, Loperamida a 2 cuc, Azitromicina a 2 cuc, Sulfapril a 1.5, Ciprofloxacina a 1.5, Metronidazol a 1 cuc, Glibendamida a 1 cuc, Vitamina C a 1 cuc, Ibuprofeno 1 cuc, Acido Folico 8 cuc (100 pastillas), Pepto-Bismol 10 cuc.
 
-El TADALAFIL es una nueva formulación de la V_i_a_g_r_a, que tambien es conocido como Pildora del fin de semana o Cialis, porque su efecto dura mas de 36 horas, mientras que la V_i_a_g_r_a solo dura 4, tambien es bien tolerado cuando se ha ingerido alchol o comidas copiosas, mientras que la V_i_a_g_r_a tiene un efecto limitado en esos casos, tambien tiene menos efectos secundarios que la v_i_a_g_r_a.
+El TADALAFIL es una nueva formulación de la Viagr_a, que tambien es conocido como Pildora del fin de semana o Cialis, porque su efecto dura mas de 36 horas, mientras que la Viagr_a solo dura 4, tambien es bien tolerado cuando se ha ingerido alchol o comidas copiosas, mientras que la Viagr_a tiene un efecto limitado en esos casos, tambien tiene menos efectos secundarios que la viagr_a.
 
 La CHANCA PIEDRA, es para eliminar calculos renales, biliares y sustancias nocivas en el higado.
 El CICATRICURE es para mejorar notablemente el aspecto y textura de las cicatrices
@@ -1715,7 +1719,7 @@ La Glucosamina con Chondrotina, es para problemas de Artritis, ya que es un anal
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 Hablar con Camilo en los telafonos 7 832 8768 y 5 331 7003
 
-Key Words: Diclofenaco / Azitromicina / Voltaren / {DiaStr}De{Mes} / Inyectable / Cicatricure / Glucosamina / Medicamentos / Diclofenac / Sódico / Medicinas / Ranitidina / Pastillas / Vitamina C / Acido Folico / Paracetamol / Cialis / V_i_a_g_r_a / Potásico / {ID}{DiaSem} / Vitamina E / Estomago / Tadalafil / Pepto-Bismol / Mambo / Ibuprofeno / Chanca Piedra / Bismuto / Fin de Semana / Sodico / Omeprazol /
+Key Words: Diclofenaco / Azitromicina / Voltaren / {DiaStr}De{Mes} / Inyectable / Cicatricure / Glucosamina / Medicamentos / Diclofenac / Sódico / Medicinas / Ranitidina / Pastillas / Vitamina C / Acido Folico / Paracetamol / Cialis / Viagr_a / Potásico / {ID}{DiaSem} / Vitamina E / Estomago / Tadalafil / Pepto-Bismol / Mambo / Ibuprofeno / Chanca Piedra / Bismuto / Fin de Semana / Sodico / Omeprazol /
 
 // Anuncio-Txt = 40Lavad --------------------------------------------------------------------------------------------------------------------------------
 {H}••••Respuestos de Lavadora: Timer, Busing, Correas, Sello, Tapon y mas ...
@@ -1746,7 +1750,7 @@ Puede pedir la pieza que usted necesita y si la encontramos en menos de 1 mes la
 Todas las piezas son nuevas, traidas del extranjero.
 
 // Anuncio-Txt = 41Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••OVULOS, IBUPROFENO, LOPERAMIDA, OMEGA 3, CHANCA PIEDRA, VITAMINAS, MAMBO
+{H}••••OVULOS, IBUPROFENO, LOPERAMIDA, OMEGA 3, PÍLDORA DEL DÍA DESPUÉS, MAMBO
  telf: 5 331 7003 ó 7 832 8768, son a 1 CUC x Tableta
 
 Otras formas de DICLOFENAC:
@@ -1787,12 +1791,12 @@ LOPERAMIDA ------------------ ( 2 cuc), un blister de 10 cápsulas de 2 mg.     
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
--> Ibuprofeno / Diclofenac / Bismuto / Paracetamol / Sódico / Voltaren / Vitamina E / Medicamentos / V_i_a_g_r_a / {DiaStr}De{Mes} / Acido Folico / Medicinas / Pastillas / Inyectable / Tadalafil / Ranitidina / Cialis / Omega / Diclofenaco / Potásico / {ID}{DiaSem} / Glucosamina / Sodico / Azitromicina / Omeprazol / Vitamina C / Mambo / Pepto-Bismol / Chanca Piedra /
+-> Ibuprofeno / Diclofenac / Bismuto / Paracetamol / Sódico / Voltaren / Vitamina E / Medicamentos / Viagr_a / {DiaStr}De{Mes} / Acido Folico / Medicinas / Pastillas / Inyectable / Tadalafil / Ranitidina / Cialis / Omega / Diclofenaco / Potásico / {ID}{DiaSem} / Glucosamina / Sodico / Azitromicina / Omeprazol / Vitamina C / Mambo / Pepto-Bismol / Chanca Piedra /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 42Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••GLUCOSAMINA+CHONDROITINA, OMEPRAZOL, TEST DE EMBARAZO, CHANCA PIEDRA
+{H}••••GLUCOSAMINA+CHONDROITINA, TEST DE EMBARAZO, RANITIDINA, GLIBENDAMIDA 
 5,331,7003 / 7,832,8768
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
@@ -1829,7 +1833,7 @@ Otras medicinas:
 1.. cuc, METRONIDAZOL, un bliter de 10 tabletas de 500 mg.
 1.. cuc, GLIBENDAMIDA, un bliter de 10 tabletas de 5 mg.
 
--> Diclofenaco / Voltaren / Paracetamol / Acido Folico / Glucosamina / {DiaStr}De{Mes} / Inyectable / V_i_a_g_r_a / Medicamentos / Diclofenac / Sódico / Medicinas / Ranitidina / Pastillas / Cialis / Pepto-Bismol / Potásico / Bismuto / {ID}{DiaSem} / Vitamina E / Tadalafil / Estomago / Chanca Piedra / Fin de Semana / Sodico / Azitromicina / Vitamina C / Mambo / Omeprazol /
+-> Diclofenaco / Voltaren / Paracetamol / Acido Folico / Glucosamina / {DiaStr}De{Mes} / Inyectable / Viagr_a / Medicamentos / Diclofenac / Sódico / Medicinas / Ranitidina / Pastillas / Cialis / Pepto-Bismol / Potásico / Bismuto / {ID}{DiaSem} / Vitamina E / Tadalafil / Estomago / Chanca Piedra / Fin de Semana / Sodico / Azitromicina / Vitamina C / Mambo / Omeprazol /
 
 Envase Sellado, comprado en el extranjero y contiene 150 ml. 
 
@@ -1840,7 +1844,7 @@ Tel: 78328768 / 53317003 vienen en tiras de 8 pastillas que salen a 3 cuc.
 Otros productos:
 PARA LOS DOLORES: Diclofenac en todas sus distribuciones, Sódico 2 cuc, Potasico 2 cuc, con Paracetamol 2 cuc, En Gel 4 cuc, En crema 5 cuc e Inyectable 1 cuc.
 PARA EL ESTOMAGO: Omeprazol de 20 mg 1 cuc, Ranitidina 1 cuc.
-DISFUSIÓN ERÉCTIL: Tadalafil (Mambo 36) a 1 cuc la pastilla, tambien conocido como Cialis o Pildora del fin de semana, V_i_a_g_r_a 3 cuc x 8.
+DISFUSIÓN ERÉCTIL: Tadalafil (Mambo 36) a 1 cuc la pastilla, tambien conocido como Cialis o Pildora del fin de semana, Viagr_a 3 cuc x 8.
 SUPLEMENTOS: OMEGA 369 a 12 cuc, VITAMINA E 1000 UI a 15 cuc la caja, VITAMINA C 500 mg a 1 cuc el blister, VITAMINAS COMPLEJO B a 8 cuc la caja, MULTIVITAMINAS Y MINERALES a 12 cuc el pomo, ACIDO FOLICO a 8 cuc (100 pastillas).
 
 PARA CICATRICES: Cicatricure a 10 cuc el tubo de 30g.
@@ -1854,7 +1858,7 @@ PARA LA DIABETIS: Glibendamida a 1 cuc un bliter de 10 tabletas de 5 mg.
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Key Words: Pastillas / Diclofenac / Cicatricure / Acido Folico / Azitromicina / Diclofenaco / Bismuto / Glucosamina / Sódico / Medicamentos / V_i_a_g_r_a / Fin de Semana / Medicinas / Mambo / Inyectable / {DiaStr}De{Mes} / Estomago / Paracetamol / Vitamina C / Ranitidina / Potásico / {ID}{DiaSem} / Voltaren / Chanca Piedra / Pepto-Bismol / Vitamina E / Tadalafil / Cialis / Ibuprofeno / Sodico / Omeprazol /
+Key Words: Pastillas / Diclofenac / Cicatricure / Acido Folico / Azitromicina / Diclofenaco / Bismuto / Glucosamina / Sódico / Medicamentos / Viagr_a / Fin de Semana / Medicinas / Mambo / Inyectable / {DiaStr}De{Mes} / Estomago / Paracetamol / Vitamina C / Ranitidina / Potásico / {ID}{DiaSem} / Voltaren / Chanca Piedra / Pepto-Bismol / Vitamina E / Tadalafil / Cialis / Ibuprofeno / Sodico / Omeprazol /
 
 // Anuncio-Txt = 44Lavad --------------------------------------------------------------------------------------------------------------------------------
 {H}••••Para Lavadora: Mangueras, Correas, Busing, Timer, Sello, Tef: 7 832 8768
@@ -1889,7 +1893,7 @@ Acordeon / Tapón / Botones / Tansmisión / Correa / {ID}{DiaSem} / MyLavPiezas 
 Todos los piezas son nuevas.
 
 // Anuncio-Txt = 45Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Medicamentos: LOPERAMIDA, IBUPROFENO, DICLOFENAC, CHANCA PIEDRA, OMEGA 3
+{H}••••Medicamentos: LOPERAMIDA, IBUPROFENO, DICLOFENAC, OMEGA 3, RANITIDINA
 Tef: 5 331 7003 / 7 832 8768 a 10 cuc x por tubo de 30g.
 
 Omeprazol a 1 cuc x tira de 10 capsulas de 20 mg. 
@@ -1918,7 +1922,7 @@ Diclofenac Inyectable a 1 cuc x Ampula, cada ampula contiene 75 mg.
 Glucosamina Chondroitina frasco con 60 capsulas, 18 cuc.
 Tadalafil blister de 4 pastilla de 20 mg, 3 cuc.           (Tambien conocido como Cialis o Pildora del fin de semana)
 Mambo 36 (Tadalafil) a 1 cuc la pastilla.                  (Otra variante del Tadalafil, equivalente a Cialis o Pildora del fin de semana)
-V_i_a_g_r_a blister de 8 pastilla de 100 mg, 3 cuc.
+Viagr_a blister de 8 pastilla de 100 mg, 3 cuc.
 Acido Folico de 5mg, una caja de 100 pastillas, 8 cuc.
 Prueba de Embarazo, un Kit, 3 cuc.
 Píldora del día después, 5 cuc.
@@ -1931,10 +1935,10 @@ Glucosamina Chondroitina: Es un generador de cartilogos, para mejorar los dolore
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
--> Diclofenac / Sódico / Voltaren / Paracetamol / Glucosamina / Ibuprofeno / {DiaStr}De{Mes} / V_i_a_g_r_a / Medicamentos / Mambo / Ranitidina / Diclofenaco // Potásico / Medicinas / Vitamina E / {ID}{DiaSem} / Bismuto / Chanca Piedra / Cialis / Sodico / Acido Folico / Tadalafil / Azitromicina / Omeprazol / Pepto-Bismol / Vitamina C / 
+-> Diclofenac / Sódico / Voltaren / Paracetamol / Glucosamina / Ibuprofeno / {DiaStr}De{Mes} / Viagr_a / Medicamentos / Mambo / Ranitidina / Diclofenaco // Potásico / Medicinas / Vitamina E / {ID}{DiaSem} / Bismuto / Chanca Piedra / Cialis / Sodico / Acido Folico / Tadalafil / Azitromicina / Omeprazol / Pepto-Bismol / Vitamina C / 
 
 // Anuncio-Txt = 46Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Vendo:LOPERAMIDA, OMEGA 3, OVULOS, IBUPROFENO, DICLOFENAC, CHANCA PIEDRA
+{H}••••Vendo:OMEGA 3, OVULOS, IBUPROFENO, DICLOFENAC, PÍLDORA DEL DÍA DESPUÉS...
 Telf: 5.331.7003 ó 7.832.8768
 
 Vendo: 
@@ -1982,11 +1986,11 @@ Todos los medicamentos son traidos del extranjero y estan en sus envases origina
 Teléfono Cel : 5 331 7003
 Teléfono Fijo: 7 832 8768
 
--> Vitamina C / Pepto-Bismol / Pastillas / Diclofenac / Diclofenaco / Paracetamol / Sódico / Medicamentos / Medicinas / Ibuprofeno / Vitamina E / Inyectable / {DiaStr}De{Mes} / Estomago / V_i_a_g_r_a / Ranitidina / Potásico / Cialis / Bismuto / {ID}{DiaSem} / Voltaren / Chanca Piedra / Sodico / Tadalafil / Omeprazol / Acido Folico / Mambo / Glucosamina / Azitromicina / 
+-> Vitamina C / Pepto-Bismol / Pastillas / Diclofenac / Diclofenaco / Paracetamol / Sódico / Medicamentos / Medicinas / Ibuprofeno / Vitamina E / Inyectable / {DiaStr}De{Mes} / Estomago / Viagr_a / Ranitidina / Potásico / Cialis / Bismuto / {ID}{DiaSem} / Voltaren / Chanca Piedra / Sodico / Tadalafil / Omeprazol / Acido Folico / Mambo / Glucosamina / Azitromicina / 
 
 // Anuncio-Txt = 47Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••V_I_A_G_R_A: MÁS POTENCIA, MÁS PODER, MÁS PLACER + Diclofenac y Omeprazol
-tel: 5,331,7003 / 7,832,8768, 8 v_i_a_g_r_a_s por 3 cuc, son originales compradas en el extranjero.
+{H}••••V_I_A_G_R_A: MÁS POTENCIA, MÁS PODER, MÁS PLACER + Diclofenac, Ranitidina 
+tel: 5,331,7003 / 7,832,8768, 8 viagr_as por 3 cuc, son originales compradas en el extranjero.
 
 Tengo Además estas otras medicinas:
 2.5 cuc, Diclofenac Potasico + Vitam. B, 10 pastillas de 100mg, Ademas contiene Vitamina B1, B2, B6 y B12.
@@ -2027,7 +2031,7 @@ Teléfonos:
    Cel : 5 331 7003
    Fijo: 7 832 8768
    
-Key Words: Ibuprofeno / Medicinas / Tadalafil / Chanca Piedra / Glucosamina / Azitromicina / Diclofenac / Sódico / Diclofenaco / Medicamentos / Potásico / Cicatricure / V_i_a_g_r_a / Inyectable / Bismuto / Vitamina C / {DiaStr}De{Mes} / Vitamina E / Paracetamol / Ranitidina / {ID}{DiaSem} / Voltaren / Acido Folico / Cialis / Mambo / Fin de Semana / Pepto-Bismol / Potasico / Sodico / Omeprazol /
+Key Words: Ibuprofeno / Medicinas / Tadalafil / Chanca Piedra / Glucosamina / Azitromicina / Diclofenac / Sódico / Diclofenaco / Medicamentos / Potásico / Cicatricure / Viagr_a / Inyectable / Bismuto / Vitamina C / {DiaStr}De{Mes} / Vitamina E / Paracetamol / Ranitidina / {ID}{DiaSem} / Voltaren / Acido Folico / Cialis / Mambo / Fin de Semana / Pepto-Bismol / Potasico / Sodico / Omeprazol /
 
 // Anuncio-Txt = 48Lavad --------------------------------------------------------------------------------------------------------------------------------
 {H}•••••Vendo piezas de lavadora (Correas, Mangueras, Timer, Busing, Sello... )

@@ -55,20 +55,48 @@
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-// Se cargo la página sin problemas
-- (void)webViewDidFinishLoad:(UIWebView *)webView
+-(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
   {
-  _curWait.hidden = true;
+  NSString* msg = [NSString stringWithFormat:@"Cargando:'%@'\r\nTipo de navegación:'%d'",request.URL.absoluteString,(int)navigationType];
+  
+//  [self MsgTitle:@"Va a cargar la Página" Text: msg ];
+  NSLog( @"Va a cargar la Página: %@", msg );
+        
+  return TRUE;
+  }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+-(void)webViewDidStartLoad:(UIWebView *)webView
+  {
+  NSString* msg = [NSString stringWithFormat:@"Termino de Cargar:'%@'",webView.request.URL.path];
+  
+//  [self MsgTitle:@"Carga Iniciada" Text: msg ];
+  NSLog( @"Carga Iniciada: %@", msg );
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 // Hubo un error al cargar la página
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
   {
-  [self MsgTitle:@"Error cargando la Página" Text: Anuncios.Items[nowAnunc].Url ];
-  //  NSLog(@"%@", error.description);
+  NSString* msg = [NSString stringWithFormat:@"ERROR:%@",error.description];
+  
+//  [self MsgTitle:@"Error cargando la Página" Text: msg ];
+  NSLog( @"Error cargando la Página: %@",msg );
+
   _curWait.hidden = true;
   [self ShowButtonsMode:0];
+  }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+// Se cargo la página sin problemas
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+  {
+  NSString* msg = [NSString stringWithFormat:@"Termino de Cargar:'%@'",webView.request.URL.path];
+  
+//  [self MsgTitle:@"Carga finalizada" Text: msg ];
+  NSLog( @"Carga finalizada: %@", msg );
+
+  _curWait.hidden = true;
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -91,9 +119,9 @@
   
   NSURL *url = [NSURL URLWithString: nowItem.Url];
   
-//  NSBundle *Bundle = [NSBundle mainBundle];
-//  NSString* file = [Bundle pathForResource:@"PageTest" ofType:@"html" ];
-//  url = [NSURL URLWithString: file];
+  NSBundle *Bundle = [NSBundle mainBundle];
+  NSString* file = [Bundle pathForResource:@"PageTest" ofType:@"html" ];
+  url = [NSURL URLWithString: file];
   
   [_webPage loadRequest:[NSURLRequest requestWithURL:url]];
   _curWait.hidden = false;
@@ -242,9 +270,30 @@
   @"  if( !elem ) return '1';"
     
   @"  elem.value = Val;"
+  @"  if( elem.onchange ) elem.onchange( this );"
   @"  return '0';"
   @"  }"
   
+  @"function SelectValue( AttrName, sVal )"
+  @"  {"
+  @"  var elems = document.getElementsByTagName( \"select\" );"
+  @"  if( !elems ) return \"1\";"
+    
+  @"  for( var i=0; i<elems.length; ++i )"
+  @"    {"
+  @"    var elem = elems[i];"
+      
+  @"    if( elem.name == AttrName )"
+  @"      {"
+  @"      elem.value = sVal;"
+  @"      if( elem.onchange ) elem.onchange( this );"
+  @"      return \"0\";"
+  @"      }"
+      
+  @"    return \"3\";"
+  @"    }"
+  @"  }"
+
   @"function FillSelect( AttrName, OptText )"
   @"  {"
   @"  var elems = document.getElementsByTagName( \"select\" );"
@@ -276,30 +325,7 @@
       
   @"    return \"3\";"
   @"    }"
-  @"  }"
-  
-  @"function ShowEventsForID( IdElem )"
-  @"  {"
-  @"  var elem = document.getElementById( IdElem ) ;"
-  @"  if( !elem ) return \"0\";"
-    
-  @"  var msg = \"\";"
-    
-  @"  if( elem.onblur     ) msg += \"onBlur \";"
-  @"  if( elem.onchange   ) msg += \"onchange \";"
-  @"  if( elem.onclick    ) msg += \"onclick \";"
-  @"  if( elem.onfocus    ) msg += \"onfocus \";"
-  @"  if( elem.onkeydown  ) msg += \"onkeydown \";"
-  @"  if( elem.onkeypress ) msg += \"onkeypress \";"
-  @"  if( elem.onkeyup    ) msg += \"onkeyup \";"
-  @"  if( elem.oninput    ) msg += \"oninput \";"
-    
-  @"  if( msg.length>0 )"
-  @"    alert( \"El elemento '\" + IdElem + \"' tiene los siguientes eventos asignados:\r\n\" + msg );"
-    
-  @"  return \"1\";"
-  @"  }"
-  ;
+  @"  }";
   
   [_webPage stringByEvaluatingJavaScriptFromString: jsSet ];
   }
@@ -312,7 +338,7 @@
   
   Tipo = [Tipo uppercaseString];
   if( [Tipo isEqualToString:@"SELECT"] )
-    jsSet = [NSString stringWithFormat:@"FillSelect('%@','%@')", Name, Value];
+    jsSet = [NSString stringWithFormat:@"SelectValue('%@','%@')", Name, Value];
   else
     jsSet = [NSString stringWithFormat:@"FillInput('%@','%@','%@')", Tipo, Name, Value];
 

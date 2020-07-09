@@ -143,7 +143,8 @@
   {
   NSInteger dia = [Cldr component:NSCalendarUnitDay fromDate:Now];
   
-  return [NSString stringWithFormat:@"%2d", (int)dia];
+  NSString* frmt = dia<10? @"0%d": @"%d";
+  return [NSString stringWithFormat:frmt, (int)dia];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------
