@@ -6,6 +6,7 @@
 "MnuNavegar"  = "Modo Navegar";
 "MnuPubicar"  = "Modo Publicar";
 "MnuAuncios"  = "Modo Anuncios";
+"MnuRevisar"  = "Modo Revisar";
 "MnuEditar"   = "Editar Anuncios";
 
 "MnuSalir"     = "Salir sin Guardar";
@@ -14,4 +15,5 @@
 "MnuBorrar"    = "Borra el fichero";
 "MnuSaveAs"    = "Guardar Como ..";
 "MnuNuevo"     = "Nuevo Fichero";
-"MnuShowTitle" = "Mostrar el título";
+"MnuShowTitle" = "Mostrar Título";
+"MnuHideTitle" = "Ocultar Título";

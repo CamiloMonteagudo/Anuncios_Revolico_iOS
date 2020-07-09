@@ -1,21 +1,17 @@
 // Url-Txt = https://www.revolico.com/compra-venta/otros/insertar-anuncio.html
-// Categoria-TagName = select
-// Categoria-AttrName = subcategory
-// Categoria-Txt = 44
 // Titulo-TagName = input
 // Titulo-AttrName = ad-title
 // Descripción-TagName = textarea
 // Descripción-AttrName = ad-description
 // Mail-TagName = input
 // Mail-AttrName = ad-email
-// Mail-Txt = {ID}{Dia}{Mes}@gmail.com
+// Mail-Txt = {ID}{Dia}{Mes}@gmail.co
 // Telef-TagName = input
 // Telef-AttrName = ad-phone
 // Telef-Txt = 7 832 8768, 5 331 7003
-// WordsKey0-Txt = Acido Folico, Artritis, Azitromicina, Bismuto, Cervical, Chanca Piedra, Cialis, Ciprofloxacina, Diclofenac, Diclofenac Sódico, Diclofenaco, Diclofenaco Potásico, Dolores, Estomago, Fin de Semana, Glibenclamida, Glucosamina, Ibuprofeno, Inyectable, Loperamida, Mambo, Medicamentos, Medicinas, Metronidazol, Nistatina, Omega, Omeprazol, Paracetamol, Pastillas, Pepto-Bismol, Potasico, Ranitidina, Reumatismo, Sildena_fil, Sulfapril, Sódico, Tadalafil, Via_gra, Vitamina C, Vitamina E, Voltaren, Voltaren, {DiaStr}De{Mes}, {ID}{DiaSem}
 
 // Anuncio-Txt = 01Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC, OMEGA 3, OVULOS, RANITIDINA, PILDORA DEL DIA DESPUÉS y más
+{H} ✅DICLOFENAC ✅OMEGA_3 ✅OVULOS ✅RANITIDINA ✅PILDORA_DEL_DIA_DESPUÉS ✅AZITROMICINA ✅METRONIDAZOL ✅TERMOMETRO_DIGITAL
 : 7 832 8768/5 331 7003   
 
 Productos:
@@ -45,7 +41,7 @@ Productos:
 12 cuc. (MultiVitaminas y Minerales) un pomo de 100 capsulas.
 2 cuc.. (Loperamida) un blister de 10 pastilla (Antidiarreico de efecto rápido y prolongado).
 2 cuc.. (Azitromicina) una cajita de 3 pastilla de 500 mg.
-1.5 cuc (Sulfapril) un bliter de 10 pastilla de (80/400) mg.
+1.5 cuc (Sulfaprim) un bliter de 10 pastilla de (80/400) mg.
 1.5 cuc (Ciprofloxacina) un bliter de 10 pastilla de 500 mg.
 1 cuc.. (Metronidazol) un bliter de 10 pastilla de 500 mg.
 1 cuc.. (Glibenclamida) un bliter de 10 pastilla de 5 mg.
@@ -54,12 +50,12 @@ La CHANCA PIEDRA, es para eliminar calculos renales, biliares y sustancias nociv
 
 GLUCOSAMINA CHONDROITINA, Es un generador de cartilogos, para mejorar los dolores de artritis, juega un papel importante en la formación de tendones y ligamentos, regenerando Manos, Pies, Rodillas, Espalda, Cuellos, Caderas, Tobillos.
 
-{ID}{DiaSem} / {DiaStr}De{Mes} / Pepto-Bismol / Vitamina C / Via_gra / Azitromicina / Paracetamol / Acido Folico / Diclofenac / Estomago / Omega / Vitamina E / Sódico / Fin de Semana / Glucosamina / Medicamentos / Potásico / Ranitidina / Medicinas / Inyectable / Diclofenaco / Ibuprofeno / Chanca Piedra / Bismuto / Voltaren / Cialis / Tadalafil / Mambo /
+{ID}{DiaSem} / {DiaStr}De{Mes} / Pepto-Bismol / Vitamina C / Via_gra / MediSonia / Azitromicina / Paracetamol / Acido Folico / Diclofenac / Estomago / Omega / Vitamina E / Sódico / Fin de Semana / Glucosamina / Medicamentos / Potásico / Ranitidina / Medicinas / Inyectable / Diclofenaco / Ibuprofeno / Chanca Piedra / Bismuto / Voltaren / Cialis / Tadalafil / Mambo /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 02Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC, TEST DE EMBARAZO, PÍLDORA DEL DÍA DESPUÉS, OVULOS, IBUPROFENO
+{H} ✅DICLOFENAC(Sodico|Potasico) ✅TEST_DE_EMBARAZO ✅PÍLDORA_DEL_DÍA_DESPUÉS ✅OVULOS ✅IBUPROFENO ✅OMEPRAZOL ✅OMEGA_3
 Tef: 7 832 8768 / 5 331 7003 
 
 El Diclofenac es una Analgesico, Antineuretico, Antineuralgico y Antirreumatico, que sive para padecimientos como Artritis, Reumatismo, Dolores Lumbargícos, Cervicales, branquiales, faciales, del trigemino intercostal, hepaticos, radiculitis, neuropatias alcohólicas y diabéticas, fibromiología, espndilitis, toceduras, esquinces, fracturas, etc.
@@ -86,12 +82,12 @@ VITAMINAS COMPLEJO B a 8 cuc x una caja de 100 tabletas.
 MULTIVITAMINAS Y MINERALES a 12 cuc x un pomo de 100 capsulas.
 TADALAFIL de 20 mg a 3 cuc x un blister de 4 pastilla, tambien conocido como Cialis o Pildora del fin de semana.
 MAMBO 36 (Tadalafil) de 20 mg a 1 cuc, por un sobre de una la pastilla, tambien conocido como Cialis o Pildora del fin de semana.
-V_I_A_G_R_A de 100 mg a 3 cuc x un blister de 8 pastilla.
+VIA_GRA de 100 mg a 3 cuc x un blister de 8 pastilla.
 PRUEBA DE EMBARAZO a 3 cuc x un Kit.
 ACIDO FOLICO, a 8 cuc, una caja de 100 pastillas de 5 mg.
 PÍLDORA DEL DÍA DESPUÉS a 5 cuc x pastilla.
 AZITROMICINA a 2 cuc x una cajita de 3 cápsulas de 500 mg.
-SULFAPRIL a 1.5 cuc x un bliter de 10 cápsulas de (80/400) mg.
+SULFAPRIM a 1.5 cuc x un bliter de 10 cápsulas de (80/400) mg.
 CIPROFLOXACINA a 1.5 cuc x un bliter de 10 pastilla de 500 mg.
 METRONIDAZOL a 1 cuc x un bliter de 10 pastilla de 500 mg.
 GLIBENCLAMIDA a 1 cuc x un bliter de 10 pastilla de 5 mg.
@@ -102,15 +98,15 @@ Teléfonos:
    Cel : 5 331 7003
    Fijo: 7 832 8768
 
-Diclofenac / Pepto-Bismol / Acido Folico / Tadalafil / Vitamina C / Vitamina E / Glucosamina / Azitromicina / Paracetamol / Via_gra / Inyectable / Bismuto / Sódico / Ranitidina / Potásico / {DiaStr}De{Mes} / Diclofenaco / Medicinas / Cervical / Medicamentos / {ID}{DiaSem} / Voltaren / Ibuprofeno / Chanca Piedra / Cialis / Mambo / Fin de Semana / Sodico / Omeprazol /
+Diclofenac / Pepto-Bismol / MediSonia / Acido Folico / Tadalafil / Vitamina C / Vitamina E / Glucosamina / Azitromicina / Paracetamol / Via_gra / Inyectable / Bismuto / Sódico / Ranitidina / Potásico / {DiaStr}De{Mes} / Diclofenaco / Medicinas / Cervical / Medicamentos / {ID}{DiaSem} / Voltaren / Ibuprofeno / Chanca Piedra / Cialis / Mambo / Fin de Semana / Sodico / Omeprazol /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 03Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••V_I_A_G_R_A y T_A_D_A_L_A_F_I_L por solo 3 CUC y MAMBO 36 por 1 CUC
+{H} ✅VI_A_GRA ✅TA_DA_LA_FIL_(x_solo_3_cuc) ✅MAMBO_36_(x_1_cuc) ✅TEST_DE_EMBARAZO ✅OVULOS ✅AZITROMICINA ✅METRONIDAZOL
 5,331,7003 \ 7,832,8768
 1 blíster de 8 por 3 cuc, son adquiridas en el extranjero
-cada via_gra tiene 100mg de Sidenafil Citrato, con lo que se logra la potencia y máxima duración.
+cada via_gra tiene 100mg de Side_nafil Citrato, con lo que se logra la potencia y máxima duración.
 
 Tambien tengo:
 Diclofenac Potásico + Vitamina B: 2.5 cuc x blister de 10, son tabletas de 100mg, Ademas contiene Vitamina B1, B2, B6 y B12, fecha de vencimiento en 2023
@@ -140,7 +136,7 @@ MultiVitaminas y Minerales a 12 cuc un pomo de 100 capsulas.
 Pepto-Bismol a 10 cuc un frasco de 236 ml.  (Para el estomago, Acidez, Indigestión, Diarreas, Malestar)
 Loperamida a 2 cuc un blister de 10 cápsulas de 2 mg.      (Para las diarreas agudas o cronicas)
 Azitromicina a 2 cuc una cajita de 3 tabletas de 500 mg.
-Sulfapril a 1.5 cuc un bliter de 10 cápsulas de (80/400) mg.
+Sulfaprim a 1.5 cuc un bliter de 10 cápsulas de (80/400) mg.
 Ciprofloxacina a 1.5 cuc un bliter de 10 pastilla de 500 mg.
 Metronidazol a 1 cuc un bliter de 10 pastilla de 500 mg.
 Glibenclamida a 1 cuc un bliter de 10 pastilla de 5 mg.
@@ -151,10 +147,10 @@ Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega
 Teléfono Cel : 5 331 7003
 Teléfono Fijo: 7 832 8768
 
-Key Words: Diclofenac Sódico / Ranitidina / Glucosamina / Diclofenaco Potásico / Acido Folico / Pepto-Bismol / Ibuprofeno / Estomago / Paracetamol / Azitromicina / Medicamentos / Medicinas / Vitamina E / Inyectable / {ID}{DiaSem} / Via_gra / {DiaStr}De{Mes} / Voltaren / Chanca Piedra / Cicatricure / Tadalafil / Cialis / Mambo / Fin de Semana / Bismuto / Sodico / Vitamina C / Omeprazol /
+Key Words: Diclofenac Sódico / Ranitidina / Glucosamina / Diclofenaco Potásico / Acido Folico / MediSonia / Pepto-Bismol / Ibuprofeno / Estomago / Paracetamol / Azitromicina / Medicamentos / Medicinas / Vitamina E / Inyectable / {ID}{DiaSem} / Via_gra / {DiaStr}De{Mes} / Voltaren / Chanca Piedra / Cicatricure / Tadalafil / Cialis / Mambo / Fin de Semana / Bismuto / Sodico / Vitamina C / Omeprazol /
 
 // Anuncio-Txt = 04Lavad --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Piezas de Lavadora, Timer, Busing, Correas, Sello, Botones, Tapon+muelle
+{H} Piezas_de_Lavadora ✅Timer ✅Busing ✅Correas ✅Sello ✅Botones ✅Tapon+muelle ✅Bomba_de_Drenaje ✅Mangueras ☎7_832_8768
 : 7 832 8768/5 331 7003
 
 Piezas de lavadoras Semi-Automaticas:
@@ -174,23 +170,26 @@ Piezas de lavadoras Semi-Automaticas:
 .7 cuc...(Timer de secado) ----------------------- Son de 3 cables
 .8 cuc...(Transmisión (Busing) para LG ----------- Es la pieza que una el poledor con las paletas de lavado
 .8 cuc...(Transmisión (Busing) K500 para Daewoo -- Es la pieza que una el poledor con las paletas de lavado
+25 cuc...(Bomba de Drenaje, sin cuerpo platico) -- Es la bomba que saca el agua en las lavadoras automaticas
+30 cuc...(Bomba de Drenaje, completa) ------------ Es la bomba que saca el agua en las lavadoras automaticas
+20 cuc...(Reductor) ------------------------------ Es transmisión con el poleador de algunas lavadoras semi-automaticas
+
 
 Puede pedir la pieza que usted necesita y si la encontramos en menos de 1 mes la puede tener.
  
-{ID}{DiaSem} / Lavadoras / Manguera de Salida / {DiaStr}De{Mes} / MyLavPiezas / Acordeon / Botones / Correa / Sello / Tapón / Timer / Busing / Tansmisión / 
+{ID}{DiaSem} / Lavadoras / MediSonia / Manguera de Salida / {DiaStr}De{Mes} / MyLavPiezas / Acordeon / Botones / Correa / Sello / Tapón / Timer / Busing / Tansmisión / 
 
 Todas las piezas son nuevas, traidas del extranjero.
 
-
 // Anuncio-Txt = 05Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}•••••OVULOS, IBUPROFENO, DICLOFENAC, OMEGA 3, PÍLDORA DEL DÍA DESPUÉS ...
-5 331 7003 ó 7 832 8768
+{H} ✅OVULOS ✅IBUPROFENO ✅DICLOFENAC ✅OMEGA_3 ✅AZITROMICINA ✅OMEPRAZOL ✅PÍLDORA_DEL_DÍA_DESPUÉS ✅METRONIDAZOL ☎5_331_7003
+ó 7 832 8768
 
 Además tengo:
 -Ranitidina, para el estomago - 1 cuc.
 -Omeprazol, para el estomago - 1 cuc.
 -Omega 639, suplemento nutracional - 12 cuc
--Loscovagil, ovulos varginales - 4 cuc
+-Loscovagil, ovulos - 4 cuc
 -Chanca Piedra, a 12 cuc un pomo de 60 capsulas de 500 mg, sirve para eliminar calculos renales, biliares y sustancias nocivas en el higado.
 -Diclofenac, para los dolores ...
 .....Sodico con vitam. B1,B6,B12 - 2 cuc.
@@ -206,7 +205,7 @@ Además tengo:
 -Vitamina E de 1000 UI, suplemento nutricional, 15 cuc x caja de 100 Capsulas blandas.
 -Vitamina C de 500 mg, suplemento nutricional, 1 cuc x blister de 10 tabletas.
 -Azitromicina de 500 mg, antibiotico en 3 dosis - 2 cuc.
--Sulfapril de (80/400)mg, antibiotico - 1.5 cuc.
+-Sulfaprim de (80/400)mg, antibiotico - 1.5 cuc.
 -Ciprofloxacina de 500mg, antibiotico - 1.5 cuc.
 -Metronidazol de 500mg, antibiotico - 1 cuc.
 -Glibenclamida de 5 mg, para los diabeticos - 1 cuc.
@@ -223,11 +222,11 @@ Además tengo:
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
-Azitromicina / Vitamina E / Diclofenac / Acido Folico / Vitamina C / Sódico / Medicamentos / Chanca Piedra / Pepto-Bismol / Paracetamol / Medicinas / Fin de Semana / Bismuto / Diclofenaco / {DiaStr}De{Mes} / Dolores / Potásico / Inyectable / Pastillas / {ID}{DiaSem} / Mambo / Ibuprofeno / Voltaren / Sodico / Tadalafil / Glucosamina / Cialis / Via_gra / Omeprazol /
+Azitromicina / Vitamina E / Diclofenac / Acido Folico / Vitamina C / Sódico / Medicamentos / Chanca Piedra / Pepto-Bismol / Paracetamol / Medicinas / Fin de Semana / Bismuto / Diclofenaco / {DiaStr}De{Mes} / Dolores / Potásico / Inyectable / MediSonia / Pastillas / {ID}{DiaSem} / Mambo / Ibuprofeno / Voltaren / Sodico / Tadalafil / Glucosamina / Cialis / Via_gra / Omeprazol /
 
 // Anuncio-Txt = 06Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC Potásico+Complejo B + OVULOS + CIPROFLOXACINA + IBUPROFENO ..
-: 7 832 8768 / 5 331 7003
+{H} ✅DICLOFENAC(Potásico|Sodico|Vitm_B) ✅OVULOS ✅AZITROMICINA ✅IBUPROFENO ✅RANITIDINA ✅OMEGA_3 ✅METRONIDAZOL ☎7_832_8768
+☎5_331_7003
  
 Diclofenac: (Para los dolores)
 .... Sódico + Vitamina B, 2 cuc x blister de 10, son tabletas de 100mg, Ademas contiene Vitamina B1, B6 y B12, fecha de vencimiento en 2020
@@ -247,7 +246,7 @@ Ibuprofeno: (Para los dolores)
 .... 1.5 cuc el blister de 10 capsulas de 800 mg.
 Glucosamina: (Para la Artritiss)
 .... 18 cuc x un frasco de Glucosamina con Chondrotina 1500 mg.
-Lascovagil: (Para infeciones varginales)
+Lascovagil: (Para infeciones de las muejeres)
 .... 4 cuc x un blister de 10 Ovulos de Metronidazol + Nistatina.
 Vitamina E: (Suplemento Nutricional)
 .... 15 cuc x por una caja de 100 capsulas blandas de 1000 UI.
@@ -261,7 +260,7 @@ MultiVitaminas y Minerales: ( Suplemento nutricional)
 .... 12 cuc x un pomo de 100 capsulas.  
 Azitromicina: (Antibiotico en tabletas)
 .... 2 cuc x una cajita de 3 cápsulas de 500 mg.
-Sulfapril: (Antibiotico en tabletas)
+Sulfaprim: (Antibiotico en tabletas)
 .... 1.5 cuc x un bliter de 10 cápsulas de (80/400) mg.
 Ciprofloxacina: (Antibiotico en tabletas)
 .... 1.5 cuc x un bliter de 10 pastilla de 500 mg.
@@ -269,10 +268,10 @@ Metronidazol: (Antibiotico en tabletas)
 .... 1 cuc x un bliter de 10 pastilla de 500 mg.
 Glibenclamida: (Para los diabeticos)
 .... 1 cuc x un bliter de 10 pastilla de 5 mg.
-Tadalafil: (Para la disfunción eréctil) (tambien conocido como Cialis, Mambo o Pildora del fin de semana) 
+Tadalafil: (Para los hombres) (tambien conocido como Cialis, Mambo o Pildora del fin de semana) 
 .... 3 cuc x un blister de 4 pastillas de Tadalafil de 20 mg.  (Igual a Cialis, Mambo, fin de semana)
 .... 3 cuc x un sobre de 1 pastilla de Mambo 36 (Tadalafil).   (Tambien conocido como Cialis o Pildora del fin de semana)
-Via_gra: (Para de disfunción eréctil)  
+Via_gra: (Para los hombres)  
 .... 3 cuc x un blister de 8 pastillas de Via_gra de 100 mg.
 Embarazo: 
 .... 3 cuc x un kit de Prueba de Embarazo.
@@ -286,15 +285,15 @@ Pepto-Bismol: (Problemas estomacales, Acidez, Indigestion, Malestar, Diarrea)
  
 Glucosamina Chondroitina, es un generador de cartilogos, para mejorar los dolores de artritis, juega un papel importante en la formación de tendones y ligamentos, regenerando Manos, Pies, Rodillas, Espalda, Cuellos, Caderas, Tobillos.
 
-Diclofenac / Azitromicina / Bismuto / Sódico / Tadalafil / Vitamina C / Pepto-Bismol / Medicamentos / Via_gra / Voltaren / Acido Folico / Paracetamol / Vitamina E / Medicinas / Pastillas / Artritis / Reumatismo / Fin de Semana / Mambo / Diclofenaco / Ibuprofeno / Ranitidina / {DiaStr}De{Mes} / Potásico / Cialis / Estomago / Dolores / {ID}{DiaSem} / Chanca Piedra / 
+Diclofenac / Azitromicina / Bismuto / Sódico / Tadalafil / Vitamina C / Pepto-Bismol / Medicamentos / Via_gra / Voltaren / Acido Folico / Paracetamol / Vitamina E / Medicinas / Pastillas / Artritis / Reumatismo / MediSonia / Fin de Semana / Mambo / Diclofenaco / Ibuprofeno / Ranitidina / {DiaStr}De{Mes} / Potásico / Cialis / Estomago / Dolores / {ID}{DiaSem} / Chanca Piedra / 
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
 // Anuncio-Txt = 07Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Medicamentos:V_I_A_G_R_A, Diclofenac, Ovulos, Píldora del día después
-tel: 5,331,7003 \ 7,832,8768, 8 viagr_as por 3 cuc, son originales compradas en el extranjero.
-Son de máxima duración y potencia. Cada via_gra contiene 100mg de Citrato de Sidenafil, 
+{H} Medicamentos: ✅VI_A_GRA ✅DICLOFENAC ✅OVULOS ✅PÍLDORA_DEL_DÍA_DESPUÉS ✅TADALAFIL ✅CIALIS ✅AZITROMICINA ✅METRONIDAZOL
+tel: 5,331,7003 \ 7,832,8768, 8 via_gras por 3 cuc, son originales compradas en el extranjero.
+Son de máxima duración y potencia. Cada via_gra contiene 100mg de Citrato de Side_nafil, 
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
@@ -307,7 +306,7 @@ Vitamina C a 1 cuc x blister de 10 tabletas de 500 mg.
 Vitaminas complejo B a 8 cuc una caja de 100 tabletas.
 MultiVitaminas y Minerales a 12 cuc un pomo de 100 capsulas.
 Azitromicina a 2 cuc una cajita de 3 tabletas de 500 mg.
-Sulfapril a 1.5 cuc un bliter de 10 cápsulas de (80/400) mg.
+Sulfaprim a 1.5 cuc un bliter de 10 cápsulas de (80/400) mg.
 Ciprofloxacina a 1.5 cuc un bliter de 10 pastilla de 500 mg.
 Metronidazol a 1 cuc un bliter de 10 pastilla de 500 mg.
 Glibenclamida a 1 cuc un bliter de 10 pastilla de 5 mg.
@@ -336,13 +335,17 @@ Teléfonos:
    Cel : 5 331 7003
    Fijo: 7 832 8768
    
-Key Words: Diclofenac Sódico / Bismuto / Ranitidina / Diclofenaco Potásico / Estomago / Azitromicina / Medicamentos / Ibuprofeno / Paracetamol / Pepto-Bismol / Medicinas / Vitamina E /  Inyectable / {ID}{DiaSem} / Via_gra / {DiaStr}De{Mes} / Voltaren / Acido Folico / Chanca Piedra / Cicatricure / Tadalafil / Cialis / Mambo / Fin de Semana / Sodico / Vitamina C / Glucosamina / Omeprazol /
+Key Words: Diclofenac Sódico / Bismuto / Ranitidina / Diclofenaco Potásico / Estomago / Azitromicina / Medicamentos / Ibuprofeno / Paracetamol / Pepto-Bismol / Medicinas / Vitamina E /  Inyectable / {ID}{DiaSem} / Via_gra / {DiaStr}De{Mes} / Voltaren / Acido Folico / Chanca Piedra / Cicatricure / Tadalafil / MediSonia / Cialis / Mambo / Fin de Semana / Sodico / Vitamina C / Glucosamina / Omeprazol /
 
 // Anuncio-Txt = 08Lavad --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Para Lavadora: Busing, Timer, Sello, Manguera, Correa, Tef: 7 832 8768
- / 5 331 7003 
+{H} Para_Lavadora: ✅Bomba_de_Drenaje ✅Transmisión(Busing) ✅Timer ✅Reductor ✅Sello ✅Mangueras ✅Correas ☎7_832_8768
+
+☎5_331_7003 ☎7_832_8768
 
 Listado de piezas:
+Bomba de Drenaje a 25 cuc (Sin cuerpo platico) ............ (Bomba que saca el agua en las lavadoras automaticas)
+Bomba de Drenaje a 30 cuc (Completa) ...................... (Bomba que saca el agua en las lavadoras automaticas)
+Reductor a 20 cuc ......................................... (Transmisión con el poleador de algunas lavadoras semi-automaticas)
 Timer de lavado a 8 cuc ................................... (de 6 cables, se adapta a todas las lavadoras)
 Timer de secado a 7 cuc ................................... (de 3 cables)
 Transmisión (Busing) de LG a 8 cuc ........................ (Une las paletas de lavado con el poleador)
@@ -366,12 +369,12 @@ Teléfonos:
 
 Si necesita otra pieza puede pedirla y trataremos de buscarla, si la encontramos en menos de 1 mes la puede tener.
    
-Acordeon / Timer / Lavadoras / {DiaStr}De{Mes} / Tapón / Botones / Tansmisión / Correa / {ID}{DiaSem} / MyLavPiezas / Manguera de Salida / Sello / Busing / 
+Acordeon / Timer / Lavadoras / {DiaStr}De{Mes} / Tapón / Botones / Tansmisión / Correa / {ID}{DiaSem} / MyLavPiezas / MediSonia / Manguera de Salida / Sello / Busing / 
 
 Todos los piezas son nuevas.
 
 // Anuncio-Txt = 09Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC, IBUPROFENO, OVULOS, GLUCOSAMINA+CHONDROTINA, OMEGA y más ...
+{H} ✅DICLOFENAC ✅IBUPROFENO ✅OVULOS ✅OMEGA_3 ✅METRONIDAZOL ✅AZITROMICINA ✅GLIBENCLAMIDA ✅PEPTO-BISMOL ☎7_832_8768
 5,331,7003 / 7,832,8768
 
 Para otros tipos de dolores tengo:
@@ -389,7 +392,7 @@ Para problemas estomacales tengo:
 .... Ranitidina a 1 cuc x capsulas de 300 mg. 
 .... Pepto-Bismol de 525 mg a 10 cuc el frasco de 236 ml.
 
-Para infeciones varginales tengo:
+Para infeciones de las muejeres tengo:
 .... Lascovagil a 4 cuc x 10 ovulos con Metornidazol + Nistatina. 
 
 Para tratamiento de la Artritis:
@@ -406,7 +409,7 @@ Para la salud en general (Colesterol, triglicedidos, etc.):
 .... Vitamina C a 1 cuc, blister de 10 tabletas.
 .... Acido Folico a 8 cuc una caja de 100 pastillas.
  
-Para la disfunción eréctil:
+Para los hombres:
 .... Tadalafil de 20 mg a 3 cuc blister de 4 pastilla (tambien conocido como Cialis o Pildora del fin de semana).
 .... Via_gra de 100 mg a 3 cuc blister de 8 pastillas.
 .... Mambo 36 de 20 mg, a 1 cuc sobre de una pastilla, tambien conocido como Cialis o Pildora del fin de semana.
@@ -420,7 +423,7 @@ Para la dierrea:
  
 Para las infecciones: (Antibiotico)
 .... Azitromicina de 500 mg a 2 cuc una cajita de 3 pastillas.
-.... Sulfapril de (80/400)mg a 1.5 cuc un bliter de 10 cápsulas.
+.... Sulfaprim de (80/400)mg a 1.5 cuc un bliter de 10 cápsulas.
 .... Ciprofloxacina de 500 mg a 1.5 cuc un bliter de 10 pastilla.
 .... Metronidazol de 500 mg a 1 cuc un bliter de 10 pastilla.
 
@@ -433,13 +436,13 @@ Las Friciones de Mentol, son un ungüento efectivo contra los dolores e inflamac
 
 Envase cellado, comprado en el extranjero y contiene 150 ml. 
 
-Medicinas / Via_gra / Chanca Piedra / Acido Folico /Bismuto /  Diclofenac / Sódico / Vitamina C / Azitromicina / Diclofenaco / Glucosamina / Paracetamol / Medicamentos / Vitamina E / Potásico / Inyectable / {DiaStr}De{Mes} / Ranitidina / {ID}{DiaSem} / Ibuprofeno / Glucosamina / Pepto-Bismol / Voltaren / Cialis / Tadalafil / Mambo / Fin de Semana / Potasico / Sodico / Omeprazol /
+Medicinas / Via_gra / Chanca Piedra / Acido Folico /Bismuto /  Diclofenac / Sódico / Vitamina C / Azitromicina / Diclofenaco / Glucosamina / Paracetamol / Medicamentos / Vitamina E / Potásico / Inyectable / {DiaStr}De{Mes} / Ranitidina / {ID}{DiaSem} / Ibuprofeno / MediSonia / Glucosamina / Pepto-Bismol / Voltaren / Cialis / Tadalafil / Mambo / Fin de Semana / Potasico / Sodico / Omeprazol /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales, Fecha de vencimiento Agosto del 2020
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
 // Anuncio-Txt = 10Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Vendo: OVULOS,RANITIDINA,DICLOFENAC,IBUPROFENO,PÍLDORA DEL DÍA DESPUÉS ..
+{H}Vendo: ✅OVULOS ✅RANITIDINA ✅DICLOFENAC ✅IBUPROFENO ✅PÍLDORA_DEL_DÍA_DESPUÉS ✅RANITIDINA ✅OMEPRAZOL ✅TERMOMETRO_DIGITAL
 7-832-8768 / 5-331-7003 
 
 El Diclofenac es una Analgesico, Antineuretico, Antineuralgico y Antirreumatico, que sive para padecimientos como Artritis, Reumatismo, Dolores Lumbargícos, Cervicales, branquiales, faciales, del trigemino intercostal, hepaticos, radiculitis, neuropatias alcohólicas y diabéticas, fibromiología, espondilitis, toceduras, esquinces, fracturas, etc.
@@ -480,7 +483,7 @@ Loperamida a 2 cuc un blister de 10 cápsulas de 2 mg.      (Antidiarreico de ac
 Pepto-Bismol a 10 cuc el frasco de 236 ml.
  
 Azitromicina de 500 mg a 2 cuc una cajita de 3 tabletas.
-Sulfapril de (80/400) mg a 1.5 cuc un bliter de 10 cápsulas.
+Sulfaprim de (80/400) mg a 1.5 cuc un bliter de 10 cápsulas.
 Ciprofloxacina de 500 mg a 1.5 cuc un bliter de 10 pastilla.
 Metronidazol de 500 mg a 1 cuc un bliter de 10 pastilla.
 Glibenclamida de 5 mg a 1 cuc un bliter de 10 pastilla.
@@ -491,11 +494,10 @@ Todos los medicamentos son traidos del extranjero y estan en sus envases origina
 Teléfono Cel : 5 331 7003 
 Teléfono Fijo: 7 832 8768
 
-Diclofenac Sódico / Ranitidina / Glucosamina / Acido Folico / Diclofenaco Potásico / Azitromicina / Via_gra / Vitamina C / Estomago / Cialis / Paracetamol / Medicamentos / Medicinas / Tadalafil / Pepto-Bismol / Ibuprofeno / Vitamina E / Inyectable / {ID}{DiaSem} / {DiaStr}De{Mes} / Voltaren / Chanca Piedra / Fin de Semana / Sodico / Omeprazol / Mambo / 
+Diclofenac Sódico / MediSonia / Ranitidina / Glucosamina / Acido Folico / Diclofenaco Potásico / Azitromicina / Via_gra / Vitamina C / Estomago / Cialis / Paracetamol / Medicamentos / Medicinas / Tadalafil / Pepto-Bismol / Ibuprofeno / Vitamina E / Inyectable / {ID}{DiaSem} / {DiaStr}De{Mes} / Voltaren / Chanca Piedra / Fin de Semana / Sodico / Omeprazol / Mambo / 
 
 // Anuncio-Txt = 11Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••V_I_A_G_R_A.y.T_A_D_A_L_A_F_I_L.compradas.en.el.extranjero, 7•832•8768
- ó 5,331,7003, una tirilla por 3 cuc, fecha de vencimiento 2021.
+{H} ✅V_I_A_G_R_A ✅T_A_D_A_L_A_F_I_L.compradas.en.el.extranjero ☎7_832_8768 ☎5_331_7003, por solo 3 cuc ✅TEST_DE_EMBARAZO
 
 El S_i_l_d_e_n_a_f_i_l (más conocido como V_I_A_G_R_A) es de 100 mg, es un estimulante sexual para lograr más fortaleza y duración de la erección, para disfrutar de las relaciones con tu pareja con más potencia, más poder y más placer. Se toma 1 hora aproximadamente antes de tener relaciones.
 
@@ -521,7 +523,7 @@ Tambien vendo:
 1.5 cuc x 10 pastillas de Ibuprofeno 800 mg.
 18. cuc x 1 pomo de Glucosamina + Chondrotina 1500 mg el frasco de 60 capsulas.
 2.. cuc x 1 cajita de Azitromicina de 500 mg.
-1.5 cuc x 1 blister de 10 pastillas de Sulfapril de (80/400) mg.
+1.5 cuc x 1 blister de 10 pastillas de Sulfaprim de (80/400) mg.
 1.5 cuc x 1 bliter de Ciprofloxacina de 500 mg con 10 pastilla.
 1.. cuc x 1 bliter de Metronidazol de 500 mg con 10 pastilla.
 1.. cuc x 1 bliter de 10 pastilla de Glibenclamida de 5 mg.
@@ -536,10 +538,10 @@ Teléfono Fijo: 7 832 8768
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Key Words: Diclofenac / Sódico / Bismuto / Tadalafil / Voltaren / Ibuprofeno / Azitromicina / {DiaStr}De{Mes} / Medicamentos / Paracetamol / Ranitidina / Cicatricure / Pepto-Bismol / Diclofenaco / Via_gra / Potásico / Medicinas / Vitamina E / {ID}{DiaSem}  / Chanca Piedra / Cialis / Mambo / Glucosamina / Vitamina C / Sodico / Acido Folico / Fin de Semana / Omeprazol /
+Key Words: Diclofenac / Sódico / Bismuto / Tadalafil / Voltaren / Ibuprofeno / Azitromicina / {DiaStr}De{Mes} / Medicamentos / Paracetamol / Ranitidina / Cicatricure / Pepto-Bismol / Diclofenaco / Via_gra / Potásico / Medicinas / Vitamina E / {ID}{DiaSem}  / Chanca Piedra / Cialis / Mambo / Glucosamina / Vitamina C / Sodico / MediSonia / Acido Folico / Fin de Semana / Omeprazol /
 
 // Anuncio-Txt = 12Lavad --------------------------------------------------------------------------------------------------------------------------------
-{H}•••••Vendo piezas de lavadora (Correa, Timer, Busing, Manguera, Sello, Tapon)
+{H} Vendo piezas de lavadora ✅Correa ✅Timer ✅Reductor ✅Bomba_de_Drenaje ✅Busing ✅Manguera ✅Sello ✅Tapon ☎7_832_8768
 5 331 7003 ó 7 832 8768
 
 Litado de las piezas que tengo:
@@ -554,20 +556,23 @@ Manguera de drenaje (corta) .......................... 13 cuc
 Manguera de entrada de aqua .......................... 15 cuc
 Tapon con muelle de lavadora ......................... 4 cuc
 Sellos de lavadora ................................... 6 cuc
+Bomba de Drenaje (Sin Cuerpo Plastico) ............... 25 cuc
+Bomba de Drenaje (Completa) .......................... 30 cuc
+Reductor ............................................. 20 cuc 
 Timer de lavado de Lavadora .......................... 8 cuc
 Timer de secado de Lavadora .......................... 7 cuc
 Botones de Lavadora .................................. 30 cup
 Transmisión (Busing) de lavadora LG .................. 8 cuc
 Transmisión (Busing) K500 de lavadora Daewoo ......... 8 cuc
-
+ 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
 Todos las piezas son traidas del extranjero y son nuevas.
 
-Timer / Sello / MyLavPiezas / Tapón / Acordeon / Busing / {DiaStr}De{Mes} / Botones / Manguera de Salida / Tansmisión / Lavadoras / Correa / {ID}{DiaSem} / 
+Timer / MediSonia / Sello / MyLavPiezas / Tapón / Acordeon / Busing / {DiaStr}De{Mes} / Botones / Manguera de Salida / Tansmisión / Lavadoras / Correa / {ID}{DiaSem} / 
 
 // Anuncio-Txt = 13Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC(Tabletas,Inyecciones,Gel), OMEGA 3, OVULOS, CIPROFLOXACINA ...
+{H} ✅DICLOFENAC(Tabletas,Inyecciones,Gel) ✅OMEGA_3 ✅IBUPROFENO ✅METRONIDAZOL ✅AZITROMICINA ✅TERMOMETRO_DIGITAL ✅OMEPRAZOL
 telf: 5.331.7003 ó 7.832.8768, 4 cuc el pomo de 150 ml
 
 Es un ungüento efectivo contra los dolores e inflamaciones localizadas, Además es microrelajante, Actua contra Dolores musculares, Artritis, Dolores en la espalda, Golpes, Toceduas, Bronquitis, Dolor de garganta, Dolor de cabeza, Reumatismo, Picaduras de insertos, etc.
@@ -595,7 +600,7 @@ Tambien vendo:
 3.. cuc, x 8 pastillas de Via_gra de 100 mg.
 1.. cuc, x 1 pastilla de Mambo 36 (Tadalafil) de 20 mg.
 2.. cuc, x 1 cajita de Azitromicina de 500 mg.
-1.5 cuc, x 1 bliter de 10 pastillas Sulfapril de (80/400) mg.
+1.5 cuc, x 1 bliter de 10 pastillas Sulfaprim de (80/400) mg.
 1.5 cuc, x 1 bliter de 10 pastillas Ciprofloxacina de 500 mg.
 1.. cuc, x 1 bliter de 10 pastillas Metronidazol de 500 mg.
 1.. cuc, x 1 bliter de 10 pastillas Glibenclamida de 5 mg.
@@ -610,12 +615,12 @@ Tambien vendo:
 Teléfono Cel : 5 331 7003
 Teléfono Fijo: 7 832 8768
 
-Diclofenac / Vitamina E / Chanca Piedra / Inyectable / Omega / Sódico / Glucosamina / Vitamina C / Bismuto / Medicamentos / Azitromicina / Medicinas / Acido Folico / Paracetamol / Omeprazol / Pastillas / Ranitidina / Ibuprofeno / Diclofenaco / {DiaStr}De{Mes} / {ID}{DiaSem} / Via_gra / Tadalafil / Potásico / Voltaren / Mambo / Pepto-Bismol / Fin de Semana / Cialis / Sodico /
+Diclofenac / Vitamina E / Chanca Piedra / Inyectable / Omega / Sódico / Glucosamina / Vitamina C / Bismuto / Medicamentos / Azitromicina / Medicinas / Acido Folico / Paracetamol / Omeprazol / Pastillas / Ranitidina / Ibuprofeno / Diclofenaco / {DiaStr}De{Mes} / {ID}{DiaSem} / Via_gra / Tadalafil / Potásico / Voltaren / MediSonia / Mambo / Pepto-Bismol / Fin de Semana / Cialis / Sodico /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 14Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC, OVULOS VARGIALES, TEST DE EMBARAZO, PÍLDORA DEL DÍA DESPUÉS
+{H} ✅DICLOFENAC ✅OVULOS ✅TEST_DE_EMBARAZO ✅PÍLDORA_DEL_DÍA_DESPUÉS ✅IBUPROFENO ✅AZITROMICINA ✅ACEITE_DE_HIGADO_DE_BACALAO
 7.832 8768 / 5.331 7003
 
 Las Tabletas son de 100mg, fecha de vencimiento Agosto del 2020
@@ -626,7 +631,7 @@ EL OMEPRAZOL es a 1 cuc o 2 cuc y sive para problemas estomacales.
 LA RANITIDINA es a 1 cuc y sive para problemas estomacales.
 LA CHANCA PIEDRA, es a 12 cuc un pomo de 60 capsulas de 500 mg, sirve para eliminar calculos renales, biliares y sustancias nocivas en el higado.
 
-LASCOVAGIL, es a 4 cuc el bister 10 ovulos, es para las infecciones varginales y contiene Metronidazol y Nistatina.
+LASCOVAGIL, es a 4 cuc el bister 10 ovulos, es para las infecciones que contiene Metronidazol y Nistatina.
 
 EL DICLOFENAC, Potasico de 100mg con Vitamina B1, B2, B6 y B12 es a 2.5 cuc.
 EL DICLOFENAC, Sodico de 100mg con Vitamina B1, B6 y B12 es a 2 cuc.
@@ -647,7 +652,7 @@ EL ACIDO FOLICO es a 8 cuc, una caja de 100 pastillas de 5 mg.
 
 EL TADALAFIL, es a 3 cuc el blister de 4 pastilla (tambien conocido como Cialis, Mambo 36 o Pildora del fin de semana).
 EL MAMBO 36, es a 1 cuc la pastilla (Equivalente a Tadalafil)
-LA V_I_A_G_R_A, es a 3 cuc el blister de 8 pastillas.
+LA VIA_GRA, es a 3 cuc el blister de 8 pastillas.
 
 LA PRUEBA DE EMBARAZO, es a 3 cuc el Kit
 LA PÍLDORA DEL DÍA DESPUÉS, es a 5 cuc cada pastilla.
@@ -656,7 +661,7 @@ LA LOPERAMIDA, es a 2 cuc un blister de 10 cápsulas de 2 mg. (Es un Antidiarrei
 EL PEPTO-BISMOL, es a 10 cuc, un frasco de 236 ml. (Para problemas estomacales Acidez, Indigestion, Malestar, Diarrea)
 
 LA AZITROMICINA es a 2 cuc una cajita de 3 cápsulas de 500 mg.
-EL SULFAPRIL es a 1.5 cuc un bliter de 10 pastillas de (80/400) mg.
+EL SULFAPRIM es a 1.5 cuc un bliter de 10 pastillas de (80/400) mg.
 LA CIPROFLOXACINA es a 1.5 cuc un bliter de 10 pastillas de 500 mg.
 EL METRONIDAZOL es a 1 cuc un bliter de 10 pastillas de 500 mg.
 LA GLIBENCLAMIDA es a 1 cuc un bliter de 10 pastillas de 5 mg.
@@ -664,13 +669,13 @@ LA GLIBENCLAMIDA es a 1 cuc un bliter de 10 pastillas de 5 mg.
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Diclofenac / Sódico / Voltaren / {DiaStr}De{Mes} / Medicamentos / Ranitidina / Diclofenaco / Potásico / Vitamina C / Azitromicina / Ibuprofeno / Bismuto / Medicinas / Acido Folico / Vitamina E / Paracetamol / {ID}{DiaSem}  / Chanca Piedra / Cialis / Mambo / Via_gra / Sodico / Fin de Semana / Tadalafil / Pepto-Bismol / Omeprazol /
+Diclofenac / Sódico / Voltaren / {DiaStr}De{Mes} / MediSonia / Medicamentos / Ranitidina / Diclofenaco / Potásico / Vitamina C / Azitromicina / Ibuprofeno / Bismuto / Medicinas / Acido Folico / Vitamina E / Paracetamol / {ID}{DiaSem}  / Chanca Piedra / Cialis / Mambo / Via_gra / Sodico / Fin de Semana / Tadalafil / Pepto-Bismol / Omeprazol /
 
 // Anuncio-Txt = 15Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Lo más barato de revolico, V_I_A_G_R_A, T_A_D_A_L_A_F_I_L y MAMBO 36 ...
+{H} Lo_más_barato_de_revolico: ✅VIA_GRA ✅TADALAFIL ✅MAMBO_36 ✅DICLOFENAC ✅IBUPROFENO ✅AZITROMICINA ✅METRONIDAZOL ✅OMEGA_3
  Cel : 5 331 7003, Fijo: 7 832 8768
 
-LA V_I_A_G_R_A es a 3 cuc x bister de 8 tambletas y sirve para la disfunción eréctil.
+LA VIA_GRA es a 3 cuc x bister de 8 tambletas.
 EL OMEPRAZOL es a 1 cuc o 2 cuc y sive para problemas estomacales.
 LA RANITIDINA es a 1 cuc y sive para problemas estomacales.
 LA VITAMINA E, es 15 cuc la caja, es un suplemanto nutricional que sirve para mejorar la salud en general.
@@ -690,7 +695,7 @@ EL DICLOFENAC, En Gel es a 4 cuc el tubo.
 EL DICLOFENAC, Inyectable es a 1 cuc el ampula de 75 mg.
 
 La AZITROMICINA es a 2 cuc la cajita de 3 tabletas de 500 mg.
-EL SULFAPRIL es a 1.5 cuc un bliter de 10 pastillas de (80/400) mg.
+EL SULFAPRIM es a 1.5 cuc un bliter de 10 pastillas de (80/400) mg.
 LA CIPROFLOXACINA es a 1.5 cuc un bliter de 10 pastillas de 500 mg.
 EL METRONIDAZOL es a 1 cuc un bliter de 10 pastillas de 500 mg.
 LA GLIBENCLAMIDA es a 1 cuc un bliter de 10 pastillas de 5 mg.
@@ -706,11 +711,11 @@ LA LOPERAMIDA es a 2 cuc, el blister de 10 cápsulas.       (Para las diarreas a
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Key Words: Pepto-Bismol / Diclofenac / Acido Folico / Estomago / Tadalafil / Azitromicina / {DiaStr}De{Mes} / Cicatricure / Omega / Sódico / Bismuto / Ibuprofeno / Paracetamol / Fin de Semana / Medicamentos / Potásico / Ranitidina / Medicinas / Inyectable / Diclofenaco / Glucosamina / Chanca Piedra / Via_gra / {ID}{DiaSem} / Vitamina C / Voltaren / Vitamina E / Cialis / Mambo /
+Key Words: Pepto-Bismol / Diclofenac / Acido Folico / Estomago / Tadalafil / Azitromicina / {DiaStr}De{Mes} / Cicatricure / Omega / Sódico / Bismuto / Ibuprofeno / Paracetamol / Fin de Semana / Medicamentos / Potásico / Ranitidina / Medicinas / Inyectable / Diclofenaco / Glucosamina / Chanca Piedra / Via_gra / {ID}{DiaSem} / Vitamina C / MediSonia / Voltaren / Vitamina E / Cialis / Mambo /
 
 // Anuncio-Txt = 16Lavad --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Piezas baratas para lavadora, Timer, Correa, Manguera, Tansmisión, Sello
-: 7 832 8768 / 5 331 7003 a 8, 5, 6, 7 y 6 cuc, respectivamente.
+{H} Piezas_baratas_para_lavadora ✅Bomba_de_agua ✅Timers ✅Correas ✅Mangueras ✅Tansmisión(busing) ✅Sellos ☎7_832_8768
+: ☎5_331_7003
  
 30 cup x 1 Botón de Lavadora
 6. cuc x 1 Manguera de Salida de Lavadora Semi-Automaticas
@@ -723,6 +728,9 @@ Key Words: Pepto-Bismol / Diclofenac / Acido Folico / Estomago / Tadalafil / Azi
 7. cuc x 1 Timer de secado de Lavadora
 8. cuc x 1 Transmisión (Busing) de lavadora LG
 8. cuc x 1 Transmisión (Busing) K500 de lavadora Daewoo
+20 cuc x 1 Reductor (Transmisión de algunas Lavadora Semi-Automaticas)
+25 cuc x 1 Bomba de Drenaje (Sin Cuerpo Plastico)
+30 cuc x 1 Bomba de Drenaje (Completa)
 5. cuc x 1 Correa de Lavadora A620
 5. cuc x 1 Correa de Lavadora A700
 5. cuc x 1 Correa de Lavadora A785
@@ -731,13 +739,13 @@ Key Words: Pepto-Bismol / Diclofenac / Acido Folico / Estomago / Tadalafil / Azi
 
 Si la pieza que necesita no esta en la lista, haganolo saber y nostros trataremos de buscarla.
 
-Busing / MyLavPiezas / Correa / {DiaStr}De{Mes} / Manguera de Salida / Timer / Sello / Tapón / Lavadoras / Botones / Acordeon / Tansmisión / {ID}{DiaSem} / 
+Busing / MyLavPiezas / Correa / {DiaStr}De{Mes} / Manguera de Salida / Timer / Sello / Tapón / Lavadoras / Botones / Acordeon / MediSonia / Tansmisión / {ID}{DiaSem} / 
 
 Todas las piezas son traidos del extranjero.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
 // Anuncio-Txt = 17Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC potasico+Vitam B, OVULOS, IBUPROFENO, OMEGA 3, CIPROFLOXACINA
+{H} ✅DICLOFENAC ✅IBUPROFENO ✅OMEGA_3 ✅AZITROMICINA ✅LASCOVAGIL ✅RANITIDINA ✅ACEITE_DE_HIGADO_DE_BACALAO ✅METRONIDAZOL
 5 331 7003 ó 7 832 8768
 
 Se usa para el tratamiento de dolore agudo y padecimientos infamatorios, de naturaleza reumatico y no reumetica
@@ -760,9 +768,9 @@ Otras medicinas:
 18..cuc, GLUCOSAMINA CHONDROITINA: Es un generador de cartilogos, para mejorar los dolores de artritis, juega un papel importante en la formación de tendones y ligamentos, regenerando Manos, Pies, Rodillas, Espalda, Cuellos, Caderas, Tobillos.
 1...cuc, MAMBO 36 20 mg a 1 cuc la pastilla (Similar al Tadalafil).
 3...cuc, TADALAFIL, blister de 4 pastillas de 20 mg (tambien conocido como Cialis o Pildora del fin de semana).
-3...cuc, V_I_A_G_R_A, blister de 8 pastillas de 100 mg.
+3...cuc, VIA_GRA, blister de 8 pastillas de 100 mg.
 2...cuc, AZITROMICINA, cajita de 3 tabletas de 500 mg.
-1.5 cuc, SULFAPRIL, bliter de 10 pastillas de (80/400) mg.
+1.5 cuc, SULFAPRIM, bliter de 10 pastillas de (80/400) mg.
 1.5 cuc, CIPROFLOXACINA, bliter de 10 pastillas de 500 mg.
 1.. cuc, METRONIDAZOL, bliter de 10 pastillas de 500 mg.
 1.. cuc, GLIBENCLAMIDA, bliter de 10 pastillas de 5 mg.
@@ -777,10 +785,10 @@ Otras medicinas:
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
-Diclofenac / Dolores / Sódico / Mambo / Medicamentos / Medicinas / Pastillas / Via_gra / Vitamina E / Vitamina C / Cialis / Azitromicina / Diclofenaco / Bismuto / Paracetamol / Ranitidina / Ibuprofeno / Inyectable / Omega / {DiaStr}De{Mes} / Artritis / Glucosamina / {ID}{DiaSem} / Tadalafil / Potásico / Voltaren / Chanca Piedra / Fin de Semana / Sodico / Acido Folico / Omeprazol / Pepto-Bismol / 
+Diclofenac / MediSonia / Dolores / Sódico / Mambo / Medicamentos / Medicinas / Pastillas / Via_gra / Vitamina E / Vitamina C / Cialis / Azitromicina / Diclofenaco / Bismuto / Paracetamol / Ranitidina / Ibuprofeno / Inyectable / Omega / {DiaStr}De{Mes} / Artritis / Glucosamina / {ID}{DiaSem} / Tadalafil / Potásico / Voltaren / Chanca Piedra / Fin de Semana / Sodico / Acido Folico / Omeprazol / Pepto-Bismol / 
 
 // Anuncio-Txt = 18Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••OVULOS, DICLOFENACO, LOPERAMIDA, IBUPROFENO, PÍLDORA DEL DÍA DESPUÉS ...
+{H} ✅OVULOS ✅DICLOFENACO ✅IBUPROFENO ✅PÍLDORA_DEL_DÍA_DESPUÉS ✅AZITROMICINA ✅METRONIDAZOL ✅OMEPRAZOL ✅RANITIDINA ✅OMEGA_3
 5 331 7003 ó 7 832 8768
 
 Formas de DICLOFENAC:
@@ -798,11 +806,11 @@ CHANCA PIEDRA ---------------(12 cuc), un pomo de 60 tabletas.
 OMEGA 369 -------------------(12 cuc), un pomo de 100 tabletas de 1200 mg.
 VITAMINA E ------------------(15 cuc), una caja de 100 capsulas blandas de 1000 UI.
 VITAMINA C ------------------(1. cuc), un blister de 10 tabletas de 500 mg.
-LASCOVAGIL ------------------(4. cuc), un blister de 10 ovulos varginales con Metronidazol y Nistatina.
+LASCOVAGIL ------------------(4. cuc), un blister de 10 ovulos con Metronidazol y Nistatina.
 IBUPROFENO 600 mg -----------(1. cuc ), un blister de 10 tabletas.
 IBUPROFENO 800 mg -----------(1.5 cuc), un blister de 10 tabletas.
 TADALAFIL de 20 mg ----------(3. cuc), un blister de 4 pastillas (tambien conocido como Cialis, Mambo 36 o Pildora del fin de semana).
-V_I_A_G_R_A de 100 mg ------------(3. cuc), un blister de 8 pastillas.
+VIA_GRA de 100 mg -----------(3. cuc), un blister de 8 pastillas.
 MAMBO 36 DE 20 MG -----------(1. cuc),(un sobre de 1 pastilla (igual al Tadalafil).
 PRUEBA DE EMBARAZO ----------(3. cuc), el Kit
 PÍLDORA DEL DÍA DESPUÉS -----(5. cuc), cada pastilla.
@@ -810,7 +818,7 @@ VITAMINAS COMPLEJO B --------(8. cuc), una caja de 100 tabletas.
 ACIDO FOLICO 5mg ------------(8. cuc), una caja de 100 pastillas.
 MULTIVITAMINAS Y MINERALES --(12 cuc), un pomo de 100 capsulas.
 AZITROMICINA ----------------(2. cuc), cajita de 3 tabletas de 500 mg.
-SULFAPRIL -------------------(1.5 cuc), un bliter de 10 pastillas de (80/400) mg.
+SULFAPRIM -------------------(1.5 cuc), un bliter de 10 pastillas de (80/400) mg.
 CIPROFLOXACINA --------------(1.5 cuc), un bliter de 10 pastillas de 500 mg.
 METRONIDAZOL ----------------(1 cuc), un bliter de 10 pastillas de 500 mg.
 GLIBENCLAMIDA ----------------(1 cuc), un bliter de 10 pastillas de 5 mg.
@@ -821,12 +829,12 @@ Glucosamina Chondroitina: Es un generador de cartilogos, para mejorar los dolore
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Pepto-Bismol / Diclofenac / Sódico / Glucosamina / Voltaren / Vitamina E / Medicamentos / Cialis / Via_gra / {DiaStr}De{Mes} / Medicinas / Vitamina C / Pastillas / Ibuprofeno / Azitromicina / Bismuto / Inyectable / Paracetamol / Ranitidina / Omega / Diclofenaco / Tadalafil / Potásico / {ID}{DiaSem} / Acido Folico / Mambo / Fin de Semana / Sodico / Omeprazol / Chanca Piedra /
+Pepto-Bismol / Diclofenac / Sódico / Glucosamina / Voltaren / Vitamina E / Medicamentos / Cialis / Via_gra / {DiaStr}De{Mes} / Medicinas / Vitamina C / Pastillas / Ibuprofeno / Azitromicina / Bismuto / Inyectable / Paracetamol / Ranitidina / Omega / Diclofenaco / Tadalafil / Potásico / {ID}{DiaSem} / Acido Folico / Mambo / Fin de Semana / Sodico / Omeprazol / MediSonia / Chanca Piedra /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 19Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Pastillas azul y Amarilas para los hombres llama al 5•331•7003\7•832•8768 
+{H} Pastillas_azul_y_Amarila_para_los_hombres ☎7_832_8768 ☎5_331_7003 + ✅AZITROMICINA ✅METRONIDAZOL ✅OMEGA_3 ✅OMEPRAZOL
 por solo 3 cuc x blister.
 
 Además: 
@@ -856,7 +864,7 @@ __8 cuc (Vitaminas complejo B)
 __8 cuc (Acido Folico 5mg) una caja de 100 pastillas.
 _12 cuc (MultiVitaminas y Minerales)
 __2 cuc (Azitromicina de 500 mg)
-1.5 cuc (Sulfapril de (80/400) mg)
+1.5 cuc (Sulfaprim de (80/400) mg)
 1.5 cuc (Ciprofloxacina de 500 mg)
 __1 cuc (Metronidazol de 500 mg)
 __1 cuc (Glibenclamida de 5 mg)
@@ -868,10 +876,10 @@ La CHANCA PIEDRA, es para eliminar calculos renales, biliares y sustancias nociv
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
-Key Words: Diclofenac / Sódico / Pepto-Bismol / Ibuprofeno / Azitromicina / Medicamentos / Via_gra / Chanca Piedra / Medicinas / Fin de Semana / Diclofenaco / Paracetamol / Cialis / {DiaStr}De{Mes} / Dolores / Bismuto / Potásico / Acido Folico / Inyectable / Pastillas / Glucosamina / Vitamina E / {ID}{DiaSem} / Voltaren / Vitamina C / Cicatricure / Tadalafil / Mambo / Sodico / Omeprazol /
+Key Words: Diclofenac / Sódico / Pepto-Bismol / Ibuprofeno / Azitromicina / Medicamentos / Via_gra / Chanca Piedra / Medicinas / Fin de Semana / Diclofenaco / Paracetamol / Cialis / {DiaStr}De{Mes} / Dolores / Bismuto / Potásico / Acido Folico / Inyectable / Pastillas / Glucosamina / Vitamina E / {ID}{DiaSem} / Voltaren / Vitamina C / Cicatricure / MediSonia / Tadalafil / Mambo / Sodico / Omeprazol /
 
 // Anuncio-Txt = 20Lavad --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Vendo: Manguera|Sello|Tapón|Timer|Busing|Correa|Botón..., para lavadoras
+{H}Vendo_piezas_de_Lavadoras: ✅Manguera ✅Sello ✅Tapón ✅Timer ✅Busing ✅Correa ✅Bomba_de_drenaje ✅Reductor ☎7_832_8768
 5,331,7003 / 7,832,8768
 
 1 Botón de Lavadora x 30 cup
@@ -888,18 +896,22 @@ Key Words: Diclofenac / Sódico / Pepto-Bismol / Ibuprofeno / Azitromicina / Med
 1 Tapón con muelle de lavadora x 4 cuc .......... (Entrada/Salida de agua de lavado)
 1 Timer de lavado de Lavadora x 8 cuc ........... (Botón de mado para la parte de lavado)
 1 Timer de secado de Lavadora x 7 cuc ........... (Botón de mado para la parte de secado)
+1 Bomba de Drenaje (Sin Cuerpo Plastico) x 25 cuc (Saca el agua del tanque de lavado)
+1 Bomba de Drenaje (Completa) x 30 cuc .......... (Saca el agua del tanque de lavado)
+1 Reductor x 20 cuc ............................. (Transmisión de algunas Lavadora Semi-Automaticas)
 1 Busing de lavadora LG x 8 cuc ................. (Union entre el poleador y las paletas de lavado)
 1 Busing K500 de lavadora Daewoo x 8 cuc ........ (Union entre el poleador y las paletas de lavado)
 
+
 Si necesita otra pieza puede pedirla y trataremos de buscarla, si la encontramos en menos de 1 mes la puede tener.
 
-Manguera de Salida / Timer / Lavadoras / Correa / Sello / Tapón / Botones / {ID}{DiaSem} / Tansmisión / MyLavPiezas / Busing / Acordeon / {DiaStr}De{Mes} / 
+Manguera de Salida / Timer / MediSonia / Lavadoras / Correa / Sello / Tapón / Botones / {ID}{DiaSem} / Tansmisión / MyLavPiezas / Busing / Acordeon / {DiaStr}De{Mes} / 
 
 Todas las piezas son nuevas.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
 // Anuncio-Txt = 21Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••TEST DE EMBARAZO, IBUPROFENO, OVULOS, DICLOFENAC, OMEGA 3, CIPROFLOXACINA
+{H} ✅TEST_DE_EMBARAZO ✅IBUPROFENO ✅OVULOS ✅DICLOFENA C✅OMEGA_3 ✅AZITROMICINA ✅METRONIDAZOL ✅ACEITE_DE_HIGADO_DE_BACALAO
 5,331,7003 / 7,832,8768, a 6 cuc el pomo de 150ml
 
 Diclofenac con mentol, es un ungüento efectivo contra los dolores e inflamaciones localizadas, devido a la eficiencia de sus componetes activos, como el DICLOFENAC. Además es microrelajante devido a que contiene ACEITE DE EUCALIPTO y ESENCIA DE PINO. Actua contra Dolores musculares, Artritis, Dolores en la espalda, Golpes, Toceduas, Bronquitis, Dolor de garganta, Dolor de cabeza, Reumatismo, Picaduras de insertos, etc.
@@ -918,17 +930,17 @@ Otras medicinas:
 .12 cuc, OMEGA 369 un pomo de 100 tabletas de 1200 mg.
 ..1 cuc, VITAMINA C un blister de 10 tabletas de 500 mg.
 .15 cuc, VITAMINA E una caja de 100 capsulas blandas de 1000 UI.
-..4 cuc, LASCOVAGIL 10 ovulos varginales que contienen Metornidazol y Nistatina.
+..4 cuc, LASCOVAGIL 10 ovulos de Metornidazol y Nistatina.
 ..1 cuc, IBUPROFENO 600 mg, un blister de 10 tabletas.
 1.5 cuc, IBUPROFENO 800 mg, un blister de 10 tabletas.
 .18 cuc, GLUCOSAMINA CHONDROITINA, frasco de 60 tabletas, Es un generador de cartilogos, para mejorar los dolores de artritis, juega un papel importante en la formación de tendones y ligamentos, regenerando Manos, Pies, Rodillas, Espalda, Cuellos, Caderas, Tobillos.
 ..3 cuc, TADALAFIL de 20 mg, un blister de 4 pastilla (tambien conocido como Cialis, Mambo 36 o Pildora del fin de semana).
 ..1 cuc, MAMBO 36 (Tadalafil) de 20 mg, un sobre de una pastilla.
-..3 cuc, V_I_A_G_R_A de 100 mg, un blister de 8 pastilla.
+..3 cuc, VIA_GRA de 100 mg, un blister de 8 pastilla.
 ..3 cuc, PRUEBA DE EMBARAZO, un kit.
 ..5 cuc, PÍLDORA DEL DÍA DESPUÉS, una pastilla.
 ..2 cuc, AZITROMICINA, una cajita de 3 tabletas de 500 mg.
-1.5 cuc, SULFAPRIL, un bliter de 10 cápsulas de (80/400) mg.
+1.5 cuc, SULFAPRIM, un bliter de 10 cápsulas de (80/400) mg.
 1.5 cuc, CIPROFLOXACINA, un bliter de 10 pastilla de 500 mg.
 ..1 cuc, METRONIDAZOL, un bliter de 10 pastilla de 500 mg.
 ..1 cuc, GLIBENCLAMIDA, un bliter de 10 pastilla de 5 mg.
@@ -938,12 +950,12 @@ Otras medicinas:
 .10 cuc, PEPTO-BISMOL, frasco de 236 ml. (Diarrea, Acidez, Malestar, Indigestion)
 ..2 cuc, LOPERAMIDA, un blister de 10 cápsulas de 2 mg. (Antidiarreico de acción prolongada y efecto rápido)
 
-Diclofenaco / Voltaren / {DiaStr}De{Mes} / Pepto-Bismol / Inyectable / Glucosamina / Medicamentos / Diclofenac / Via_gra / Sódico / Medicinas / Ranitidina / Vitamina C / Ibuprofeno / Azitromicina / Pastillas / Cialis / Paracetamol / Potásico / Bismuto / {ID}{DiaSem} / Vitamina E / Estomago / Acido Folico / Tadalafil / Mambo / Chanca Piedra / Fin de Semana / Sodico / Omeprazol /
+Diclofenaco / Voltaren / {DiaStr}De{Mes} / Pepto-Bismol / Inyectable / Glucosamina / Medicamentos / Diclofenac / Via_gra / Sódico / Medicinas / Ranitidina / Vitamina C / Ibuprofeno / Azitromicina / Pastillas / Cialis / Paracetamol / Potásico / Bismuto / {ID}{DiaSem} / Vitamina E / Estomago / Acido Folico / Tadalafil / Mambo / Chanca Piedra / MediSonia / Fin de Semana / Sodico / Omeprazol /
 
 Envase sellado, comprado en el extranjero y contiene 150 ml. 
 
 // Anuncio-Txt = 22Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••OVULOS, IBUPROFENO, DICLOFENAC(Sodico|Potasico), PÍLDORA DEL DÍA DESPUÉS
+{H} ✅OVULOS ✅IBUPROFENO ✅DICLOFENAC(Crema|Gel|Inyectable|Sodico|Potasico) ✅PÍLDORA_DEL_DÍA_DESPUÉS ✅OMEGA_3 ✅AZITROMICINA
 telf: 5.331.7003 ó 7.832.8768, Diclofenac Sódico por via oral, en pastillas de 100mg
 
 El Diclofenac es una Analgesico, Antineuretico, Antineuralgico y Antirreumatico, que sive para padecimientos como Artritis, Reumatismo, Dolores Lumbargícos, Cervicales, branquiales, faciales, del trigemino intercostal, hepaticos, radiculitis, neuropatias alcohólicas y diabéticas, fibromiología, espndilitis, toceduras, esquinces, fracturas, etc.
@@ -966,10 +978,10 @@ LASCOVAGIL: ---------------------- 4 cuc. (10 tabletas) (Ovulos de Metornidazol 
 IBUPROFENO 600 mg: --------------- 1 cuc. (10 tabletas)
 IBUPROFENO 800 mg: --------------- 1 cuc. (10 tabletas)
 TADALAFIL de 20 mg: -------------- 3 cuc. (4 tabletas)    (tambien conocido como Cialis, Mambo 36 o Pildora del fin de semana)
-V_I_A_G_R_A de 20 mg: ------------ 3 cuc. (8 tabletas)
+VIA_GRA de 20 mg: ---------------- 3 cuc. (8 tabletas)
 MAMBO 36 de 20 mg: --------------- 1 cuc. (1 tabletas)    (Igual al Tadalafil)
 AZITROMICINA de 500 mg ----------- 2 cuc. (3 tabletas)
-SULFAPRIL de (80/400) mg ------- 1.5 cuc. (10 tabletas) 
+SULFAPRIM de (80/400) mg ------- 1.5 cuc. (10 tabletas) 
 CIPROFLOXACINA de 500 mg ------- 1.5 cuc. (10 tabletas)
 METRONIDAZOL de 500 mg ----------- 1 cuc. (10 tabletas)
 GLIBENCLAMIDA de 5 mg ------------- 1 cuc. (10 tabletas)
@@ -991,15 +1003,15 @@ Todos los medicamentos son traidos del extranjero y estan en sus envases origina
 Teléfono Cel : 5 331 7003
 Teléfono Fijo: 7 832 8768
 
-Pastillas / Cialis / Glucosamina / Diclofenac / Diclofenaco / Sódico / Vitamina E / Medicamentos / Fin de Semana / Via_gra / Medicinas / Ibuprofeno / Mambo / Vitamina C / Pepto-Bismol / Inyectable / Azitromicina / {DiaStr}De{Mes} / Paracetamol / Bismuto / Estomago / Ranitidina / Tadalafil / Potásico / Acido Folico / {ID}{DiaSem} / Voltaren / Chanca Piedra / Sodico / Omeprazol /
+Pastillas / Cialis / Glucosamina / Diclofenac / Diclofenaco / Sódico / Vitamina E / Medicamentos / Fin de Semana / Via_gra / Medicinas / Ibuprofeno / Mambo / Vitamina C / Pepto-Bismol / Inyectable / Azitromicina / {DiaStr}De{Mes} / Paracetamol / Bismuto / Estomago / Ranitidina / Tadalafil / Potásico / Acido Folico / {ID}{DiaSem} / Voltaren / Chanca Piedra / MediSonia / Sodico / Omeprazol /
 
 // Anuncio-Txt = 23Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••V*I*A*G*R*A: máx.duración, máx.potencia y máx.placer, 8 por solo 3 cuc
+{H} ✅V*I*A*G*R*A:8_x_3_cuc ⭐Máx.Duración⭐Máx.Potencia⭐Máx.Placer ✅PILDORA_DEL_DIA_DESPUÉS ✅OVULOS_DE_LASCOVAGIL ✅OMEGA_3
 5•331•7003 \ 7•832•8768, blister de 8 pastillas.
  
 Además tengo:
--Mambo 36 (Tadalafil), Para disfunción erétil, 1 cuc la pastilla.
--Tadalafil, Para disfunción erétil, a 3 cuc blister de 4 pastilla.
+-Mambo 36 (Tadalafil), Para los hombres, 1 cuc la pastilla.
+-Tadalafil, Para los hombres, a 3 cuc blister de 4 pastilla.
 -Ranitidina, para el estomago - 1 cuc.
 -Omeprazol, para el estomago - 1 cuc.
 -Omega 639, suplemento nutracional - 12 cuc
@@ -1022,7 +1034,7 @@ Además tengo:
 .... Ibuprofeno 800 mg - 1.5 cuc.
 -Frinciones de Mentol, para los dolores 4 cuc.
 -Azitromicina de 500 mg, es una antibiotico para las infecciones - 2 cuc.
--Sulfapril de (80/400) mg a 1.5 cuc un bliter de 10 tabletas.
+-Sulfaprim de (80/400) mg a 1.5 cuc un bliter de 10 tabletas.
 -Ciprofloxacina de 500 mg a 1.5 cuc un bliter de 10 tabletas.
 -Metronidazol de 500 mg a 1 cuc un bliter de 10 tabletas.
 -Glibenclamida de 5 mg a 1 cuc un bliter de 10 tabletas.
@@ -1035,10 +1047,10 @@ Además tengo:
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Key Words: Diclofenac / Azitromicina / Sódico / Pepto-Bismol / Vitamina E / Medicamentos / Voltaren / Medicinas / Pastillas / Ibuprofeno / Artritis / Reumatismo / Acido Folico / Paracetamol / Fin de Semana / Diclofenaco / Glucosamina / Ranitidina / {DiaStr}De{Mes} / Potásico / Bismuto / Estomago / Dolores / Via_gra / Vitamina C / {ID}{DiaSem} / Chanca Piedra / Tadalafil / Cialis / Cicatricure / Mambo / 
+Key Words: Diclofenac / Azitromicina / Sódico / Pepto-Bismol / Vitamina E / Medicamentos / Voltaren / Medicinas / Pastillas / Ibuprofeno / Artritis / Reumatismo / MediSonia / Acido Folico / Paracetamol / Fin de Semana / Diclofenaco / Glucosamina / Ranitidina / {DiaStr}De{Mes} / Potásico / Bismuto / Estomago / Dolores / Via_gra / Vitamina C / {ID}{DiaSem} / Chanca Piedra / Tadalafil / Cialis / Cicatricure / Mambo / 
 
 // Anuncio-Txt = 24Lavad --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Vendo Piezas de Lavadoras Semi-Automaticas, Timer, Correa, Manguera, etc. 
+{H} Respuestos_de_Lavadoras: ✅Timers ✅Correas ✅Mangueras ✅Trasmisiones ✅Bombas_de_Drenajes ☎7_832_8768 ☎5_331_7003
 7-832-8768 / 5-331-7003 
 
 .6 cuc Manguera de Salida de Lavadoras Semi-Automaticas               
@@ -1051,6 +1063,9 @@ Key Words: Diclofenac / Azitromicina / Sódico / Pepto-Bismol / Vitamina E / Med
 .7 cuc Timer de secado de Lavadora                           
 .8 cuc Transmisión (Busing) de lavadora LG         
 .8 cuc Transmisión (Busing) K500 de lavadora Daewoo
+20 Bomba de Drenaje (Sin Cuerpo Plastico) 
+25 Bomba de Drenaje (Completa)
+20 Reductor de Lavadora Semi-Automaticas)
 .5 cuc Correa de Lavadora A620                     
 .5 cuc Correa de Lavadora A700                     
 .5 cuc Correa de Lavadora A785                     
@@ -1066,10 +1081,10 @@ Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega
 Teléfono Cel : 5 331 7003 
 Teléfono Fijo: 7 832 8768
 
-Tapón / Botones / Tansmisión / Manguera de Salida / Timer / Busing / {DiaStr}De{Mes} / Lavadoras / Correa / Sello / MyLavPiezas / {ID}{DiaSem} / Acordeon / 
+Tapón / Botones / Tansmisión / Manguera de Salida / Timer / Busing / {DiaStr}De{Mes} / Lavadoras / Correa / Sello / MyLavPiezas / {ID}{DiaSem} / MediSonia / Acordeon / 
 
 // Anuncio-Txt = 25Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Vendo LOPERAMIDA, LASCOVAGIL, GLUCOSAMINA+CHONDROITINA, OMEGA 3, CIPROF.. 
+{H} Vendo ✅OVULOS_DE_LASCOVAGIL ✅OMEGA_3 ✅AZITROMICINA ✅RANITIDINA ✅METRONIDAZOL ✅TERMOMETRO_DIGITAL ✅PEPTO-BISMOL
 7-832-8768 / 5-331-7003
 
 CHANCA PIEDRA, 12 cuc x pomo con 60 capsulas de 500 mg.
@@ -1082,7 +1097,7 @@ VITAMINAS COMPLEJO B a 8 cuc x caja de 100 tabletas.
 VITAMINA C a 1 cuc, un blister de 10 tabletas de 500 mg.
 MULTIVITAMINAS Y MINERALES a 12 cuc x un pomo de 100 capsulas.
 AZITROMICINA a 2 cuc x cajita de 3 tabletas de 500 mg.
-SULFAPRIL a 1.5 cuc x bliter de 10 tabletas de (80/400) mg.
+SULFAPRIM a 1.5 cuc x bliter de 10 tabletas de (80/400) mg.
 CIPROFLOXACINA a 1.5 cuc x bliter de 10 tabletas de 500 mg.
 METRONIDAZOL a 1 cuc x bliter de 10 tabletas de 500 mg.
 GLIBENCLAMIDA a 1 cuc x bliter de 10 tabletas de 5 mg.
@@ -1097,7 +1112,7 @@ DICLOFENACO:
 .... CON PARACETAMOL: 2 cuc x blister de 10, son tabletas de Diclofenac 50 mg + Paracetamol 500 mg 
 TADALAFIL 20 mg a 3 cuc blister de 4 pastilla, tambien conocido como Cialis o Pildora del fin de semana.
 MAMBO 36 (Tadalafil) a 1 cuc la pastilla, tambien conocido como Cialis o Pildora del fin de semana.
-V_I_A_G_R_A 100 mg a 3 cuc blister de 8 pastillas de 100mg.
+VIA_GRA 100 mg a 3 cuc blister de 8 pastillas de 100mg.
 PRUEBA DE EMBARAZO a 3 cuc el Kit
 PÍLDORA DEL DÍA DESPUÉS a 5 cuc cada pastilla.
 ACIDO FOLICO 5mg a 8 cuc, una caja de 100 pastillas.
@@ -1110,10 +1125,10 @@ Todos los medicamentos son traidos del extranjero y estan en sus envases origina
 Teléfono Cel : 5 331 7003 
 Teléfono Fijo: 7 832 8768
 
--> Diclofenac Sódico / Glucosamina / Ranitidina / Diclofenaco Potásico / Pepto-Bismol / Tadalafil / Cialis / Ibuprofeno / Estomago / Azitromicina / Medicamentos / Medicinas / Vitamina E / Inyectable / Mambo / Vitamina C / Bismuto / {ID}{DiaSem} / {DiaStr}De{Mes} / Voltaren / Paracetamol / Acido Folico / Chanca Piedra / Sodico / Via_gra / Omeprazol /
+-> Diclofenac Sódico / Glucosamina / Ranitidina / Diclofenaco Potásico / Pepto-Bismol / Tadalafil / Cialis / Ibuprofeno / Estomago / Azitromicina / Medicamentos / Medicinas / Vitamina E / Inyectable / Mambo / Vitamina C / MediSonia / Bismuto / {ID}{DiaSem} / {DiaStr}De{Mes} / Voltaren / Paracetamol / Acido Folico / Chanca Piedra / Sodico / Via_gra / Omeprazol /
 
 // Anuncio-Txt = 26Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••TEST DE EMBARAZO, DICLOFENAC, OVULOS, LOPERAMIDA, PÍLDORA DEL DÍA DESPUÉS
+{H} ✅TEST_DE_EMBARAZO ✅DICLOFENAC ✅OVULOS ✅PÍLDORA_DEL_DÍA_DESPUÉS ✅OMEPRAZOL ✅RANITIDINA ✅AZITROMICINA ✅IBUPROFENO 
 Tef: 7 832 8768/5 331 7003
 
 OMEPRAZOL 10 encapsualdos de 20 mg por 1 CUC. 
@@ -1130,18 +1145,18 @@ DICLOFENAC EN GEL 1 tubo de 25 g por 4 CUC (para dolores e inflamaciones localiz
 DICLOFENAC POTASICO con Vitamina: 1 blister con 10 tabletas de 100 mg por 2.5 CUC.
 DICLOFENAC SÓDICO con Vitamina: 1 blister con 10 tabletas de 100 mg por 2 CUC.
 DICLOFENAC con PARACETAMOL: 1 blister con 10 tabletas de 50/500 mg por 2 CUC.
-LASCOVAGIL, bister con 10 ovulos por 4 cuc, es para las infecciones varginales y contiene Metronidazol y Nistatina.
+LASCOVAGIL, bister con 10 ovulos por 4 cuc, es para las infecciones y contiene Metronidazol y Nistatina.
 IBUPROFENO 600 mg, 1 blister de 10 capsulas por 1 CUC.
 IBUPROFENO 800 mg, 1 blister de 10 capsulas por 1.50 CUC.
 AZITROMICINA, cajita de 3 tabletas de 500 mg por 2 cuc.
-SULFAPRIL, bliter de 10 tabletas de (80/400) mg por 1.5 cuc.
+SULFAPRIM, bliter de 10 tabletas de (80/400) mg por 1.5 cuc.
 CIPROFLOXACINA, bliter de 10 tabletas de 500 mg por 1.5 cuc.
 METRONIDAZOL, bliter de 10 tabletas de 500 mg por 1 cuc.
 GLIBENCLAMIDA, bliter de 10 tabletas de 5 mg por 1 cuc.
 GLUCOSAMINA CHONDROITINA, frasco con 60 capsulas, por 18 cuc; Regenera coyunturas, ligamentos
 TADALAFIL, tambien conocido como Cialis o Pildora del fin de semana, blister de 4 pastillas por 3 cuc.
 MAMBO 36 (Tadalafil, tambien conocido como Cialis o Pildora del fin de semana) por 1 cuc el sobre de 1 pastilla.
-V_I_A_G_R_A, blister de 8 pastillas de 100 mg por 3 cuc.
+VIA_GRA, blister de 8 pastillas de 100 mg por 3 cuc.
 ACIDO FOLICO 5mg, una caja de 100 pastillas por 8 cuc.
 PÍLDORA DEL DÍA DESPUÉS a 5 cuc cada pastilla.
 PRUEBA DE EMBARAZO, un Kit por 3 cuc.
@@ -1155,12 +1170,12 @@ Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega
 Teléfono Cel : 5 331 7003
 Teléfono Fijo: 7 832 8768
 
--> Diclofenac / Inyectable / Sódico / Via_gra / Ranitidina / Glucosamina / Bismuto / Tadalafil / Ibuprofeno / Vitamina E / Cialis / Azitromicina / Potásico / {DiaStr}De{Mes} / Diclofenaco / Medicinas / Vitamina C / Cervical / Medicamentos / {ID}{DiaSem} / Paracetamol / Pepto-Bismol / Voltaren / Chanca Piedra / Mambo / Sodico / Omeprazol / Acido Folico / 
+-> Diclofenac / Inyectable / MediSonia / Sódico / Via_gra / Ranitidina / Glucosamina / Bismuto / Tadalafil / Ibuprofeno / Vitamina E / Cialis / Azitromicina / Potásico / {DiaStr}De{Mes} / Diclofenaco / Medicinas / Vitamina C / Cervical / Medicamentos / {ID}{DiaSem} / Paracetamol / Pepto-Bismol / Voltaren / Chanca Piedra / Mambo / Sodico / Omeprazol / Acido Folico / 
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 27Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••VIA_GRA|SILDENA_FIL llama ya que se acaban, Diclofenac, CIPROFLOXACINA ..
+{H} ✅VIA_GRA|SILDE_NAFIL llama que se acaban ✅DICLOFENAC ✅AZITROMICINA ✅OMEGA_3 ✅IBUPROFENO ✅PEPTO-BISMOL ✅METRONIDAZOL
 Tef.5,331,7003 \ 7,832,8768 a 3 cuc.
 
 Diclofenac: (Para los dolores)
@@ -1199,7 +1214,7 @@ Glucosamina: (Para la Artritiss)
 ... 18 cuc x un frasco de 60 capsulas de 1500 mg.
 Azitromicina: (Antibiotico para las infecciones por bacterias)
 ... 2 cuc x una cajita de 3 tabletas de 500 mg.
-Sulfapril: (Antibiotico para las infecciones)
+Sulfaprim: (Antibiotico para las infecciones)
 ... 1.5 cuc x un bliter de 10 tabletas de (80/400) mg.
 Ciprofloxacina: (Antibiotico para las infecciones)
 ... 1.5 cuc x un bliter de 10 tabletas de 500 mg.
@@ -1220,12 +1235,12 @@ Pepto-Bismol:(Para del estomago, Acidez, Malestar, Indigestión, Diarreas)
   
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 	
-Key Words: Azitromicina / Ibuprofeno / Diclofenac / Dolores / Sódico / Bismuto / Medicamentos / Medicinas / Pastillas / Vitamina E / Cialis / Diclofenaco / Ranitidina / Paracetamol / Inyectable / Omega / Glucosamina / {DiaStr}De{Mes} / Artritis / Cicatricure / {ID}{DiaSem} / Potásico / Via_gra / Vitamina C / Voltaren / Tadalafil / Mambo / Pepto-Bismol / Acido Folico / Chanca Piedra / Fin de Semana / Sodico / Omeprazol /
+Key Words: Azitromicina / Ibuprofeno / Diclofenac / Dolores / Sódico / Bismuto / Medicamentos / Medicinas / Pastillas / Vitamina E / Cialis / MediSonia / Diclofenaco / Ranitidina / Paracetamol / Inyectable / Omega / Glucosamina / {DiaStr}De{Mes} / Artritis / Cicatricure / {ID}{DiaSem} / Potásico / Via_gra / Vitamina C / Voltaren / Tadalafil / Mambo / Pepto-Bismol / Acido Folico / Chanca Piedra / Fin de Semana / Sodico / Omeprazol /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 28Lavad --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Piezas para reparar su Lavadora: Correa, Tapón, Sello, Timer, Manguera...
+{H} Piezas para Lavadoras: ✅Correa ✅Tapón ✅Sello ✅Timer ✅Manguera ✅Bomba_de_drenaje ✅Transmisión ☎7_832_8768 ☎5_331_7003
 telf: 5.331.7003 ó 7.832.8768
 
 Timer de lavado por 8 cuc
@@ -1244,18 +1259,21 @@ Sellos por 6 cuc
 Botones por 30 cup
 Transmisión (Busing) de LG por 8 cuc
 Transmisión (Busing) K500 de Daewoo por 8 cuc
+Bomba de Drenaje (Sin Cuerpo Plastico) por 25 cuc
+Bomba de Drenaje (Completa) por 30 cuc
+Reductor (Lavadoras Semi-Automaticas) por 20 cuc
 
 Puede encarga la pieza que necesite, si la podemos cosequir en menos de 1 mes le avisamos.
 
 Teléfono Cel : 5 331 7003
 Teléfono Fijo: 7 832 8768
 
-Tapón / Botones / Tansmisión / {DiaStr}De{Mes} / Busing / Acordeon / MyLavPiezas / Lavadoras / Correa / Sello / {ID}{DiaSem} / Timer / Manguera de Salida / 
+Tapón / Botones / Tansmisión / {DiaStr}De{Mes} / Busing / Acordeon / MyLavPiezas / Lavadoras / Correa / Sello / {ID}{DiaSem} / MediSonia / Timer / Manguera de Salida / 
 
 Todas las piezas son compradas en el exterior y estan sin estrenar.
 
 // Anuncio-Txt = 29Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Medicinas: DICLOFENAC POTASICO, OMEGA 3, PÍLDORA DEL DÍA DESPUÉS, OVULOS
+{H} Medicinas: ✅DICLOFENAC(Potasico|Sodico|Vitam._B) ✅OMEGA_3 ✅PÍLDORA_DEL_DÍA_DESPUÉS ✅OVULOS ✅IBUPROFENO ✅AZITROMICINA
 telf: 5.331.7003 ó 7.832.8768, 20 cuc el pomo de 60 capsulas de 1500 mg
 
 Envase cellado, comprado en el extranjero y contiene 150 ml. 
@@ -1274,7 +1292,7 @@ Otras medicinas:
 1.. cuc, IBUPROFENO 600 mg el blister de 10 capsulas.
 1.5 cuc, IBUPROFENO 800 mg el blister de 10 capsulas.
 2.. cuc, AZITROMICINA de 500 mg, una cajita de 3 tabletas.
-1.5 cuc, SULFAPRIL de (80/400) mg, un bliter de 10 tabletas.
+1.5 cuc, SULFAPRIM de (80/400) mg, un bliter de 10 tabletas.
 1.5 cuc, CIPROFLOXACINA de 500 mg, un bliter de 10 tabletas.
 1.. cuc, METRONIDAZOL de 500 mg, un bliter de 10 tabletas.
 1.. cuc, GLIBENCLAMIDA de 5 mg, un bliter de 10 tabletas.
@@ -1285,7 +1303,7 @@ Otras medicinas:
 12. cuc, CHANCA PIEDRA, pomo con 60 capsulas de 500 mg, para eliminar calculos renales y biliares.
 3.. cuc, TADALAFIL, blister de 4 pastilla (tambien conocido como Cialis o Pildora del fin de semana).
 1.. cuc, MAMBO 36 (Tadalafil), sobre de una pastilla, tambien conocido como Cialis o Pildora del fin de semana.
-3.. cuc, V_I_A_G_R_A, blister de 8 pastilla de 100 mg.
+3.. cuc, VIA_GRA, blister de 8 pastilla de 100 mg.
 18. cuc, GLUCOSAMINA & CHONDROITINA, frasco con 60 capsulas de 1500 mg.
 3.. cuc, PRUEBA DE EMBARAZO, un Kit.
 5.. cuc, PÍLDORA DEL DÍA DESPUÉS, una pastilla.
@@ -1297,12 +1315,12 @@ Otras medicinas:
 Teléfono Cel : 5 331 7003
 Teléfono Fijo: 7 832 8768
 
--> Diclofenac / Vitamina E / Pepto-Bismol / Chanca Piedra / Inyectable / Omega / Tadalafil / Bismuto / Sódico / Ibuprofeno / Glucosamina / Via_gra / Medicamentos / Medicinas / Azitromicina / Cialis / Omeprazol / Mambo / Vitamina C / Pastillas / Ranitidina / Diclofenaco / Paracetamol / {DiaStr}De{Mes} / {ID}{DiaSem} / Acido Folico / Potásico / Voltaren / Sodico /
+-> Diclofenac / Vitamina E / Pepto-Bismol / Chanca Piedra / Inyectable / Omega / Tadalafil / Bismuto / Sódico / Ibuprofeno / Glucosamina / Via_gra / Medicamentos / Medicinas / Azitromicina / Cialis / Omeprazol / MediSonia / Mambo / Vitamina C / Pastillas / Ranitidina / Diclofenaco / Paracetamol / {DiaStr}De{Mes} / {ID}{DiaSem} / Acido Folico / Potásico / Voltaren / Sodico /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 30Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••LASCOVAGIL (Metronidazol + Nistatina) ovulos varginales 10 x 4 cuc
+{H} ✅LASCOVAGIL(Metronidazol+Nistatina) ovulos 10x4 cuc ✅AZITROMICINA ✅OMEGA_3 ✅METRONIDAZOL ✅TERMOMETRO_DIGITAL
 Telef: 5 331 7003 ó 7 832 8768, a 4 cuc x 10 ovulos
 
 Todos:
@@ -1329,7 +1347,7 @@ Todos:
 ..8 cuc, Acido Folico, la caja de 100 pastillas 5 mg.
 ..8 cuc, Vitaminas complejo B, una caja de 100 tabletas.
 ..2 cuc, Azitromicina, una cajita de 3 tabletas de 500 mg.
-1.5 cuc, Sulfapril, un bliter de 10 tabletas de (80/400) mg.
+1.5 cuc, Sulfaprim, un bliter de 10 tabletas de (80/400) mg.
 1.5 cuc, Ciprofloxacina, un bliter de 10 tabletas de 500 mg.
 ..1 cuc, Metronidazol, un bliter de 10 tabletas de 500 mg.
 ..1 cuc, Glibenclamida, un bliter de 10 tabletas de 5 mg.
@@ -1342,11 +1360,11 @@ Glucosamina Chondroitina: Es un generador de cartilogos, para mejorar los dolore
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
--> Diclofenac / Sódico / Medicamentos / Chanca Piedra / Medicinas / Fin de Semana / Diclofenaco / Ibuprofeno / Glucosamina / Bismuto / Tadalafil / Via_gra / Acido Folico / {DiaStr}De{Mes} / Azitromicina / Dolores / Pepto-Bismol / Cialis / Potásico / Inyectable / Vitamina C / Mambo / Pastillas / Vitamina E / Paracetamol / {ID}{DiaSem} / Voltaren / Sodico / Omeprazol /
+-> Diclofenac / Sódico / Medicamentos / Chanca Piedra / Medicinas / Fin de Semana / Diclofenaco / Ibuprofeno / Glucosamina / Bismuto / Tadalafil / Via_gra / Acido Folico / {DiaStr}De{Mes} / Azitromicina / Dolores / Pepto-Bismol / Cialis / Potásico / Inyectable / Vitamina C / Mambo / Pastillas / Vitamina E / Paracetamol / {ID}{DiaSem} / Voltaren / Sodico / MediSonia / Omeprazol /
 
 // Anuncio-Txt = 31Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Vendo: T_A_D_A_L_A_F_I_L, V_I_A_G_R_A, PÍLDORA DEL DÍA DESPUÉS, OMEGA 3
-Tel: 5.331.7003 ó 7.332.8768, 2 cuc la tiera de 825
+{H} Vendo: ✅T_A_D_A_L_A_F_I_L ✅V_I_A_G_R_A ✅PÍLDORA_DEL_DÍA_DESPUÉS ✅OMEGA_3 ✅TEST_DE_EMBARAZO ✅AZITROMICINA ✅RANITIDINA
+Tel: 5.331.7003 ó 7.332.8768
 
 2.. cuc, Diclofenac Sódico + Vitam. B, 10 pastillas de 100mg, Ademas contiene Vitamina B1, B6 y B12.
 2.5 cuc, Diclofenac Potasico + Vitam. B, 10 pastillas de 100mg, Ademas contiene Vitamina B1, B2, B6 y B12.
@@ -1375,7 +1393,7 @@ Tel: 5.331.7003 ó 7.332.8768, 2 cuc la tiera de 825
 10. cuc, Pepto-Bismol el pomo de 236 ml  (Para el estomago, Acidez, Diarreas, Malestar, Indigestión)
 2.. cuc, Loperamida 2mg, un blister de 10 cápsulas.       (Antidiarreico de acción prolongada y efecto rápido)
 2.. cuc, Azitromicina 500 mg, cajita de 3 tabletas.
-1.5 cuc, Sulfapril, un bliter de 10 tabletas de (80/400) mg.
+1.5 cuc, Sulfaprim, un bliter de 10 tabletas de (80/400) mg.
 1.5 cuc, Ciprofloxacina un bliter de 10 tabletas de 500 mg.
 1.. cuc, Metronidazol un bliter de 10 tabletas de 500 mg.
 1.. cuc, Glibenclamida un bliter de 10 tabletas de 5 mg.
@@ -1384,10 +1402,10 @@ Tel: 5.331.7003 ó 7.332.8768, 2 cuc la tiera de 825
 Todos estan en sus envases originales y vencen en el 2020 o posterior
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Key Words: Diclofenac / Azitromicina / Sódico / Voltaren / Acido Folico / Vitamina E / Tadalafil / Medicamentos / Cialis / {DiaStr}De{Mes} / Ibuprofeno / Medicinas / Pastillas / Pepto-Bismol / Glucosamina / Paracetamol / Inyectable / Ranitidina / Bismuto / Omega / Diclofenaco / Potásico / Vitamina C / {ID}{DiaSem} / Cicatricure / Mambo / Fin de Semana / Sodico / Via_gra / Omeprazol / Chanca Piedra /
+Key Words: Diclofenac / Azitromicina / Sódico / Voltaren / Acido Folico / Vitamina E / Tadalafil / Medicamentos / Cialis / {DiaStr}De{Mes} / Ibuprofeno / Medicinas / Pastillas / Pepto-Bismol / Glucosamina / Paracetamol / Inyectable / Ranitidina / Bismuto / Omega / Diclofenaco / Potásico / Vitamina C / {ID}{DiaSem} / Cicatricure / Mambo / Fin de Semana / Sodico / Via_gra / Omeprazol / MediSonia / Chanca Piedra /
 
 // Anuncio-Txt = 32Lavad --------------------------------------------------------------------------------------------------------------------------------
-{H}••••(Correa | Timer | Manguera | Tapón | Sello | Botón, etc.) de Lavadora
+{H} (✅Correa ✅Timer ✅Manguera ✅Bomba_de_Agua ✅Transmisión ✅Reductor ✅Tapón ✅Sello ✅Botón, etc.) de Lavadoras ☎7_832_8768
 7.832 8768 / 5.331 7003
 
 .5 cuc por una Correa A620                     
@@ -1404,16 +1422,19 @@ Key Words: Diclofenac / Azitromicina / Sódico / Voltaren / Acido Folico / Vitam
 .8 cuc por un Timer de lavado
 .7 cuc por un Timer de secado
 30 cup por un Botón
+25 cuc por Bomba de Drenaje (Sin Cuerpo Plastico)
+30 cuc por Bomba de Drenaje (Completa)
+20 cuc por Reductor (Lavadoras Semi-Automaticas)
 .7 cuc por una Transmisión de LG         
 .7 cuc por una Transmisión K500 de Daewoo
 
 Si necesita otra pieza puede pedirla y trataremos de consequirla. 
 Todas las piezas estan nuevas sin extrenar.
 
-Sello / {ID}{DiaSem} / Acordeon / Timer / Tapón / Botones / Lavadoras / Correa / Manguera de Salida / Tansmisión / {DiaStr}De{Mes} / Busing / MyLavPiezas / 
+Sello / {ID}{DiaSem} / MediSonia / Acordeon / Timer / Tapón / Botones / Lavadoras / Correa / Manguera de Salida / Tansmisión / {DiaStr}De{Mes} / Busing / MyLavPiezas / 
 
 // Anuncio-Txt = 33Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••IBUPROFENO, RANITIDINA, OVULOS, TEST DE EMBARAZO, CIPROFLOXACINA, OMEGA 3
+{H} ✅IBUPROFENO ✅RANITIDINA ✅OVULOS ✅TEST_DE_EMBARAZO ✅OMEGA_3 ✅PEPTO-BISMOL ✅AZITROMICINA ✅METRONIDAZOL ✅DICLOFENAC
 : 7 832 8768/5 331 7003
  
 Listado: 
@@ -1429,7 +1450,7 @@ Diclofenac en Gel, a 4 cuc, tubo de 25g.
 Diclofenac Inyectable, a 1 cuc el bulbo.
 Lascovagil, ovulos de metronidazol+nistatina a 4 cuc blister con 10 ovulos. 
 Azitromicina, a 2 cuc unc cajita de 3 tabletas de 500 mg.
-Sulfapril, a 1.5 cuc un bliter de 10 tabletas de (80/400) mg.
+Sulfaprim, a 1.5 cuc un bliter de 10 tabletas de (80/400) mg.
 Ciprofloxacina, a 1.5 cuc un bliter de 10 tabletas de 500 mg.
 Metronidazol, a 1 cuc un bliter de 10 tabletas de 500 mg.
 Glibenclamida, a 1 cuc un bliter de 10 tabletas de 5 mg.
@@ -1449,13 +1470,13 @@ MultiVitaminas y Minerales, a 12 cuc un pomo de 100 capsulas.
 Pepto-Bismol, a 10 cuc x frasco de 236 ml.
 Loperamida, a 2 cuc un blister de 10 cápsulas de 2 mg.  (Antidiarreico de acción prolongada y efecto rápido)
 
--> Diclofenac / Sódico / Vitamina E / Medicamentos / Voltaren / Medicinas / Ibuprofeno / Pastillas / Artritis / Reumatismo / Fin de Semana / Pepto-Bismol / Diclofenaco / Azitromicina / Ranitidina / Glucosamina / {DiaStr}De{Mes} / Cialis / Acido Folico / Vitamina C / Potásico / Estomago / Dolores / {ID}{DiaSem} / Bismuto / Paracetamol / Via_gra / Mambo / Chanca Piedra / 
+-> Diclofenac / Sódico / MediSonia / Vitamina E / Medicamentos / Voltaren / Medicinas / Ibuprofeno / Pastillas / Artritis / Reumatismo / Fin de Semana / Pepto-Bismol / Diclofenaco / Azitromicina / Ranitidina / Glucosamina / {DiaStr}De{Mes} / Cialis / Acido Folico / Vitamina C / Potásico / Estomago / Dolores / {ID}{DiaSem} / Bismuto / Paracetamol / Via_gra / Mambo / Chanca Piedra / 
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
 // Anuncio-Txt = 34Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC, OVULOS/LASCOVAGIL, IBUPROFENO, PÍLDORA DEL DÍA DESPUÉS
+{H} ✅DICLOFENAC ✅OVULOS/LASCOVAGIL ✅IBUPROFENO ✅PÍLDORA_DEL_DÍA_DESPUÉS ✅METRONIDAZOL ✅AZITROMICINA ✅TERMOMETRO_DIGITAL
                                                     
 T: 5,331,7003/7,832,8768, Regenera ligamentos y tendones.
 
@@ -1479,7 +1500,7 @@ Para problemas estomacales tengo:
 Para problemas de salud en general:
 ... OMEGA 369 a 12 cuc x 100 tabletas de 1200 mg.
 
-Para infeciones varginales tengo:
+Para infeciones de las mujeres tengo:
 ... Lascovagil a 4 cuc x 10 ovulos con Metornidazol + Nistatina. 
 
 Para los riñones o el higado:
@@ -1496,7 +1517,7 @@ Para la salud en general (Colesterol, triglicedidos, etc.):
 ... MultiVitaminas y Minerales a 12 cuc, un pomo de 100 capsulas.
 ... Acido Folico de 5mg a 8 cuc, la caja de 100 pastillas.
   
-Para la disfunción eréctil:
+Para los hombres:
 ... Tadalafil de 20 mg a 3 cuc blister de 4 pastilla (tambien conocido como Cialis o Pildora del fin de semana).
 ... Via_gra de 100 mg a 3 cuc blister de 8 pastillas.
 ... Mambo 36 (Tadalafil) de 20 mg a 1 cuc la pastilla, tambien conocido como Cialis o Pildora del fin de semana.
@@ -1510,7 +1531,7 @@ Para la diarrea:
 
 Para las infecciones: (Antibiotico)
 ... Azitromicina de 500 mg a 2 cuc una cajita de 3 pastillas.
-... Sulfapril de (80/400) mg a 1.5 cuc un bliter de 10 tabletas.
+... Sulfaprim de (80/400) mg a 1.5 cuc un bliter de 10 tabletas.
 ... Ciprofloxacina de 500 mg a 1.5 cuc un bliter de 10 tabletas.
 ... Metronidazol de 500 mg a 1 cuc un bliter de 10 tabletas.
 
@@ -1520,13 +1541,13 @@ Para los diabeticos:
 Para problemas estomacales: (Acidez, Indigestión, Malestar, Diarreas)
 ... Pepto-Bismol a 10 cuc el frasco de 236 ml.
 
--> Medicinas / Diclofenac / Sódico / Acido Folico / Ibuprofeno / Diclofenaco / Medicamentos / Via_gra / Potásico / Inyectable / {DiaStr}De{Mes} / Vitamina E / Bismuto / Ranitidina / {ID}{DiaSem} / Voltaren / Potasico / Azitromicina / Sodico / Glucosamina / Tadalafil / Vitamina C / Cialis / Mambo / Paracetamol / Pepto-Bismol / Omeprazol /
+-> Medicinas / Diclofenac / Sódico / Acido Folico / Ibuprofeno / Diclofenaco / Medicamentos / Via_gra / Potásico / Inyectable / {DiaStr}De{Mes} / Vitamina E / Bismuto / Ranitidina / {ID}{DiaSem} / Voltaren / Potasico / Azitromicina / Sodico / Glucosamina / Tadalafil / Vitamina C / Cialis / Mambo / Paracetamol / MediSonia / Pepto-Bismol / Omeprazol /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales, Fecha de vencimiento Agosto del 2020
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
 // Anuncio-Txt = 35Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••V_I_A_G_R_A ó T_A_D_A_L_A_F_I_L: MÁS PLACER, MÁS POTENCIA, MÁS PODER ...
+{H} ✅V_I_A_G_R_A ✅T_A_D_A_L_A_F_I_L ⭐MÁS_PLACER ⭐MÁS_POTENCIA ⭐MÁS_PODER, tambien: ✅ANALGESICOS ✅VITAMINAS ✅ANTIBIOTICO
   5,331,7003 ó 7,832,8768 la tira de 8 pastillas sale a 3 cuc, fecha de caducidad 2021
  
 Difrute las relaciones con su pareja al máximo, no deje pasar la oportunidad.
@@ -1553,7 +1574,7 @@ PARA EL ESTOMAGO:
 ... 10 cuc, Pepto-Bismol un frasco de 236 ml.  (Para el estomago, Acidez, Malestar, Indigestión, Diarreas)
 
   .
-SIMILAR A LA V_I_A_G_R_A: 
+SIMILAR A LA VIA_GRA: 
 ... 1 cuc, Mambo 36 (Tadalafil), tambien conocido como Cialis o Pildora del fin de semana.
 ... 3 cuc, Tadalafil, blíster de 4 pastilla, tambien conocido como Cialis o Pildora del fin de semana.
   
@@ -1580,7 +1601,7 @@ PARA LAS DIARREAS:
 
 ANTIBIOTICO:
 ... 2 cuc, Azitromicina, cajita de 3 tabletas de 500 mg.
-... 1.5 cuc, Sulfapril, bliter de 10 tabletas de (80/400) mg.
+... 1.5 cuc, Sulfaprim, bliter de 10 tabletas de (80/400) mg.
 ... 1.5 cuc, Ciprofloxacina, bliter de 10 tabletas de 500 mg.
 ... 1 cuc, Metronidazol, bliter de 10 tabletas de 500 mg.
 
@@ -1590,10 +1611,10 @@ PARA DIABETICOS:
 Telefonos: 5 331 7003 (movil) y 7 832 8768 (fijo) con Camilo.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Key Words: Diclofenac / Vitamina E / Azitromicina / Chanca Piedra / Via_gra / Inyectable / Tadalafil / Cialis / Omega / Sódico / Glucosamina / Ibuprofeno / Medicamentos / Bismuto / Medicinas / Paracetamol / Omeprazol / Pastillas / Ranitidina / Vitamina C / Diclofenaco / Pepto-Bismol / Acido Folico / {DiaStr}De{Mes} / {ID}{DiaSem} / Potásico / Voltaren / Cicatricure / Mambo / Fin de Semana / Sodico /
+Key Words: Diclofenac / Vitamina E / Azitromicina / Chanca Piedra / Via_gra / Inyectable / Tadalafil / Cialis / Omega / Sódico / Glucosamina / Ibuprofeno / Medicamentos / Bismuto / Medicinas / Paracetamol / Omeprazol / Pastillas / Ranitidina / Vitamina C / Diclofenaco / Pepto-Bismol / Acido Folico / {DiaStr}De{Mes} / {ID}{DiaSem} / MediSonia / Potásico / Voltaren / Cicatricure / Mambo / Fin de Semana / Sodico /
 
 // Anuncio-Txt = 36Lavad --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Piezas de Lavadora: Correas (A620,A700,A785,M20.5), Busing (LG,Daewoo) ..
+{H} Para Lavadoras: ✅Correas (A620,A700,A785,M20.5) ✅Busing (LG,Daewoo) ✅Bombas de Agua ✅Reductores ✅Sellos ☎7_832_8768
 5 331 7003 ó 7 832 8768
 
 Correas (A620, A700, A785, M20.5, M22) a 5 cuc
@@ -1607,15 +1628,17 @@ Conmutador(Timer) de lavado a 8 cuc
 Conmutador(Timer) de secado a 7 cuc
 Botones a 30 cup
 Transmisión (Busing) (Daewoo y LG) a 8 cuc
+Bomba de Drenaje (Sin Cuerpo Plastico, Completa) a 25 ó 30 cuc
+Reductor (Lavadoras Semi-Automaticas) a 20 cuc
 
 Si necesita otra pieza puede pedirla y trataremos de buscarla
 
-MyLavPiezas / Manguera de Salida / Busing / Tapón / Timer / Botones / Lavadoras / Correa / Tansmisión / Acordeon / {DiaStr}De{Mes} / Sello / {ID}{DiaSem} / 
+MyLavPiezas / Manguera de Salida / Busing / Tapón / Timer / Botones / Lavadoras / MediSonia / Correa / Tansmisión / Acordeon / {DiaStr}De{Mes} / Sello / {ID}{DiaSem} / 
 
 Todas las piezas son compradas en el extranjero.
 
 // Anuncio-Txt = 37Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••IBUPROFENO, GLUCOSAMINA+CHONDROITINA, LASCOVAGIL, PÍLDORA DEL DÍA DESPUÉS
+{H} ✅IBUPROFENO ✅LASCOVAGIL ✅PÍLDORA_DEL_DÍA_DESPUÉS ✅AZITROMICINA ✅METORNIDAZOL ✅PEPTO-BISMOL ✅DICLOFENAC ✅OMEGA_3
 7 832 8768/5 331 7003
 
 Lista de Medicinas.
@@ -1639,13 +1662,13 @@ Lista de Medicinas.
 18. cuc, GLUCOSAMINA & CHONDROITINA frasco con 60 capsulas
 3.. cuc, TADALAFIL de 20 mg el blister de 4 pastilla (tambien conocido como Cialis o Pildora del fin de semana).
 1.. cuc, MAMBO 36 (Tadalafil) de 20 mg, 1 una pastilla, tambien conocido como Cialis o Pildora del fin de semana.
-3.. cuc, V_I_A_G_R_A de 100 mg el blister de 8 pastilla.
+3.. cuc, VIA_GRA de 100 mg el blister de 8 pastilla.
 8.. cuc, ACIDO FOLICO de 5mg, una caja con 100 pastillas.
 3.. cuc, PRUEBA DE EMBARAZO, un Kit.
 5.. cuc, PÍLDORA DEL DÍA DESPUÉS, una pastilla.
 12. cuc, MULTIVITAMINAS Y MINERALES, un pomo de 100 capsulas.
 2...cuc, AZITROMICINA de 500 mg, una cajita de 3 tabletas.
-1.5 cuc, SULFAPRIL de (80/400) mg un bliter de 10 tabletas.
+1.5 cuc, SULFAPRIM de (80/400) mg un bliter de 10 tabletas.
 1.5 cuc, CIPROFLOXACINA de 500 mg un bliter de 10 tabletas.
 1.. cuc, METRONIDAZOL de 500 mg un bliter de 10 tabletas.
 1.. cuc, GLIBENCLAMIDA de 5 mg un bliter de 10 tabletas.
@@ -1654,12 +1677,12 @@ Lista de Medicinas.
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
--> Diclofenac / Glucosamina / Ibuprofeno / Estomago / {DiaStr}De{Mes} / Omega / Sódico / Fin de Semana / Medicamentos / Pepto-Bismol / Potásico / Cialis / Vitamina E / Mambo / Ranitidina / Bismuto / Medicinas / Acido Folico / Inyectable / Azitromicina / Diclofenaco / Chanca Piedra / Via_gra / Vitamina C / {ID}{DiaSem} / Voltaren / Paracetamol / 
+-> Diclofenac / Glucosamina / MediSonia / Ibuprofeno / Estomago / {DiaStr}De{Mes} / Omega / Sódico / Fin de Semana / Medicamentos / Pepto-Bismol / Potásico / Cialis / Vitamina E / Mambo / Ranitidina / Bismuto / Medicinas / Acido Folico / Inyectable / Azitromicina / Diclofenaco / Chanca Piedra / Via_gra / Vitamina C / {ID}{DiaSem} / Voltaren / Paracetamol / 
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 38Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Medicinas: LASCOVAGIL, IBUPROFENO, DICLOFENAC, TEST EMBARAZO, RANITIDINA
+{H}Medicinas: ✅LASCOVAGIL ✅IBUPROFENO ✅DICLOFENAC ✅TEST_EMBARAZO ✅RANITIDINA ✅AZITROMICINA ✅OMEGA_3 ✅PEPTO-BISMOL y más
 Telf: 5 331 7003 ó 7 832 8768 
 
 Medicinas:
@@ -1684,9 +1707,9 @@ Medicinas:
 8-- cuc, VITAMINAS COMPLEJO B, 100 tabletas.
 3-- cuc, TADALAFIL de 20 mg, blister de 4 pastilla (tambien conocido como Cialis o Pildora del fin de semana).
 1-- cuc, MAMBO 36 (Tadalafil) a 1 cuc la pastilla, tambien conocido como Cialis o Pildora del fin de semana.
-3-- cuc, V_I_A_G_R_A de 100 mg, blister de 8 pastillas.
+3-- cuc, VIA_GRA de 100 mg, blister de 8 pastillas.
 2-- cuc, AZITROMICINA, cajita de 3 tabletas de 500 mg.
-1.5 cuc, SULFAPRIL, bliter de 10 tabletas de (80/400) mg.
+1.5 cuc, SULFAPRIM, bliter de 10 tabletas de (80/400) mg.
 1.5 cuc, CIPROFLOXACINA, bliter de 10 tabletas de 500 mg.
 1-- cuc, METRONIDAZOL, bliter de 10 tabletas de 500 mg.
 1-- cuc, GLIBENCLAMIDA, bliter de 10 tabletas de 5 mg.
@@ -1699,13 +1722,13 @@ Medicinas:
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
--> Paracetamol / Ibuprofeno / Diclofenac / Dolores / Sódico / Via_gra / Medicamentos / Medicinas / Bismuto / Pastillas / Vitamina E / Diclofenaco / Ranitidina / Inyectable / Omega / Cialis / {DiaStr}De{Mes} / Artritis / Mambo / {ID}{DiaSem} / Potásico / Voltaren / Glucosamina / Vitamina C / Chanca Piedra / Pepto-Bismol / Acido Folico / Azitromicina / Fin de Semana / Sodico / Tadalafil / Omeprazol /
+-> Paracetamol / Ibuprofeno / Diclofenac / Dolores / Sódico / Via_gra / Medicamentos / Medicinas / Bismuto / Pastillas / Vitamina E / Diclofenaco / Ranitidina / Inyectable / Omega / Cialis / {DiaStr}De{Mes} / Artritis / Mambo / {ID}{DiaSem} / Potásico / Voltaren / Glucosamina / Vitamina C / Chanca Piedra / Pepto-Bismol / MediSonia / Acido Folico / Azitromicina / Fin de Semana / Sodico / Tadalafil / Omeprazol /
 
 // Anuncio-Txt = 39Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••V_I_A_G_R_A la más económica en revolico, tambien T_A_D_A_L_A_F_I_L 
+{H} ✅V_I_A_G_R_A ✅T_A_D_A_L_A_F_I_L lo más económico en revolico + ✅DICLOFENAC ✅AZITROMICINA ✅IBUPROFENO ✅OMEGA_3
 Tef:5 3317 003 ó  el costo es 3 cuc la tira de 8 pastillas
 
-Tambien tengo: DICLOFENAC en Pastillas a 2 cuc y en Crema a 2 cuc, TADALAFIL a 1 cuc, RANITIDINA a 1 cuc, OMEPRAZOL a 1 cuc, VITAMINA E a 15 cuc, CICATRICURE a 10 cuc, CHANCA PIEDRA 12 cuc, Vitaminas complejo B a 8 cuc, Prueba de Embarazo a 3 cuc, Píldora del día después a 5 cuc, Glucosamina con Chondrotina a 18 cuc, MultiVitaminas y Minerales a 12 cuc, Loperamida a 2 cuc, Azitromicina a 2 cuc, Sulfapril a 1.5, Ciprofloxacina a 1.5, Metronidazol a 1 cuc, Glibenclamida a 1 cuc, Vitamina C a 1 cuc, Ibuprofeno 1 cuc, Acido Folico 8 cuc (100 pastillas), Pepto-Bismol 10 cuc.
+Tambien tengo: DICLOFENAC en Pastillas a 2 cuc y en Crema a 2 cuc, TADALAFIL a 1 cuc, RANITIDINA a 1 cuc, OMEPRAZOL a 1 cuc, VITAMINA E a 15 cuc, CICATRICURE a 10 cuc, CHANCA PIEDRA 12 cuc, Vitaminas complejo B a 8 cuc, Prueba de Embarazo a 3 cuc, Píldora del día después a 5 cuc, Glucosamina con Chondrotina a 18 cuc, MultiVitaminas y Minerales a 12 cuc, Loperamida a 2 cuc, Azitromicina a 2 cuc, Sulfaprim a 1.5, Ciprofloxacina a 1.5, Metronidazol a 1 cuc, Glibenclamida a 1 cuc, Vitamina C a 1 cuc, Ibuprofeno 1 cuc, Acido Folico 8 cuc (100 pastillas), Pepto-Bismol 10 cuc.
 
 El TADALAFIL es una nueva formulación de la Via_gra, que tambien es conocido como Pildora del fin de semana o Cialis, porque su efecto dura mas de 36 horas, mientras que la Via_gra solo dura 4, tambien es bien tolerado cuando se ha ingerido alchol o comidas copiosas, mientras que la Via_gra tiene un efecto limitado en esos casos, tambien tiene menos efectos secundarios que la via_gra.
 
@@ -1717,10 +1740,10 @@ La Glucosamina con Chondrotina, es para problemas de Artritis, ya que es un anal
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 Hablar con Camilo en los telafonos 7 832 8768 y 5 331 7003
 
-Key Words: Diclofenaco / Azitromicina / Voltaren / {DiaStr}De{Mes} / Inyectable / Cicatricure / Glucosamina / Medicamentos / Diclofenac / Sódico / Medicinas / Ranitidina / Pastillas / Vitamina C / Acido Folico / Paracetamol / Cialis / Via_gra / Potásico / {ID}{DiaSem} / Vitamina E / Estomago / Tadalafil / Pepto-Bismol / Mambo / Ibuprofeno / Chanca Piedra / Bismuto / Fin de Semana / Sodico / Omeprazol /
+Key Words: Diclofenaco / Azitromicina / Voltaren / {DiaStr}De{Mes} / Inyectable / Cicatricure / Glucosamina / Medicamentos / Diclofenac / Sódico / Medicinas / Ranitidina / Pastillas / MediSonia / Vitamina C / Acido Folico / Paracetamol / Cialis / Via_gra / Potásico / {ID}{DiaSem} / Vitamina E / Estomago / Tadalafil / Pepto-Bismol / Mambo / Ibuprofeno / Chanca Piedra / Bismuto / Fin de Semana / Sodico / Omeprazol /
 
 // Anuncio-Txt = 40Lavad --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Respuestos de Lavadora: Timer, Busing, Correas, Sello, Tapon y mas ...
+{H} Respuestos de Lavadora: ✅Bomba de drenaje ✅Reductor ✅Timer ✅Busing ✅Correas ✅Sello ✅Tapon ☎7_832_8768 ☎5_331_7003
 : 7 832 8768/5 331 7003
 
 Piezas de lavadoras:
@@ -1735,6 +1758,9 @@ Piezas de lavadoras:
 .7 cuc...(Timer de secado) ----------------------- Son de 3 cables
 .8 cuc...(Transmisión (Busing) para LG ----------- Es la pieza que una el poledor con las paletas de lavado
 .8 cuc...(Transmisión (Busing) K500 para Daewoo -- Es la pieza que una el poledor con las paletas de lavado
+25 cuc...(Bomba de Drenaje a 25 cuc (Sin cuerpo platico) - Bomba que saca el agua en las lavadoras automaticas
+30 cuc...(Bomba de Drenaje a 30 cuc (Completa) ----------- Bomba que saca el agua en las lavadoras automaticas
+20 cuc...(Reductor) -------------------------------------- Transmisión con el poleador de algunas lavadoras semi-automaticas
 .5 cuc...(Correa A620)
 .5 cuc...(Correa A700)
 .5 cuc...(Correa A785)
@@ -1743,12 +1769,12 @@ Piezas de lavadoras:
 
 Puede pedir la pieza que usted necesita y si la encontramos en menos de 1 mes la puede tener.
  
-{DiaStr}De{Mes} / MyLavPiezas / Acordeon / Botones / {ID}{DiaSem} / Lavadoras / Manguera de Salida / Correa / Sello / Tapón / Timer / Busing / Tansmisión / 
+{DiaStr}De{Mes} / MyLavPiezas / Acordeon / MediSonia / Botones / {ID}{DiaSem} / Lavadoras / Manguera de Salida / Correa / Sello / Tapón / Timer / Busing / Tansmisión / 
 
 Todas las piezas son nuevas, traidas del extranjero.
 
 // Anuncio-Txt = 41Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••OVULOS, IBUPROFENO, LOPERAMIDA, OMEGA 3, PÍLDORA DEL DÍA DESPUÉS, MAMBO
+{H} ✅OVULOS ✅IBUPROFENO ✅OMEGA_3 ✅PÍLDORA_DEL_DÍA_DESPUÉS ✅MAMBO_36 ✅AZITROMICINA ✅OMEPRAZOL ✅METRONIDAZOL ✅PEPTO-BISMOL
  telf: 5 331 7003 ó 7 832 8768, son a 1 CUC x Tableta
 
 Otras formas de DICLOFENAC:
@@ -1768,9 +1794,9 @@ OMEGA 369 ------------------- (12 cuc), un pomo de 100 tabletas de 1200 mg.
 VITAMINA E ------------------ (15 cuc), una caja de 100 capsulas blandas de 1000 UI.
 VITAMINA C ------------------ ( 1 cuc), un blister de 10 tabletas de 500 mg.
 VITAMINAS COMPLEJO B -------- ( 8 cuc), una caja de 100 tabletas.
-LASCOVAGIL ------------------ ( 4 cuc), 10 ovulos varginales con Metronidazol y Nistatina.
+LASCOVAGIL ------------------ ( 4 cuc), 10 ovulos con Metronidazol y Nistatina.
 AZITROMICINA ---------------- ( 2 cuc), una cajita de 3 tabletas de 500 mg.
-SULFAPRIL ------------------- (1.5 cuc), 10 tabletas de (80/400) mg.
+SULFAPRIM ------------------- (1.5 cuc), 10 tabletas de (80/400) mg.
 CIPROFLOXACINA -------------- (1.5 cuc), 10 tabletas de 500 mg.
 METRONIDAZOL ---------------- (1 cuc), 10 tabletas de 500 mg.
 GLIBENCLAMIDA --------------- (1 cuc), 10 tabletas de 5 mg.
@@ -1780,7 +1806,7 @@ CHANCA PIEDRA --------------- (12 cuc), un pomo de 60 tabletas.
 ACIDO FOLICO 5mg ------------ ( 8 cuc), una caja de 100 pastillas.
 TADALAFIL de 20 mg ---------- ( 3 cuc), un blister de 4 pastilla (tambien conocido como Cialis o Pildora del fin de semana).
 MAMBO 36 (Tadalafil) -------- ( 1 cuc), un sobre con una pastilla, tambien conocido como Cialis o Pildora del fin de semana.
-V_I_A_G_R_A de 100 mg ------- ( 3 cuc), un blister de 8 pastilla.
+VIA_GRA de 100 mg ----------- ( 3 cuc), un blister de 8 pastilla.
 PÍLDORA DEL DÍA DESPUÉS ----- ( 5 cuc), una pastilla.
 PRUEBA DE EMBARAZO ---------- ( 3 cuc), un Kit.
 MULTIVITAMINAS Y MINERALES -- (12 cuc), un pomo de 100 capsulas.
@@ -1789,12 +1815,12 @@ LOPERAMIDA ------------------ ( 2 cuc), un blister de 10 cápsulas de 2 mg.     
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
--> Ibuprofeno / Diclofenac / Bismuto / Paracetamol / Sódico / Voltaren / Vitamina E / Medicamentos / Via_gra / {DiaStr}De{Mes} / Acido Folico / Medicinas / Pastillas / Inyectable / Tadalafil / Ranitidina / Cialis / Omega / Diclofenaco / Potásico / {ID}{DiaSem} / Glucosamina / Sodico / Azitromicina / Omeprazol / Vitamina C / Mambo / Pepto-Bismol / Chanca Piedra /
+-> Ibuprofeno / Diclofenac / Bismuto / MediSonia / Paracetamol / Sódico / Voltaren / Vitamina E / Medicamentos / Via_gra / {DiaStr}De{Mes} / Acido Folico / Medicinas / Pastillas / Inyectable / Tadalafil / Ranitidina / Cialis / Omega / Diclofenaco / Potásico / {ID}{DiaSem} / Glucosamina / Sodico / Azitromicina / Omeprazol / Vitamina C / Mambo / Pepto-Bismol / Chanca Piedra /
 
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 
 // Anuncio-Txt = 42Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••GLUCOSAMINA+CHONDROITINA, TEST DE EMBARAZO, RANITIDINA, GLIBENCLAMIDA
+{H} ✅TEST_DE_EMBARAZO ✅RANITIDINA ✅OMEPRAZOL ✅AZITROMICINA ✅OMEGA_3 ✅TERMOMETRO_DIGITAL ✅PEPTO-BISMOL ✅METRONIDAZOL 
 5,331,7003 / 7,832,8768
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
@@ -1812,11 +1838,11 @@ Otras medicinas:
 15. cuc, VITAMINA E, 100 tabletas de 1000 UI.
 1.. cuc, VITAMINA C, un blister de 10 pastillas de 500 mg.
 18. cuc, GLUCOSAMINA CHONDROITINA, frasco de 60 pastillas de 1500mg, Es un generador de cartilogos, para mejorar los dolores de artritis.
-4.. cuc, LASCOVAGIL 10 ovulos varginales que contienen Metornidazol y Nistatina.
+4.. cuc, LASCOVAGIL 10 ovulos que contienen Metornidazol y Nistatina.
 1.. cuc, IBUPROFENO 600 mg, un blister de 10 tabletas.
 1.5 cuc, IBUPROFENO 800 mg, un blister de 10 tabletas.
 3.. cuc, TADALAFIL de 20 mg, un blister de 4 tabletas (tambien conocido como Cialis o Pildora del fin de semana).
-3.. cuc, V_I_A_G_R_A de 100 mg, un blister de 8 tabletas.
+3.. cuc, VIA_GRA de 100 mg, un blister de 8 tabletas.
 1.. cuc, MAMBO 36 (Tadalafil) de 20 mg, una pastilla, tambien conocido como Cialis o Pildora del fin de semana.
 1.. cuc, PRUEBA DE EMBARAZO, un kit.
 5.. cuc, PÍLDORA DEL DÍA DESPUÉS, una pastilla.
@@ -1826,41 +1852,41 @@ Otras medicinas:
 2.. cuc, LOPERAMIDA, un blister de 10 cápsulas de 2 mg.       (Para las diarreas agudas o cronicas)
 10. cuc, PEPTO-BISMOL, un frasco de 236 ml. (Problemas del estomago, Diarreas, Indigestión, Malestar, Acidez)
 2...cuc, AZITROMICINA, cajita de 3 tabletas de 500 mg.
-1.5 cuc, SULFAPRIL, un bliter de 10 tabletas de (80/400) mg.
+1.5 cuc, SULFAPRIM, un bliter de 10 tabletas de (80/400) mg.
 1.5 cuc, CIPROFLOXACINA, un bliter de 10 tabletas de 500 mg.
 1.. cuc, METRONIDAZOL, un bliter de 10 tabletas de 500 mg.
 1.. cuc, GLIBENCLAMIDA, un bliter de 10 tabletas de 5 mg.
 
--> Diclofenaco / Voltaren / Paracetamol / Acido Folico / Glucosamina / {DiaStr}De{Mes} / Inyectable / Via_gra / Medicamentos / Diclofenac / Sódico / Medicinas / Ranitidina / Pastillas / Cialis / Pepto-Bismol / Potásico / Bismuto / {ID}{DiaSem} / Vitamina E / Tadalafil / Estomago / Chanca Piedra / Fin de Semana / Sodico / Azitromicina / Vitamina C / Mambo / Omeprazol /
+-> Diclofenaco / MediSonia / Voltaren / Paracetamol / Acido Folico / Glucosamina / {DiaStr}De{Mes} / Inyectable / Via_gra / Medicamentos / Diclofenac / Sódico / Medicinas / Ranitidina / Pastillas / Cialis / Pepto-Bismol / Potásico / Bismuto / {ID}{DiaSem} / Vitamina E / Tadalafil / Estomago / Chanca Piedra / Fin de Semana / Sodico / Azitromicina / Vitamina C / Mambo / Omeprazol /
 
 Envase Sellado, comprado en el extranjero y contiene 150 ml. 
 
 // Anuncio-Txt = 43Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••S.I.L.D.E.N.A.F.I.L (V_I_A_G_R_A), 0.37 cuc la pastilla, 8 x 1 cuc
+{H} ✅SIL_DE_NA_FIL (VIA_GRA) 8x3 cuc ✅MAMBO_36 1x1 cuc ✅TA_DA_LA_FIL 4x3 cuc ✅TEST_DE_EMBARAZO ☎7_832_8768 ☎5_331_7003
 Tel: 78328768 / 53317003 vienen en tiras de 8 pastillas que salen a 3 cuc.
 
 Otros productos:
 PARA LOS DOLORES: Diclofenac en todas sus distribuciones, Sódico 2 cuc, Potasico 2 cuc, con Paracetamol 2 cuc, En Gel 4 cuc, En crema 5 cuc e Inyectable 1 cuc.
 PARA EL ESTOMAGO: Omeprazol de 20 mg 1 cuc, Ranitidina 1 cuc.
-DISFUSIÓN ERÉCTIL: Tadalafil (Mambo 36) a 1 cuc la pastilla, tambien conocido como Cialis o Pildora del fin de semana, Via_gra 3 cuc x 8.
+PARA LOS HOMBRES: Tadalafil (Mambo 36) a 1 cuc la pastilla, tambien conocido como Cialis o Pildora del fin de semana, Via_gra 3 cuc x 8.
 SUPLEMENTOS: OMEGA 369 a 12 cuc, VITAMINA E 1000 UI a 15 cuc la caja, VITAMINA C 500 mg a 1 cuc el blister, VITAMINAS COMPLEJO B a 8 cuc la caja, MULTIVITAMINAS Y MINERALES a 12 cuc el pomo, ACIDO FOLICO a 8 cuc (100 pastillas).
 
 PARA CICATRICES: Cicatricure a 10 cuc el tubo de 30g.
 CALCULOS RENALES O BILIARES: Chanca Piedra 12 cuc un pomo de 60 capsulas de 500 mg.
 PARA LA ARTRITIS: Glucosamina & Chondrotina 18 cuc un frasco con 60 tabletas de 1500 mg.
 PARA EL EMBARAZO: Kit de Prueba de Embarazo a 3 cuc, Píldora del día después a 5 cuc.
-PARA INFECCIONES: Azitromicina 500 mg a 2 cuc, una cajita de 3 tabletas, Sulfapril a 1.5 cuc un bliter de 10 tabletas de (80/400) mg, Ciprofloxacina a 1.5 cuc un bliter de 10 tabletas de 500 mg, Metronidazol a 1 cuc un bliter de 10 tabletas de 500 mg.
+PARA INFECCIONES: Azitromicina 500 mg a 2 cuc, una cajita de 3 tabletas, Sulfaprim a 1.5 cuc un bliter de 10 tabletas de (80/400) mg, Ciprofloxacina a 1.5 cuc un bliter de 10 tabletas de 500 mg, Metronidazol a 1 cuc un bliter de 10 tabletas de 500 mg.
 
 PARA LA DIABETIS: Glibenclamida a 1 cuc un bliter de 10 tabletas de 5 mg.
 .
 
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
-Key Words: Pastillas / Diclofenac / Cicatricure / Acido Folico / Azitromicina / Diclofenaco / Bismuto / Glucosamina / Sódico / Medicamentos / Via_gra / Fin de Semana / Medicinas / Mambo / Inyectable / {DiaStr}De{Mes} / Estomago / Paracetamol / Vitamina C / Ranitidina / Potásico / {ID}{DiaSem} / Voltaren / Chanca Piedra / Pepto-Bismol / Vitamina E / Tadalafil / Cialis / Ibuprofeno / Sodico / Omeprazol /
+Key Words: Pastillas / Diclofenac / Cicatricure / Acido Folico / Azitromicina / Diclofenaco / Bismuto / Glucosamina / Sódico / Medicamentos / Via_gra / Fin de Semana / Medicinas / Mambo / Inyectable / {DiaStr}De{Mes} / Estomago / Paracetamol / Vitamina C / Ranitidina / Potásico / {ID}{DiaSem} / Voltaren / MediSonia / Chanca Piedra / Pepto-Bismol / Vitamina E / Tadalafil / Cialis / Ibuprofeno / Sodico / Omeprazol /
 
 // Anuncio-Txt = 44Lavad --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Para Lavadora: Mangueras, Correas, Busing, Timer, Sello, Tef: 7 832 8768
- / 5 331 7003 
+{H} Para Lavadora: ✅Mangueras ✅Correas ✅Busing(Transmisión) ✅Timer ✅Sello ✅Bombas de Drenaje ✅Reductores ☎7_832_8768 
+Tef: 7 832 8768 / 5 331 7003 
 
 Listado de piezas:
 Correa A620 a 5 cuc
@@ -1879,6 +1905,9 @@ Timer de secado a 7 cuc ................................... (de 3 cables)
 Transmisión (Busing) de LG a 8 cuc ........................ (Une las paletas de lavado con el poleador)
 Transmisión (Busing) K500 de Daewoo a 8 cuc ............... (Une las paletas de lavado con el poleador)
 Botones a 30 cup .......................................... (Es el boton que maneja el timer)
+Bomba de Drenaje a 25 cuc (Sin cuerpo platico) ............ (Es la que saca el agua en las lavadoras automaticas)
+Bomba de Drenaje a 30 cuc (Completa) ...................... (Es la que saca el agua en las lavadoras automaticas)
+Reductor a 20 cuc ......................................... (Transmisión con el poleador de algunas lavadoras semi-automaticas)
   
 Teléfonos:
    Cel : 5 331 7003
@@ -1886,12 +1915,12 @@ Teléfonos:
 
 Si necesita otra pieza puede pedirla y trataremos de buscarla, si la encontramos en menos de 1 mes la puede tener.
    
-Acordeon / Tapón / Botones / Tansmisión / Correa / {ID}{DiaSem} / MyLavPiezas / Timer / Lavadoras / {DiaStr}De{Mes} / Manguera de Salida / Sello / Busing / 
+Acordeon / Tapón / MediSonia / Botones / Tansmisión / Correa / {ID}{DiaSem} / MyLavPiezas / Timer / Lavadoras / {DiaStr}De{Mes} / Manguera de Salida / Sello / Busing / 
 
 Todos los piezas son nuevas.
 
 // Anuncio-Txt = 45Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Medicamentos: LOPERAMIDA, IBUPROFENO, DICLOFENAC, OMEGA 3, RANITIDINA
+{H} Medicamentos: ✅IBUPROFENO ✅DICLOFENAC ✅OMEGA_3 ✅RANITIDINA ✅AZITROMICINA ✅METRONIDAZOL ✅PEPTO-BISMOL ✅OMEPRAZOL
 Tef: 5 331 7003 / 7 832 8768 a 10 cuc x por tubo de 30g.
 
 Omeprazol a 1 cuc x tira de 10 capsulas de 20 mg. 
@@ -1905,7 +1934,7 @@ Ibuprofeno 800 mg a 1.5 cuc el blister de 10 capsulas.
 Chanca Piedra a 12 cuc pomo con 60 capsulas de 500 mg.
 Lascovagil, ovulos de metronidazol+nistatina a 4 cuc blister con 10 ovulos. 
 Azitromicina a 2 cuc, cajita de 3 tabletas de 500 mg.
-Sulfapril a 1.5 cuc un bliter de 10 tabletas de (80/400) mg.
+Sulfaprim a 1.5 cuc un bliter de 10 tabletas de (80/400) mg.
 Ciprofloxacina a 1.5 cuc un bliter de 10 tabletas de 500 mg.
 Metronidazol a 1 cuc un bliter de 10 tabletas de 500 mg.
 Glibenclamida a 1 cuc un bliter de 10 tabletas de 5 mg.
@@ -1933,10 +1962,10 @@ Glucosamina Chondroitina: Es un generador de cartilogos, para mejorar los dolore
 Todos los medicamentos son traidos del extranjero y estan en sus envases originales.
 Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega.
 
--> Diclofenac / Sódico / Voltaren / Paracetamol / Glucosamina / Ibuprofeno / {DiaStr}De{Mes} / Via_gra / Medicamentos / Mambo / Ranitidina / Diclofenaco // Potásico / Medicinas / Vitamina E / {ID}{DiaSem} / Bismuto / Chanca Piedra / Cialis / Sodico / Acido Folico / Tadalafil / Azitromicina / Omeprazol / Pepto-Bismol / Vitamina C / 
+-> Diclofenac / MediSonia / Sódico / Voltaren / Paracetamol / Glucosamina / Ibuprofeno / {DiaStr}De{Mes} / Via_gra / Medicamentos / Mambo / Ranitidina / Diclofenaco // Potásico / Medicinas / Vitamina E / {ID}{DiaSem} / Bismuto / Chanca Piedra / Cialis / Sodico / Acido Folico / Tadalafil / Azitromicina / Omeprazol / Pepto-Bismol / Vitamina C / 
 
 // Anuncio-Txt = 46Medic --------------------------------------------------------------------------------------------------------------------------------
-{H}••••Vendo:OMEGA 3, OVULOS, IBUPROFENO, DICLOFENAC, PÍLDORA DEL DÍA DESPUÉS...
+{H} ✅OMEGA_3 ✅OVULOS ✅PÍLDORA_DEL_DÍA_DESPUÉS ✅IBUPROFENO ✅DICLOFENAC(Gel|Vitam_B|Sodico|Potasico) ✅AZITROMICINA y más
 Telf: 5.331.7003 ó 7.832.8768
 
 Vendo: 
@@ -1951,7 +1980,7 @@ DICLOFENAC+PARACETAMOL --- : 2 cuc
 DICLOFENAC EN GEL -------- : 4 cuc
 DICLOFENAC INYECTABLE ---- : 1 cuc
 AZITROMICINA ------------- : 2 cuc
-SULFAPRIL ---------------- : 1.5 cuc
+SULFAPRIM ---------------- : 1.5 cuc
 CIPROFLOXACINA ----------- : 1.5 cuc
 METRONIDAZOL ------------- : 1 cuc
 GLIBENCLAMIDA ------------- : 1 cuc
@@ -1966,7 +1995,7 @@ IBUPROFENO 600 mg -------- : 1 cuc.
 IBUPROFENO 800 mg -------- : 1 cuc.
 TADALAFIL 20 mg ---------- : 3 cuc. (= Cialis o Fin de Semana)
 MAMBO 36 20 mg ----------- : 1 cuc. (Ota variante de tadalafil)
-V_I_A_G_R_A 100 mg ------------ : 3 cuc.
+VIA_GRA 100 mg ----------- : 3 cuc.
 PRUEBA DE EMBARAZO ------- : 3 cuc.
 PÍLDORA DEL DÍA DESPUÉS -- : 5 cuc.
 ACIDO FOLICO 5mg --------- : 8 cuc. (una caja de 100 pastillas)
@@ -1984,11 +2013,11 @@ Todos los medicamentos son traidos del extranjero y estan en sus envases origina
 Teléfono Cel : 5 331 7003
 Teléfono Fijo: 7 832 8768
 
--> Vitamina C / Pepto-Bismol / Pastillas / Diclofenac / Diclofenaco / Paracetamol / Sódico / Medicamentos / Medicinas / Ibuprofeno / Vitamina E / Inyectable / {DiaStr}De{Mes} / Estomago / Via_gra / Ranitidina / Potásico / Cialis / Bismuto / {ID}{DiaSem} / Voltaren / Chanca Piedra / Sodico / Tadalafil / Omeprazol / Acido Folico / Mambo / Glucosamina / Azitromicina / 
+-> Vitamina C / Pepto-Bismol / Pastillas / Diclofenac / Diclofenaco / Paracetamol / Sódico / Medicamentos / Medicinas / Ibuprofeno / Vitamina E / MediSonia / Inyectable / {DiaStr}De{Mes} / Estomago / Via_gra / Ranitidina / Potásico / Cialis / Bismuto / {ID}{DiaSem} / Voltaren / Chanca Piedra / Sodico / Tadalafil / Omeprazol / Acido Folico / Mambo / Glucosamina / Azitromicina / 
 
 // Anuncio-Txt = 47Viag --------------------------------------------------------------------------------------------------------------------------------
-{H}••••V_I_A_G_R_A: MÁS POTENCIA, MÁS PODER, MÁS PLACER + Diclofenac, Ranitidina 
-tel: 5,331,7003 / 7,832,8768, 8 viagr_as por 3 cuc, son originales compradas en el extranjero.
+{H} ✅V_I_A_G_R_A: ⭐+Potencia ⭐+Poder ⭐+Placer ✅DICLOFENAC ✅RANITIDINA ✅AZITROMICINA ✅OVULOS ✅METORNIDAZOL ✅PEPTO-BISMOL
+tel: 5,331,7003 / 7,832,8768, 8 via_gras por 3 cuc, son originales compradas en el extranjero.
 
 Tengo Además estas otras medicinas:
 2.5 cuc, Diclofenac Potasico + Vitam. B, 10 pastillas de 100mg, Ademas contiene Vitamina B1, B2, B6 y B12.
@@ -2009,7 +2038,7 @@ Tengo Además estas otras medicinas:
 8.. cuc, Vitaminas complejo B, caja de 100 tabletas.
 12. cuc, MultiVitaminas y Minerales, pomo de 100 capsulas.
 2.. cuc, Azitromicina, la cajita de 3 tabletas de 500 mg.
-1.5 cuc, Sulfapril, el bliter de 10 tabletas de (80/400) mg.
+1.5 cuc, Sulfaprim, el bliter de 10 tabletas de (80/400) mg.
 1.5 cuc, Ciprofloxacina, el bliter de 10 tabletas de 500 mg.
 1.. cuc, Metronidazol, el bliter de 10 tabletas de 500 mg.
 1.. cuc, Glibenclamida, el bliter de 10 tabletas de 5 mg.
@@ -2029,10 +2058,10 @@ Teléfonos:
    Cel : 5 331 7003
    Fijo: 7 832 8768
    
-Key Words: Ibuprofeno / Medicinas / Tadalafil / Chanca Piedra / Glucosamina / Azitromicina / Diclofenac / Sódico / Diclofenaco / Medicamentos / Potásico / Cicatricure / Via_gra / Inyectable / Bismuto / Vitamina C / {DiaStr}De{Mes} / Vitamina E / Paracetamol / Ranitidina / {ID}{DiaSem} / Voltaren / Acido Folico / Cialis / Mambo / Fin de Semana / Pepto-Bismol / Potasico / Sodico / Omeprazol /
+Key Words: Ibuprofeno / Medicinas / Tadalafil / Chanca Piedra / MediSonia / Glucosamina / Azitromicina / Diclofenac / Sódico / Diclofenaco / Medicamentos / Potásico / Cicatricure / Via_gra / Inyectable / Bismuto / Vitamina C / {DiaStr}De{Mes} / Vitamina E / Paracetamol / Ranitidina / {ID}{DiaSem} / Voltaren / Acido Folico / Cialis / Mambo / Fin de Semana / Pepto-Bismol / Potasico / Sodico / Omeprazol /
 
 // Anuncio-Txt = 48Lavad --------------------------------------------------------------------------------------------------------------------------------
-{H}•••••Vendo piezas de lavadora (Correas, Mangueras, Timer, Busing, Sello... )
+{H} Vendo para lavadoras ✅Correas ✅Bombas_de_Drenaje ✅Mangueras ✅Timer ✅Busing ✅Reductor ✅Sello ☎7_832_8768 ☎5_331_7003
 5 331 7003 ó 7 832 8768
 
 Litado de las piezas que tengo:
@@ -2045,6 +2074,9 @@ Sellos de lavadora ................................... 6 cuc
 Timer de lavado de Lavadora .......................... 8 cuc
 Timer de secado de Lavadora .......................... 7 cuc
 Botones de Lavadora .................................. 30 cup
+Bomba de Drenaje(Sin cuerpo platico) ................. 25 cuc
+Bomba de Drenaje(Completa) ........................... 30 cuc
+Reductor ............................................. 20 cuc
 Transmisión (Busing) de lavadora LG .................. 8 cuc
 Transmisión (Busing) K500 de lavadora Daewoo ......... 8 cuc
 Correa de Lavadora A620 .............................. 5 cuc
@@ -2057,6 +2089,6 @@ Tengo servicio de mensajeria por un precio adicional, según el lugar de entrega
 
 Todos las piezas son traidas del extranjero y son nuevas.
 
-Timer / Sello / MyLavPiezas / Tapón / Acordeon / Busing / {DiaStr}De{Mes} / Botones / Manguera de Salida / Tansmisión / Lavadoras / Correa / {ID}{DiaSem} / 
+Timer / Sello / MyLavPiezas / Tapón / Acordeon / Busing / {DiaStr}De{Mes} / Botones / Manguera de Salida / Tansmisión / MediSonia / Lavadoras / Correa / {ID}{DiaSem} / 
 
 

@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="20" width="375" height="597"/>
                                 <subviews>
                                     <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zEK-BV-7LD">
-                                        <rect key="frame" x="0.0" y="62.5" width="375" height="534.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="597"/>
                                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <connections>
                                             <outlet property="delegate" destination="BYZ-38-t0r" id="1br-dQ-AE9"/>
@@ -56,18 +56,20 @@
                                         </constraints>
                                     </view>
                                     <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="dQg-ag-JJO">
-                                        <rect key="frame" x="177.5" y="320" width="20" height="20"/>
+                                        <rect key="frame" x="177.5" y="288.5" width="20" height="20"/>
                                     </activityIndicatorView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQC-AW-mfK">
-                                        <rect key="frame" x="5" y="0.0" width="365" height="62.5"/>
-                                        <string key="text">23 de 58
-Descripción del anuncio, con el nombre de todas las medicinas y otras cosas para poder revisar el si se publico bien el anuncio o no.</string>
+                                    <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CQC-AW-mfK">
+                                        <rect key="frame" x="5" y="0.0" width="365" height="0.0"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="61m-b3-DN3" appends="YES" id="kqE-n9-G0C"/>
+                                        </connections>
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <gestureRecognizers/>
                                 <constraints>
                                     <constraint firstAttribute="bottom" secondItem="Nk6-7o-v45" secondAttribute="bottom" id="9HF-8D-yci"/>
                                     <constraint firstAttribute="bottom" secondItem="zEK-BV-7LD" secondAttribute="bottom" id="GL7-NF-Tft"/>
@@ -83,11 +85,14 @@ Descripción del anuncio, con el nombre de todas las medicinas y otras cosas par
                                     <constraint firstItem="zEK-BV-7LD" firstAttribute="leading" secondItem="0Ns-qe-mpT" secondAttribute="leading" id="tea-yX-Zx8"/>
                                     <constraint firstItem="Nk6-7o-v45" firstAttribute="leading" secondItem="0Ns-qe-mpT" secondAttribute="leading" id="vl2-Ad-eyu"/>
                                 </constraints>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="61m-b3-DN3" appends="YES" id="hi6-wc-kaE"/>
+                                </connections>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Na9-7n-1fi" userLabel="Botones">
                                 <rect key="frame" x="0.0" y="622" width="375" height="45"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDK-3Q-sMc">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hDK-3Q-sMc">
                                         <rect key="frame" x="0.0" y="0.0" width="90" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="vDc-cw-U1R"/>
@@ -100,7 +105,7 @@ Descripción del anuncio, con el nombre de todas las medicinas y otras cosas par
                                             <action selector="OnPrev:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MYT-iZ-pSu"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRr-eJ-Xln">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zRr-eJ-Xln">
                                         <rect key="frame" x="0.0" y="0.0" width="90" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="zxv-RN-2eX"/>
@@ -113,20 +118,20 @@ Descripción del anuncio, con el nombre de todas las medicinas y otras cosas par
                                             <action selector="OnLlenar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3Bb-NI-qJH"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yN7-9m-Xx9">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yN7-9m-Xx9">
                                         <rect key="frame" x="0.0" y="0.0" width="90" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="KNn-bw-CSW"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Retroceder">
+                                        <state key="normal" title="&lt;">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
                                             <action selector="OnBack:" destination="BYZ-38-t0r" eventType="touchUpInside" id="EQe-7P-EUv"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IbA-Mi-079">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IbA-Mi-079">
                                         <rect key="frame" x="142.5" y="0.0" width="90" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="bGv-yG-OXd"/>
@@ -139,7 +144,7 @@ Descripción del anuncio, con el nombre de todas las medicinas y otras cosas par
                                             <action selector="OnPublicar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DLA-9D-PVQ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljg-ne-gyd">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljg-ne-gyd">
                                         <rect key="frame" x="142" y="0.0" width="90" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="14e-ch-0JX"/>
@@ -152,7 +157,20 @@ Descripción del anuncio, con el nombre de todas las medicinas y otras cosas par
                                             <action selector="OnPublicado:" destination="BYZ-38-t0r" eventType="touchUpInside" id="xEN-jh-e4v"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P93-y9-6mH">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lud-8m-9IU">
+                                        <rect key="frame" x="142" y="0.0" width="90" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="UDa-nw-kwg"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Marcar">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="OnMarcar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zg4-QI-lOm"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P93-y9-6mH">
                                         <rect key="frame" x="285" y="0.0" width="90" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="OLS-4p-nrU"/>
@@ -165,7 +183,7 @@ Descripción del anuncio, con el nombre de todas las medicinas y otras cosas par
                                             <action selector="OnProximo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="jmD-jq-IzQ"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZT-u4-daY">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZT-u4-daY">
                                         <rect key="frame" x="285" y="0.0" width="90" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="WOA-DG-xGa"/>
@@ -178,13 +196,13 @@ Descripción del anuncio, con el nombre de todas las medicinas y otras cosas par
                                             <action selector="OnDetener:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wpL-bK-AQs"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haF-tC-fzg">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="haF-tC-fzg">
                                         <rect key="frame" x="285" y="0.0" width="90" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="ut6-K5-SdJ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                        <state key="normal" title="Avanzar">
+                                        <state key="normal" title="&gt;  ">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
@@ -197,6 +215,7 @@ Descripción del anuncio, con el nombre de todas las medicinas y otras cosas par
                                     <constraint firstItem="P93-y9-6mH" firstAttribute="height" secondItem="Na9-7n-1fi" secondAttribute="height" id="0ZM-mn-R1G"/>
                                     <constraint firstItem="IbA-Mi-079" firstAttribute="centerX" secondItem="Na9-7n-1fi" secondAttribute="centerX" id="2Jz-kc-OaW"/>
                                     <constraint firstItem="haF-tC-fzg" firstAttribute="height" secondItem="Na9-7n-1fi" secondAttribute="height" id="2cZ-zR-zyF"/>
+                                    <constraint firstItem="lud-8m-9IU" firstAttribute="centerY" secondItem="Na9-7n-1fi" secondAttribute="centerY" id="35h-x6-VaE"/>
                                     <constraint firstItem="MZT-u4-daY" firstAttribute="centerY" secondItem="Na9-7n-1fi" secondAttribute="centerY" id="3OC-BD-zKf"/>
                                     <constraint firstAttribute="trailing" secondItem="haF-tC-fzg" secondAttribute="trailing" id="3f3-Zy-0Tp"/>
                                     <constraint firstItem="yN7-9m-Xx9" firstAttribute="leading" secondItem="Na9-7n-1fi" secondAttribute="leading" id="4z9-2n-uyy"/>
@@ -205,6 +224,7 @@ Descripción del anuncio, con el nombre de todas las medicinas y otras cosas par
                                     <constraint firstItem="hDK-3Q-sMc" firstAttribute="height" secondItem="Na9-7n-1fi" secondAttribute="height" id="A9u-sd-NUB"/>
                                     <constraint firstItem="IbA-Mi-079" firstAttribute="height" secondItem="Na9-7n-1fi" secondAttribute="height" id="B7j-Q0-SpF"/>
                                     <constraint firstAttribute="trailing" secondItem="P93-y9-6mH" secondAttribute="trailing" id="CqY-uy-BJz"/>
+                                    <constraint firstItem="lud-8m-9IU" firstAttribute="height" secondItem="Na9-7n-1fi" secondAttribute="height" id="DVD-8s-O9e"/>
                                     <constraint firstItem="hDK-3Q-sMc" firstAttribute="leading" secondItem="Na9-7n-1fi" secondAttribute="leading" id="EOL-4c-Avv"/>
                                     <constraint firstItem="IbA-Mi-079" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="hDK-3Q-sMc" secondAttribute="trailing" constant="5" id="HaJ-eL-zCS"/>
                                     <constraint firstAttribute="height" constant="45" id="IZj-Sf-Yjp"/>
@@ -222,6 +242,7 @@ Descripción del anuncio, con el nombre de todas las medicinas y otras cosas par
                                     <constraint firstItem="MZT-u4-daY" firstAttribute="height" secondItem="Na9-7n-1fi" secondAttribute="height" id="l6w-4Y-Y2o"/>
                                     <constraint firstItem="MZT-u4-daY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="IbA-Mi-079" secondAttribute="trailing" constant="5" id="oEE-xj-bWW"/>
                                     <constraint firstItem="haF-tC-fzg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="IbA-Mi-079" secondAttribute="trailing" constant="5" id="qUD-tc-aYw"/>
+                                    <constraint firstItem="lud-8m-9IU" firstAttribute="centerX" secondItem="Na9-7n-1fi" secondAttribute="centerX" id="wdw-So-dYR"/>
                                     <constraint firstItem="haF-tC-fzg" firstAttribute="centerY" secondItem="Na9-7n-1fi" secondAttribute="centerY" id="wtG-te-1Tu"/>
                                     <constraint firstItem="IbA-Mi-079" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="zRr-eJ-Xln" secondAttribute="trailing" constant="5" id="z93-Wg-AGB"/>
                                     <constraint firstItem="IbA-Mi-079" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="yN7-9m-Xx9" secondAttribute="trailing" constant="5" id="zgk-bG-CHl"/>
@@ -260,6 +281,7 @@ Descripción del anuncio, con el nombre de todas las medicinas y otras cosas par
                         <outlet property="btnBack" destination="yN7-9m-Xx9" id="hpc-J8-anJ"/>
                         <outlet property="btnDetener" destination="MZT-u4-daY" id="JjV-QU-XEU"/>
                         <outlet property="btnLlenar" destination="zRr-eJ-Xln" id="KkG-No-RWx"/>
+                        <outlet property="btnMark" destination="lud-8m-9IU" id="wgb-6z-AME"/>
                         <outlet property="btnNext" destination="haF-tC-fzg" id="fHj-Lf-edF"/>
                         <outlet property="btnPrevio" destination="hDK-3Q-sMc" id="FvU-v8-i1N"/>
                         <outlet property="btnProximo" destination="P93-y9-6mH" id="Vae-Me-zo2"/>
@@ -275,6 +297,11 @@ Descripción del anuncio, con el nombre de todas las medicinas y otras cosas par
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="61m-b3-DN3">
+                    <connections>
+                        <action selector="OnClickTitle:" destination="BYZ-38-t0r" id="Vua-Lu-nI6"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="24.800000000000001" y="30.134932533733135"/>
         </scene>

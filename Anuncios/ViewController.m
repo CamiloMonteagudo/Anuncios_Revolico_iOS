@@ -16,7 +16,7 @@
 
 //========================================================================================================================================================
 @interface ViewController ()
-  {
+{
   DataAnuncios*   Anuncios;
   NSInteger       nowAnunc;
   
@@ -24,7 +24,8 @@
   
   int Modo;                                               // Mode de trabajo
   BOOL showTitle;                                         // Muestra el titulo del anuncio en la parte de arriba o no
-  }
+  UIFont* InfoFont;
+}
 
 @property (weak, nonatomic) IBOutlet UIWebView *webPage;
 @property (weak, nonatomic) IBOutlet UILabel *lbInfo;
@@ -39,6 +40,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnPublicado;
 @property (weak, nonatomic) IBOutlet UIButton *btnBack;
 @property (weak, nonatomic) IBOutlet UIButton *btnNext;
+@property (weak, nonatomic) IBOutlet UIButton *btnMark;
 
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *curWait;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *BottomSep;
@@ -53,6 +55,8 @@
 - (IBAction)OnShowMenu:(id)sender;
 - (IBAction)OnBack:(id)sender;
 - (IBAction)OnNext:(id)sender;
+- (IBAction)OnClickTitle:(id)sender;
+- (IBAction)OnMarcar:(id)sender;
 
 @end
 
@@ -62,6 +66,7 @@
 - (void)viewDidLoad
   {
   [super viewDidLoad];
+  InfoFont = _lbInfo.font;
   
   NSUserDefaults* UserDef = [NSUserDefaults standardUserDefaults];
   
@@ -89,11 +94,11 @@
   NSValue *KbSz = [userInfo objectForKey:UIKeyboardFrameEndUserInfoKey];
   CGRect rcKb = [self.view convertRect:[KbSz CGRectValue] fromView:nil];
   NSTimeInterval tm = ((NSNumber*)[userInfo objectForKey:UIKeyboardAnimationDurationUserInfoKey]).doubleValue;
-
+  
   [UIView animateWithDuration:tm animations:^{
     self.BottomSep.constant = rcKb.size.height - Bottom;
     [self.view layoutIfNeeded];
-    }];
+  }];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -112,10 +117,10 @@
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 -(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
   {
-//  NSString* msg = [NSString stringWithFormat:@"Cargando:'%@'\r\nTipo de navegación:'%d'",request.URL.absoluteString,(int)navigationType];
+  //  NSString* msg = [NSString stringWithFormat:@"Cargando:'%@'\r\nTipo de navegación:'%d'",request.URL.absoluteString,(int)navigationType];
   
-//  [self MsgTitle:@"Va a cargar la Página" Text: msg ];
-//  NSLog( @"Va a cargar la Página: %@", msg );
+  //  [self MsgTitle:@"Va a cargar la Página" Text: msg ];
+  //  NSLog( @"Va a cargar la Página: %@", msg );
   
   return TRUE;
   }
@@ -123,21 +128,21 @@
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 -(void)webViewDidStartLoad:(UIWebView *)webView
   {
-//  NSString* msg = [NSString stringWithFormat:@"Termino de Cargar:'%@'",webView.request.URL.path];
+  //  NSString* msg = [NSString stringWithFormat:@"Termino de Cargar:'%@'",webView.request.URL.path];
   
-//  [self MsgTitle:@"Carga Iniciada" Text: msg ];
-//  NSLog( @"Carga Iniciada: %@", msg );
+  //  [self MsgTitle:@"Carga Iniciada" Text: msg ];
+  //  NSLog( @"Carga Iniciada: %@", msg );
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 // Hubo un error al cargar la página
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
   {
-//  NSString* msg = [NSString stringWithFormat:@"ERROR:%@",error.description];
+  //  NSString* msg = [NSString stringWithFormat:@"ERROR:%@",error.description];
   
-//  [self MsgTitle:@"Error cargando la Página" Text: msg ];
-//  NSLog( @"Error cargando la Página: %@",msg );
-
+  //  [self MsgTitle:@"Error cargando la Página" Text: msg ];
+  //  NSLog( @"Error cargando la Página: %@",msg );
+  
   _curWait.hidden = true;
   }
 
@@ -145,11 +150,11 @@
 // Se cargo la página sin problemas
 - (void)webViewDidFinishLoad:(UIWebView *)webView
   {
-//  NSString* msg = [NSString stringWithFormat:@"Termino de Cargar:'%@'",webView.request.URL.path];
+  //  NSString* msg = [NSString stringWithFormat:@"Termino de Cargar:'%@'",webView.request.URL.path];
   
-//  [self MsgTitle:@"Carga finalizada" Text: msg ];
-//  NSLog( @"Carga finalizada: %@", msg );
-
+  //  [self MsgTitle:@"Carga finalizada" Text: msg ];
+  //  NSLog( @"Carga finalizada: %@", msg );
+  
   _curWait.hidden = true;
   }
 
@@ -235,11 +240,26 @@ UIView* HideKeyboard( UIView* view )
   {
   _curWait.hidden = false;
   [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate: [NSDate date] ];   // Procesa los mensajes
-
+  
   [self SetFechaforTitle: [self GetNowTitle]];
   
   [self OnProximo:sender];
   [self OnPublicar:sender];
+  }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+// Se llama cuando marca o desmarca un anuncio
+- (IBAction)OnMarcar:(id)sender
+  {
+  NSString* AnuncKey = [NSString stringWithFormat:@">>>%@", [self GetNowTitle] ];
+
+  NSUserDefaults* UserDef = [NSUserDefaults standardUserDefaults];
+  NSString* sMark = [UserDef objectForKey:AnuncKey];
+  
+  if( sMark==nil )  [UserDef setObject:NSDate.date forKey:AnuncKey];
+  else              [UserDef removeObjectForKey:AnuncKey];
+  
+  [self ShowNowAnuncioInfo];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -255,7 +275,7 @@ UIView* HideKeyboard( UIView* view )
   
   return @"";
   }
-  
+
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 // Carga el fichero de definición de los anuncios desde un fichero
 - (void) LoadAnunciosFromFile:(NSString*) fName
@@ -313,12 +333,12 @@ UIView* HideKeyboard( UIView* view )
   {
   float Count;
   NSString* Unidad;
-
-       if( tm<60       ) { Count = tm;          Unidad = @"segundos"; }
+  
+  if( tm<60       ) { Count = tm;          Unidad = @"segundos"; }
   else if( tm<60*60    ) { Count = tm/60;       Unidad = @"minutos"; }
   else if( tm<60*60*24 ) { Count = tm/60/60;    Unidad = @"horas"; }
   else                   { Count = tm/60/60/24; Unidad = @"días"; }
-
+  
   return [NSString stringWithFormat:@"%2.2f %@", Count, Unidad ];
   }
 
@@ -329,9 +349,9 @@ UIView* HideKeyboard( UIView* view )
   if( DefFiles.ActualFile==nil ) return;
   
   NSUserDefaults* UserDef = [NSUserDefaults standardUserDefaults];
-    
+  
   NSNumber* lastAnunc = [NSNumber numberWithInteger:nowAnunc];
-    
+  
   [UserDef setObject:lastAnunc forKey:DefFiles.ActualFile];
   }
 
@@ -359,17 +379,17 @@ UIView* HideKeyboard( UIView* view )
   HideKeyboard( self.view );
   
   _btnPrevio.hidden = _btnPublicar.hidden  = _btnProximo.hidden = true;
-  _btnLlenar.hidden = _btnPublicado.hidden = _btnDetener.hidden  = true;
-  _btnBack.hidden   = _btnNext.hidden      = true;
+  _btnLlenar.hidden = _btnPublicado.hidden = _btnDetener.hidden = true;
+  _btnBack.hidden   = _btnMark.hidden      = _btnNext.hidden    = true;
   
-       if( mode == 0 ) _btnPrevio.hidden = _btnPublicar.hidden = _btnProximo.hidden = false;
-  else if( mode == 1 ) _btnLlenar.hidden = _btnDetener.hidden  = false;
-  else if( mode == 2 ) _btnBack.hidden   = _btnNext.hidden     = false;
-  
+       if( mode == 0 ) _btnPrevio.hidden = _btnPublicar.hidden = _btnProximo.hidden = false;    // Modo Anuncios
+  else if( mode == 1 ) _btnLlenar.hidden = _btnDetener.hidden  = false;                         // Modo Publicar
+  else if( mode == 2 ) _btnBack.hidden   = _btnNext.hidden     = false;                         // Modo Navegar
+  else if( mode == 3 ) _btnPrevio.hidden = _btnMark.hidden     = _btnProximo.hidden  = false;   // Modo Revisar
+
   _InfoAnuc.hidden = (mode!=0);
   
   Modo = mode;
-  if( Modo==0 ) showTitle = FALSE;
   
   [self EnableWebNavigate];
   [self ShowNowAnuncioInfo];
@@ -379,8 +399,8 @@ UIView* HideKeyboard( UIView* view )
 // Habilita o desabilita los botones navegación según el contenido de la historia del navegador
 - (void) EnableWebNavigate
   {
-  _btnBack.enabled = _webPage.canGoBack;
-  _btnNext.enabled = _webPage.canGoForward;
+  _btnBack.hidden = !_webPage.canGoBack;
+  _btnNext.hidden = !_webPage.canGoForward;
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -392,7 +412,7 @@ UIView* HideKeyboard( UIView* view )
   @"  {"
   @"  var elem = document.all( Name );"
   @"  if( !elem || !elem.length ) return elem;"
-    
+  
   @"  for( var i=0; i<elem.length; ++i )"
   @"    if( elem[i].tagName == TagName )"
   @"      return elem[i];"
@@ -402,9 +422,9 @@ UIView* HideKeyboard( UIView* view )
   @"  {"
   @"  var elem = FindElem( TagName, Name );"
   @"  if( !elem ) return '1';"
-    
+  
   @"  elem.value = Val;"
-  @"  if( elem.onchange ) elem.onchange( this );"
+ //@"  if( elem.onchange ) elem.onchange( this );"
   @"  return '0';"
   @"  }"
   
@@ -412,40 +432,40 @@ UIView* HideKeyboard( UIView* view )
   @"  {"
   @"  var elems = document.getElementsByTagName( \"select\" );"
   @"  if( !elems ) return \"1\";"
-    
+  
   @"  for( var i=0; i<elems.length; ++i )"
   @"    {"
   @"    var elem = elems[i];"
-      
+  
   @"    if( elem.name == AttrName )"
   @"      {"
   @"      elem.value = sVal;"
   @"      if( elem.onchange ) elem.onchange( this );"
   @"      return \"0\";"
   @"      }"
-      
+  
   @"    return \"3\";"
   @"    }"
   @"  }"
-
+  
   @"function FillSelect( AttrName, OptText )"
   @"  {"
   @"  var elems = document.getElementsByTagName( \"select\" );"
   @"  if( !elems ) return \"1\";"
-    
+  
   @"  for( var i=0; i<elems.length; ++i )"
   @"    {"
   @"    var elem = elems[i];"
-      
+  
   @"    if( elem.name == AttrName )"
   @"      {"
   @"      var sOpt = OptText.toLowerCase();"
   @"      var Options = elem.getElementsByTagName(\"option\");"
-        
+  
   @"      for( var j=0; j<Options.length; ++j )"
   @"        {"
   @"        var opt = Options[j];"
-          
+  
   @"        if( opt.innerText.toLowerCase().indexOf(sOpt) != -1  )"
   @"          {"
   @"          opt.selected = true;"
@@ -453,10 +473,10 @@ UIView* HideKeyboard( UIView* view )
   @"          return \"0\";"
   @"          }"
   @"        }"
-        
+  
   @"      return \"2\";"
   @"      }"
-      
+  
   @"    return \"3\";"
   @"    }"
   @"  }";
@@ -475,7 +495,7 @@ UIView* HideKeyboard( UIView* view )
     jsSet = [NSString stringWithFormat:@"SelectValue('%@','%@')", Name, Value];
   else
     jsSet = [NSString stringWithFormat:@"FillInput('%@','%@','%@')", Tipo, Name, Value];
-
+  
   return [_webPage stringByEvaluatingJavaScriptFromString: jsSet ];
   }
 
@@ -487,7 +507,7 @@ UIView* HideKeyboard( UIView* view )
   
   AnuncioInfo* Anuncio = Anuncios.Items[nowAnunc];
   TextEval* eVal = [TextEval TextEvalWithAnucio:Anuncio];
-
+  
   bool AllOk = true;
   for( NSInteger i=0; i<Anuncio.FillInfo.count; i++)
     {
@@ -495,7 +515,7 @@ UIView* HideKeyboard( UIView* view )
     
     if( info.Txt==nil || info.AttrName==nil || info.TagName==nil )
       {
-//      NSLog(@"El dato '%@' fue ignorado", info.InfoName );
+      //      NSLog(@"El dato '%@' fue ignorado", info.InfoName );
       continue;
       }
     
@@ -544,22 +564,34 @@ UIView* HideKeyboard( UIView* view )
   
   if( nowAnunc >= num ) nowAnunc = 0;
   if( nowAnunc < 0    ) nowAnunc = num-1;
-
+  
   AnuncioInfo* nowItem = Anuncios.Items[nowAnunc];
   TextEval* eVal = [TextEval TextEvalWithAnucio:nowItem];
   eVal.Escape = false;
-
+  
   NSString* strTime =  [self getFechaforTitle:[self GetNowTitle] Check:FALSE];
   if( strTime.length > 0 )
     strTime = [NSString stringWithFormat:@"hace %@", strTime];
-
+  
+  NSString* AnuncKey = [NSString stringWithFormat:@">>>%@", [self GetNowTitle] ];
+  
+  NSUserDefaults* UserDef = [NSUserDefaults standardUserDefaults];
+  NSString* sMark = [UserDef objectForKey:AnuncKey];
+  sMark = sMark==nil? @"" : @" ***";
+  
   _txtDesc.contentOffset = CGPointMake(0, 0);
   
-  NSString* info  = [NSString stringWithFormat:@"%d de %d  %@", (int)nowAnunc+1, (int)num, strTime];
+  NSString* info  = [NSString stringWithFormat:@"%d de %d  %@  %@", (int)nowAnunc+1, (int)num, strTime, sMark];
   NSString* title = [eVal ParseValue:nowItem.GetTitle];
+  
   if( Modo != 0 && showTitle )
+    {
     info = [NSString stringWithFormat:@"%@\r\n%@", info, title ];
-    
+    _lbInfo.font = [UIFont systemFontOfSize:10];
+    }
+  else
+    _lbInfo.font = InfoFont;
+
   _lbInfo.text  = info;
   _lbTitle.text = title;
   _txtDesc.text = [eVal ParseValue:nowItem.GetDesc ];
@@ -568,14 +600,14 @@ UIView* HideKeyboard( UIView* view )
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
   {
-//  UIViewController* Ctrller = segue.destinationViewController;
-//  NSString* ID = segue.identifier;
-//
-//  if( [ID isEqualToString:@"SelectFile"] )
-//    ((SelFileViewController*) Ctrller).SelectedFile = AnuncFile;
-//
-//  if( [ID isEqualToString:@"EditFile"] )
-//    ((EditFileViewController*) Ctrller).EditFile = AnuncFile;
+  //  UIViewController* Ctrller = segue.destinationViewController;
+  //  NSString* ID = segue.identifier;
+  //
+  //  if( [ID isEqualToString:@"SelectFile"] )
+  //    ((SelFileViewController*) Ctrller).SelectedFile = AnuncFile;
+  //
+  //  if( [ID isEqualToString:@"EditFile"] )
+  //    ((EditFileViewController*) Ctrller).EditFile = AnuncFile;
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -599,7 +631,6 @@ UIView* HideKeyboard( UIView* view )
     }
   }
 
-
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 // Se llama al oprimir el botón para mostrar el menú
 - (IBAction)OnShowMenu:(id)sender
@@ -614,8 +645,11 @@ UIView* HideKeyboard( UIView* view )
   if( Modo!=1 ) [ItemIDs addObject: @"Pubicar"];
   if( Modo!=2 ) [ItemIDs addObject: @"Navegar"];
   
+  if( Modo!=3 ) [ItemIDs addObject: @"Revisar"];
+
   if( Modo!=0 && !showTitle ) [ItemIDs addObject: @"ShowTitle"];
-  
+  if( Modo!=0 &&  showTitle ) [ItemIDs addObject: @"HideTitle"];
+
   PopUp = [[PanelRigthView alloc] initInView:sender ItemIDs:ItemIDs];             // Crea un popup menú con items adicionales
   
   [PopUp OnHidePopUp:@selector(OnHidePopUp:) Target:self];                          // Pone metodo de notificación del mené
@@ -628,12 +662,14 @@ UIView* HideKeyboard( UIView* view )
   PopUp = nil;                                                                     // Indica que no hay menú a partir de este momento
   NSString* mnu = view.SelectedID;
   
-       if( [mnu isEqualToString:@"File"     ] ) [self performSegueWithIdentifier: @"SelectFile" sender: self];
+  if( [mnu isEqualToString:@"File"     ] ) [self performSegueWithIdentifier: @"SelectFile" sender: self];
   else if( [mnu isEqualToString:@"Auncios"  ] ) [self ShowButtonsMode:0];
   else if( [mnu isEqualToString:@"Pubicar"  ] ) [self ShowButtonsMode:1];
   else if( [mnu isEqualToString:@"Navegar"  ] ) [self ShowButtonsMode:2];
+  else if( [mnu isEqualToString:@"Revisar"  ] ) {showTitle=TRUE; [self ShowButtonsMode:3];}
   else if( [mnu isEqualToString:@"Editar"   ] ) [self performSegueWithIdentifier: @"EditFile" sender: self];
-  else if( [mnu isEqualToString:@"ShowTitle"] ) {showTitle=TRUE; [self ShowNowAnuncioInfo]; }
+  else if( [mnu isEqualToString:@"ShowTitle"] ) {showTitle=TRUE;  [self ShowNowAnuncioInfo]; }
+  else if( [mnu isEqualToString:@"HideTitle"] ) {showTitle=FALSE; [self ShowNowAnuncioInfo]; }
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -652,6 +688,16 @@ UIView* HideKeyboard( UIView* view )
   [_webPage goForward];
   
   [self EnableWebNavigate];
+  }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+// Se llama cuando se da click sobre el titulo del anuncio
+- (IBAction)OnClickTitle:(id)sender
+  {
+  if( Modo==0 ) return;
+  
+  showTitle = !showTitle;
+  [self ShowNowAnuncioInfo];
   }
 
 @end
