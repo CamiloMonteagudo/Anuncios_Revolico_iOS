@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		840AD6C523629A960043DF45 /* TextEval.m in Sources */ = {isa = PBXBuildFile; fileRef = 840AD6C423629A960043DF45 /* TextEval.m */; };
+		8410982F23874F9300F52D92 /* Anuncio Autorenavable.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8410982E23874F9300F52D92 /* Anuncio Autorenavable.txt */; };
 		841B6F88235F6A630030E42C /* DataAnuncios.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B6F87235F6A630030E42C /* DataAnuncios.m */; };
 		841B6F8E235FBD670030E42C /* Revolico Viagras.txt in Resources */ = {isa = PBXBuildFile; fileRef = 841B6F89235FBD660030E42C /* Revolico Viagras.txt */; };
 		841B6F8F235FBD670030E42C /* Revolico Medicinas 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 841B6F8A235FBD660030E42C /* Revolico Medicinas 1.txt */; };
@@ -33,6 +34,7 @@
 /* Begin PBXFileReference section */
 		840AD6C323629A960043DF45 /* TextEval.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextEval.h; sourceTree = "<group>"; };
 		840AD6C423629A960043DF45 /* TextEval.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextEval.m; sourceTree = "<group>"; };
+		8410982E23874F9300F52D92 /* Anuncio Autorenavable.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Anuncio Autorenavable.txt"; sourceTree = "<group>"; };
 		841B6F86235F6A630030E42C /* DataAnuncios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataAnuncios.h; sourceTree = "<group>"; };
 		841B6F87235F6A630030E42C /* DataAnuncios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataAnuncios.m; sourceTree = "<group>"; };
 		841B6F89235FBD660030E42C /* Revolico Viagras.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Revolico Viagras.txt"; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		841B6F93235FBD7A0030E42C /* Anuncios Files */ = {
 			isa = PBXGroup;
 			children = (
+				8410982E23874F9300F52D92 /* Anuncio Autorenavable.txt */,
 				8446BB3B2366828200E802A3 /* Todo.txt */,
 				841B6F8D235FBD660030E42C /* PorLaLivre Lavadoras.txt */,
 				841B6F8B235FBD660030E42C /* Revolico Lavadoras.txt */,
@@ -204,6 +207,7 @@
 				841B6F8F235FBD670030E42C /* Revolico Medicinas 1.txt in Resources */,
 				841B6F92235FBD670030E42C /* PorLaLivre Lavadoras.txt in Resources */,
 				842EBA5A235BABB700BD9E08 /* Main.storyboard in Resources */,
+				8410982F23874F9300F52D92 /* Anuncio Autorenavable.txt in Resources */,
 				841B6F8E235FBD670030E42C /* Revolico Viagras.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

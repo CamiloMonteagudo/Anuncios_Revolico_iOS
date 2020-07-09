@@ -21,6 +21,9 @@
   NSInteger       nowAnunc;
   
   PanelRigthView* PopUp;                                  // Vista que muestra el menú con las opciones adicionales
+  
+  int Modo;                                               // Mode de trabajo
+  BOOL showTitle;                                         // Muestra el titulo del anuncio en la parte de arriba o no
   }
 
 @property (weak, nonatomic) IBOutlet UIWebView *webPage;
@@ -109,44 +112,43 @@
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 -(BOOL)webView:(UIWebView *)webView shouldStartLoadWithRequest:(NSURLRequest *)request navigationType:(UIWebViewNavigationType)navigationType
   {
-  NSString* msg = [NSString stringWithFormat:@"Cargando:'%@'\r\nTipo de navegación:'%d'",request.URL.absoluteString,(int)navigationType];
+//  NSString* msg = [NSString stringWithFormat:@"Cargando:'%@'\r\nTipo de navegación:'%d'",request.URL.absoluteString,(int)navigationType];
   
 //  [self MsgTitle:@"Va a cargar la Página" Text: msg ];
-  NSLog( @"Va a cargar la Página: %@", msg );
-        
+//  NSLog( @"Va a cargar la Página: %@", msg );
+  
   return TRUE;
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 -(void)webViewDidStartLoad:(UIWebView *)webView
   {
-  NSString* msg = [NSString stringWithFormat:@"Termino de Cargar:'%@'",webView.request.URL.path];
+//  NSString* msg = [NSString stringWithFormat:@"Termino de Cargar:'%@'",webView.request.URL.path];
   
 //  [self MsgTitle:@"Carga Iniciada" Text: msg ];
-  NSLog( @"Carga Iniciada: %@", msg );
+//  NSLog( @"Carga Iniciada: %@", msg );
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 // Hubo un error al cargar la página
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(NSError *)error
   {
-  NSString* msg = [NSString stringWithFormat:@"ERROR:%@",error.description];
+//  NSString* msg = [NSString stringWithFormat:@"ERROR:%@",error.description];
   
 //  [self MsgTitle:@"Error cargando la Página" Text: msg ];
-  NSLog( @"Error cargando la Página: %@",msg );
+//  NSLog( @"Error cargando la Página: %@",msg );
 
   _curWait.hidden = true;
-  [self ShowButtonsMode:0];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 // Se cargo la página sin problemas
 - (void)webViewDidFinishLoad:(UIWebView *)webView
   {
-  NSString* msg = [NSString stringWithFormat:@"Termino de Cargar:'%@'",webView.request.URL.path];
+//  NSString* msg = [NSString stringWithFormat:@"Termino de Cargar:'%@'",webView.request.URL.path];
   
 //  [self MsgTitle:@"Carga finalizada" Text: msg ];
-  NSLog( @"Carga finalizada: %@", msg );
+//  NSLog( @"Carga finalizada: %@", msg );
 
   _curWait.hidden = true;
   }
@@ -167,6 +169,9 @@
   NSInteger num = Anuncios.Items.count;
   if( nowAnunc >= num || nowAnunc < 0 ) return;
   
+  _curWait.hidden = false;
+  [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate: [NSDate date] ];   // Procesa los mensajes
+  
   [self getFechaforTitle:[self GetNowTitle] Check:TRUE];
   
   AnuncioInfo* nowItem = Anuncios.Items[nowAnunc];
@@ -178,7 +183,6 @@
   url = [NSURL URLWithString: file];
   
   [_webPage loadRequest:[NSURLRequest requestWithURL:url]];
-  _curWait.hidden = false;
   
   [self ShowButtonsMode:1];
   }
@@ -229,6 +233,9 @@ UIView* HideKeyboard( UIView* view )
 // Marca el anuncio como publicado y pasa al siguiente
 - (IBAction)OnPublicado:(id)sender
   {
+  _curWait.hidden = false;
+  [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate: [NSDate date] ];   // Procesa los mensajes
+
   [self SetFechaforTitle: [self GetNowTitle]];
   
   [self OnProximo:sender];
@@ -307,26 +314,10 @@ UIView* HideKeyboard( UIView* view )
   float Count;
   NSString* Unidad;
 
-  if( tm<60 )
-    {
-    Count = tm;
-    Unidad = @"segundos";
-    }
-  else if( tm<60*60 )
-    {
-    Count = tm/60;
-    Unidad = @"minutos";
-    }
-  else if( tm<60*60*24 )
-    {
-    Count = tm/60/60;
-    Unidad = @"horas";
-    }
-  else
-    {
-    Count = tm/60/60/24;
-    Unidad = @"días";
-    }
+       if( tm<60       ) { Count = tm;          Unidad = @"segundos"; }
+  else if( tm<60*60    ) { Count = tm/60;       Unidad = @"minutos"; }
+  else if( tm<60*60*24 ) { Count = tm/60/60;    Unidad = @"horas"; }
+  else                   { Count = tm/60/60/24; Unidad = @"días"; }
 
   return [NSString stringWithFormat:@"%2.2f %@", Count, Unidad ];
   }
@@ -377,7 +368,11 @@ UIView* HideKeyboard( UIView* view )
   
   _InfoAnuc.hidden = (mode!=0);
   
+  Modo = mode;
+  if( Modo==0 ) showTitle = FALSE;
+  
   [self EnableWebNavigate];
+  [self ShowNowAnuncioInfo];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -500,7 +495,7 @@ UIView* HideKeyboard( UIView* view )
     
     if( info.Txt==nil || info.AttrName==nil || info.TagName==nil )
       {
-      NSLog(@"El dato '%@' fue ignorado", info.InfoName );
+//      NSLog(@"El dato '%@' fue ignorado", info.InfoName );
       continue;
       }
     
@@ -555,13 +550,18 @@ UIView* HideKeyboard( UIView* view )
   eVal.Escape = false;
 
   NSString* strTime =  [self getFechaforTitle:[self GetNowTitle] Check:FALSE];
-  if( strTime.length >0 )
+  if( strTime.length > 0 )
     strTime = [NSString stringWithFormat:@"hace %@", strTime];
 
   _txtDesc.contentOffset = CGPointMake(0, 0);
   
-  _lbInfo.text = [NSString stringWithFormat:@"%d de %d  %@", (int)nowAnunc+1, (int)num, strTime];
-  _lbTitle.text = [eVal ParseValue:nowItem.GetTitle];
+  NSString* info  = [NSString stringWithFormat:@"%d de %d  %@", (int)nowAnunc+1, (int)num, strTime];
+  NSString* title = [eVal ParseValue:nowItem.GetTitle];
+  if( Modo != 0 && showTitle )
+    info = [NSString stringWithFormat:@"%@\r\n%@", info, title ];
+    
+  _lbInfo.text  = info;
+  _lbTitle.text = title;
   _txtDesc.text = [eVal ParseValue:nowItem.GetDesc ];
   }
 
@@ -606,11 +606,34 @@ UIView* HideKeyboard( UIView* view )
   {
   HideKeyboard( self.view );
   
-  NSMutableArray* ItemIDs = [NSMutableArray arrayWithObjects: @"File", @"Auncios", @"Pubicar", @"Navegar", @"Editar", nil];
+  NSMutableArray<NSString*>* ItemIDs = [NSMutableArray new];
+  [ItemIDs addObject: @"File"   ];
+  [ItemIDs addObject: @"Editar" ];
+  
+  if( Modo!=0 ) [ItemIDs addObject: @"Auncios"];
+  if( Modo!=1 ) [ItemIDs addObject: @"Pubicar"];
+  if( Modo!=2 ) [ItemIDs addObject: @"Navegar"];
+  
+  if( Modo!=0 && !showTitle ) [ItemIDs addObject: @"ShowTitle"];
   
   PopUp = [[PanelRigthView alloc] initInView:sender ItemIDs:ItemIDs];             // Crea un popup menú con items adicionales
   
   [PopUp OnHidePopUp:@selector(OnHidePopUp:) Target:self];                          // Pone metodo de notificación del mené
+  }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+// Se llama cuando se cierra el menú con las opciones adicionales
+- (void)OnHidePopUp:(PanelRigthView*) view
+  {
+  PopUp = nil;                                                                     // Indica que no hay menú a partir de este momento
+  NSString* mnu = view.SelectedID;
+  
+       if( [mnu isEqualToString:@"File"     ] ) [self performSegueWithIdentifier: @"SelectFile" sender: self];
+  else if( [mnu isEqualToString:@"Auncios"  ] ) [self ShowButtonsMode:0];
+  else if( [mnu isEqualToString:@"Pubicar"  ] ) [self ShowButtonsMode:1];
+  else if( [mnu isEqualToString:@"Navegar"  ] ) [self ShowButtonsMode:2];
+  else if( [mnu isEqualToString:@"Editar"   ] ) [self performSegueWithIdentifier: @"EditFile" sender: self];
+  else if( [mnu isEqualToString:@"ShowTitle"] ) {showTitle=TRUE; [self ShowNowAnuncioInfo]; }
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -630,23 +653,6 @@ UIView* HideKeyboard( UIView* view )
   
   [self EnableWebNavigate];
   }
-
-//--------------------------------------------------------------------------------------------------------------------------------------------------------
-// Se llama cuando se cierra el menú con las opciones adicionales
-- (void)OnHidePopUp:(PanelRigthView*) view
-  {
-  PopUp = nil;                                                                     // Indica que no hay menú a partir de este momento
-  
-  switch( view.SelectedItem )
-    {
-    case 0: [self performSegueWithIdentifier: @"SelectFile" sender: nil]; break;
-    case 1: [self ShowButtonsMode:0]; break;
-    case 2: [self ShowButtonsMode:1]; break;
-    case 3: [self ShowButtonsMode:2]; break;
-    case 4: [self performSegueWithIdentifier: @"EditFile" sender: nil]; break;
-    }
-  }
-
 
 @end
 

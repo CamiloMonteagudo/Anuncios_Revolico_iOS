@@ -14,3 +14,4 @@
 "MnuBorrar"    = "Borra el fichero";
 "MnuSaveAs"    = "Guardar Como ..";
 "MnuNuevo"     = "Nuevo Fichero";
+"MnuShowTitle" = "Mostrar el título";

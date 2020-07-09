@@ -11,10 +11,11 @@
 //=========================================================================================================================================================
 @interface PanelRigthView : UIView
 
-- (id)initInView:(UIView*)view ItemIDs:(NSArray*) Items;
+- (id)initInView:(UIView*)view ItemIDs:(NSArray<NSString*>*) Items;
 - (void) OnHidePopUp:(SEL)action Target:(id)target;
 
-@property(nonatomic,readonly) int SelectedItem;
+@property(nonatomic,readonly)       int SelectedIdx;        // Indice de la selección
+@property(nonatomic,readonly) NSString* SelectedID;         // Identificador de la selección
 
 @end
 

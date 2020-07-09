@@ -35,6 +35,7 @@ UIFont*  fontEdit;               // Fuente para los textos editados
 //=========================================================================================================================================================
 @interface PanelRigthView ()
   {
+  NSArray<NSString*>* ItemsID;   // Identificadores del los items del menú
   NSMutableArray * Rows;         // Filas o Item que conforman el menú
   UIView* UpView;                // Ventana superior en la jerarquia de la ventana de referencia
   UIView* Panel;                 // Vista que contiene el contenido del menú
@@ -52,8 +53,10 @@ UIFont*  fontEdit;               // Fuente para los textos editados
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 // Crea un PopUp Menu, debajo de la vista view, con las listas de Iconos de cada uno de los items del menú
-- (id)initInView:(UIView*)view ItemIDs:(NSArray*) Items
+- (id)initInView:(UIView*)view ItemIDs:(NSArray<NSString*>*) Items
   {
+  ItemsID = Items;
+  
   ColPanelBck  = [UIColor colorWithRed:0.23 green:0.60 blue:0.98 alpha:0.95];   // Color de fondo para el menú lateral
   ColItemBck   = [UIColor colorWithRed:0.23 green:0.60 blue:0.98 alpha:1.00];   // Color de fondo para los items del menu
   ColItemSel   = [UIColor colorWithRed:0.50 green:0.70 blue:0.95 alpha:1.00];   // Color del item seleccionado y de los bordes
@@ -78,23 +81,24 @@ UIFont*  fontEdit;               // Fuente para los textos editados
 //  rc.origin.y = 150;
 //  rc.size.width = rc.size.width + PopUpWidth;
   
-  self = [super initWithFrame: UpView.bounds ];                               // Crea una vista, con la dimensiones la de mayor jerarquia
-  if( !self ) return self;                                                    // Si no la puede crear termina
+  self = [super initWithFrame: UpView.bounds ];                                   // Crea una vista, con la dimensiones la de mayor jerarquia
+  if( !self ) return self;                                                        // Si no la puede crear termina
   
   self.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
   
-  [UpView.superview addSubview:self];                                          // Adiciona esta vista a de mayor jerarquia (La cubre de forna trasparente)
+  [UpView.superview addSubview:self];                                             // Adiciona esta vista a de mayor jerarquia (La cubre de forna trasparente)
   
-  [self CreatePanelWithItems:Items];                                            // Crea el panel en la parte derecha de la vista
+  [self CreatePanelWithItems:Items];                                              // Crea el panel en la parte derecha de la vista
   
-  [UpView addSubview:Panel];                                                    // Adiciona el menú a la vista de fondo
+  [UpView addSubview:Panel];                                                      // Adiciona el menú a la vista de fondo
   
   CGPoint pnt = Panel.center;
   pnt.x = pnt.x - Panel.frame.size.width;
     
-  [UIView animateWithDuration: 0.6 animations:^{  self->Panel.center = pnt;}];     // Muestra menú animado, con la altura final
+  [UIView animateWithDuration: 0.6 animations:^{  self->Panel.center = pnt;}];    // Muestra menú animado, con la altura final
 
-  _SelectedItem = -1;                                                         // Por defecto no se selecciono ningun item
+  _SelectedIdx = -1;                                                              // Por defecto no se selecciono ningun item
+  _SelectedID  = @"";                                                             // Por defecto no se selecciono ningun item
   return self;
   }
 
@@ -200,7 +204,8 @@ UIView* FindTopView( UIView* FromView )
       vRow.Selected = TRUE;                                                   // Pone la fila como seleccionada
       [vRow setNeedsDisplay];                                                 // Fuerza a que se redibuje
       
-      _SelectedItem = i;                                                      // Retorna el incice de la fila
+      _SelectedIdx = i;                                                       // Retorna el indice de la fila
+      _SelectedID = ItemsID[i];                                               // Retorna el identificador de la fila
       return;
       }
     }

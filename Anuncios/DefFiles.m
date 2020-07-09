@@ -91,6 +91,33 @@ NSString* nowFile;
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
+// Guarda la cadena 'Text' en el fichero 'fName'
++ (int) GetLocOfFile:(NSString*) fName
+  {
+  NSString* fileUser = [DefFiles UserPathForFile:fName];                // Camino para el directorio de usuario
+  NSString* fileApps = [DefFiles AppPathForFile:fName];                 // Camino para el directorio de la aplicación
+
+  int ret = 0;
+  NSFileManager *fMng = [[NSFileManager alloc] init];                   // Crea objeto para manejo de ficheros
+
+  if( [fMng fileExistsAtPath:fileApps] ) ret  = 1;                      // El fichero esta en el directorio de la aplicación
+  if( [fMng fileExistsAtPath:fileUser] ) ret |= 2;                      // El fichero esta en el directorio de usuario
+
+  return ret;
+  }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+// Borra el fichero 'fName' si esta en el directorio de usuario
++ (int) DeleteFile:(NSString*) fName
+  {
+  NSString* fileUser = [DefFiles UserPathForFile:fName];                // Camino para el directorio de usuario
+  
+  NSFileManager *fMng = [[NSFileManager alloc] init];                   // Crea objeto para manejo de ficheros
+  
+  return [fMng removeItemAtPath:fileUser error:nil];                    // Borra el fichero
+  }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
 // Obtiene todos los archivos de definición de fichero que existan
 + (NSArray<NSString *>*) FindFiles
   {
@@ -114,7 +141,7 @@ NSString* nowFile;
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-// Obtiene todos los archivos de definición de fichero que existan
+// Obtiene todos los archivos de definición de fichero que existan un directorio dado y los agrega a la lista
 + (void) GetFilesFromDir:(NSString*) Dir InSet:(NSMutableSet<NSString *>*) FoundFiles
   {
   NSFileManager *fMng = [[NSFileManager alloc] init];                   // Crea objeto para manejo de ficheros

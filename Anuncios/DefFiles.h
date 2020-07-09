@@ -17,6 +17,9 @@
 + (NSString*) AppPathForFile:(NSString*) fName;
 + (NSString*) UserPathForFile:(NSString*) fName;
 
++ (int) GetLocOfFile:(NSString*) fName;
++ (int) DeleteFile:(NSString*) fName;
+
 + (DataAnuncios*) LoadDatos:(NSString*) fName;
 + (NSString*) LoadText:(NSString*) fName;
 + (BOOL) SaveText:(NSString*) Text InFile:(NSString*) fName;
