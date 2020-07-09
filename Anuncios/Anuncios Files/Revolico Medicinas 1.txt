@@ -12,7 +12,7 @@
 // Telef-Txt = 7 832 8768 ó 5 331 7003
 
 // Anuncio-Txt = 01Med1 --------------------------------------------------------------------------------------------------------------------------------
-{H}••••DICLOFENAC, IBUPROFENO, OMEGA 3, OVULOS, OMEPRAZOL, RANITIDINA, VITAMINAS
+{H}••••DICLOFENAC, "IBUPROFENO", 'OMEGA 3', OVULOS, OMEPRAZOL, RANITIDINA, VITAMINAS
 : 7 832 8768/5 331 7003
 
 Productos:
