@@ -75,6 +75,15 @@
   }
   
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
+// Cambia el titulo del anuncio
+-(void) SetTitle:(NSString*) title
+  {
+  for( HtmlInfo* item in _FillInfo)
+    if( [item.InfoName isEqualToString:@"Titulo"] )
+      item.Txt = title;
+  }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
 // Obtiene el titulo del anuncio
 -(NSString*) GetDesc
   {

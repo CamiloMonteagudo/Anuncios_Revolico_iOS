@@ -30,6 +30,7 @@
 
 -(NSString*) GetTitle;
 -(NSString*) GetDesc;
+-(void) SetTitle:(NSString*) title;
 
 @end
 

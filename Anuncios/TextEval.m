@@ -124,20 +124,19 @@
 // Obtiene un emcabezamiento unico de 2 letras para el titulo
 -(NSString*) GetTitleHeader
   {
-  NSString* Meses = @"ZYXWVUTSRQPOMNLKJIHGFEDCBA0987654321Ñ";
-  NSString* Dias  = @"0123456789ABCDEFGHIJKLNMOPQRSTUVWXYZ";
+  NSString* Meses = @"ZYXWVUTSRQPOMNLKJIHGFEDCBAÑ©°Æ®Øß∂¶§µ";
+  NSString* Dias  = @"ABCDEFGHIJKLNMOPQRSTUVWXYZÇÆµÑØß∂¶§";
   
   NSInteger dia  = [Cldr component:NSCalendarUnitDay   fromDate:Now] - 1;
   NSInteger mes  = [Cldr component:NSCalendarUnitMonth fromDate:Now] - 1;
-  NSInteger hora = [Cldr component:NSCalendarUnitHour  fromDate:Now];
 
-  if( hora>12 ) mes += 12;
-  if( hora>16 ) mes += 12;
+  int mult = rand()%3;
+  mes += mult*12;
 
   char c1 = [Meses characterAtIndex:mes];
   char c2 = [Dias characterAtIndex:dia];
   
-  return [NSString stringWithFormat:@"%c%c", c1, c2];
+  return [NSString stringWithFormat:@"(%c%c)", c1, c2];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------

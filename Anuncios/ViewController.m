@@ -183,9 +183,9 @@
   
   NSURL *url = [NSURL URLWithString: nowItem.Url];
   
-  NSBundle *Bundle = [NSBundle mainBundle];
-  NSString* file = [Bundle pathForResource:@"PageTest" ofType:@"html" ];
-  url = [NSURL URLWithString: file];
+//  NSBundle *Bundle = [NSBundle mainBundle];
+//  NSString* file = [Bundle pathForResource:@"PageTest" ofType:@"html" ];
+//  url = [NSURL URLWithString: file];
   
   [_webPage loadRequest:[NSURLRequest requestWithURL:url]];
   
@@ -275,6 +275,58 @@ UIView* HideKeyboard( UIView* view )
   
   return @"";
   }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+// Cambia las palabras del titulo
+- (void) ChangeTitle
+  {
+  if( nowAnunc<0 || nowAnunc>=Anuncios.Items.count ) return;
+  
+  NSString* title = Anuncios.Items[nowAnunc].GetTitle;
+  
+  NSArray<NSString*>* Prods = [title componentsSeparatedByString:@"✅"];
+  NSString* newTitle = [self ChangeWordsList:Prods];
+
+  [Anuncios.Items[nowAnunc] SetTitle:newTitle];
+  [self ShowNowAnuncioInfo];
+  }
+
+//--------------------------------------------------------------------------------------------------------------------------------------
+// Obtiene una cadena con las palabras de la lista ordenadas aleatoriamente
+-(NSString*) ChangeWordsList:(NSArray<NSString*>*) Prods
+  {
+  // Obtiene una lista con todas las palabras claves
+  NSMutableArray<NSString*>* words = [NSMutableArray arrayWithArray:Prods];
+  
+  NSMutableString* List = [NSMutableString stringWithString:@""];       // Crea cadena vacia
+  if( words[0].length>0 )
+    {
+    NSString* wrd = [words[0] stringByTrimmingCharactersInSet: NSCharacterSet.whitespaceCharacterSet];
+    
+    [List appendString:wrd];
+    [words removeObjectAtIndex:0];
+    }
+  
+  while( words.count>0 )                                                // Mientras haya palabras en la lista
+    {
+    int idx = rand() % words.count;                                     // Obtiene indice a una palabra aleatoriamente
+    
+    NSString* wrd = [words[idx] stringByTrimmingCharactersInSet: NSCharacterSet.whitespaceCharacterSet];
+    
+    if( wrd.length>0 )
+      {
+      if( List.length>0 ) [List appendString:@" "];                     // Si no es la primera palabra adiciona espacio separador
+      [List appendString:@"✅"];                                        // Adiciona un check mark
+      [List appendString:wrd];                                          // Adiciona la palabra a la cadena
+      }
+    
+    [words removeObjectAtIndex:idx];                                    // Borra la palabra de la lista
+    }
+  
+  return List;                                                          // Retorna cadena con lista de palabras
+}
+
+
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 // Carga el fichero de definición de los anuncios desde un fichero
@@ -653,6 +705,8 @@ UIView* HideKeyboard( UIView* view )
 
   if( Modo!=0 && !showTitle ) [ItemIDs addObject: @"ShowTitle"];
   if( Modo!=0 &&  showTitle ) [ItemIDs addObject: @"HideTitle"];
+  
+  if( Modo<=1 ) [ItemIDs addObject: @"ChgTitle"];
 
   PopUp = [[PanelRigthView alloc] initInView:sender ItemIDs:ItemIDs];             // Crea un popup menú con items adicionales
   
@@ -674,6 +728,7 @@ UIView* HideKeyboard( UIView* view )
   else if( [mnu isEqualToString:@"Editar"   ] ) [self performSegueWithIdentifier: @"EditFile" sender: self];
   else if( [mnu isEqualToString:@"ShowTitle"] ) {showTitle=TRUE;  [self ShowNowAnuncioInfo]; }
   else if( [mnu isEqualToString:@"HideTitle"] ) {showTitle=FALSE; [self ShowNowAnuncioInfo]; }
+  else if( [mnu isEqualToString:@"ChgTitle"]  ) { [self ChangeTitle]; }
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
