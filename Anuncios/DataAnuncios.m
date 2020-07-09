@@ -75,6 +75,17 @@
   }
   
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
+// Obtiene el titulo del anuncio
+-(NSString*) GetDesc
+  {
+  for( HtmlInfo* item in _FillInfo)
+    if( [item.InfoName isEqualToString:@"Descripción"] )
+      return item.Txt;
+  
+  return @"";
+  }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
 // Analiza toda la información de un anuncio a partir de la linea actual
 +(AnuncioInfo*) AnuncioFromLines:(NSArray<NSString*>*) lines Index:(NSInteger*) i Last:(AnuncioInfo*) LastAnuncio
   {
@@ -219,10 +230,11 @@
 // Obtiene los datos de los anuncios desde un fichero
 +(DataAnuncios*) LoadFromFile:(NSString*) fileName
   {
+  NSArray<NSString*> * Lines = [DataAnuncios ReadLinesOfFile:fileName];
+  if( Lines==nil ) return nil;
+  
   DataAnuncios* Datos = [DataAnuncios new];
   Datos.Items = [NSMutableArray<AnuncioInfo*> new];
-
-  NSArray<NSString*> * Lines = [Datos ReadLinesOfFile:fileName];
   
   [Datos ParseLines: Lines ];
 
@@ -231,13 +243,13 @@
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
 // Obtiene las parte de la cadena que representa el identificador del anuncio
--(NSArray<NSString*> *) ReadLinesOfFile:(NSString*) fileName
++(NSArray<NSString*> *) ReadLinesOfFile:(NSString*) fileName
   {
   NSStringEncoding Enc;
   NSError          *Err;
 
   NSString *Txt = [NSString stringWithContentsOfFile:fileName usedEncoding:&Enc error:&Err];
-  if( Txt == nil ) return [NSArray<NSString*> new];
+  if( Txt == nil ) return nil;
 
   Txt = [Txt stringByReplacingOccurrencesOfString:@"\r" withString:@""];
 

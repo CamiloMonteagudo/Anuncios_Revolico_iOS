@@ -29,6 +29,7 @@
  @property (nonatomic) NSMutableArray<HtmlInfo*> *FillInfo;     // Lista de todas las modificaciones que hay que hacer en la pagina
 
 -(NSString*) GetTitle;
+-(NSString*) GetDesc;
 
 @end
 

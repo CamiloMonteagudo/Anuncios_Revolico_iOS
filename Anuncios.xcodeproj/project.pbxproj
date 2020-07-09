@@ -22,7 +22,12 @@
 		842EBA5F235BABBC00BD9E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842EBA5D235BABBC00BD9E08 /* LaunchScreen.storyboard */; };
 		842EBA62235BABBC00BD9E08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842EBA61235BABBC00BD9E08 /* main.m */; };
 		8446BB3C2366828300E802A3 /* Todo.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8446BB3B2366828200E802A3 /* Todo.txt */; };
+		84635C4C2374A457009202AD /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84635C4B2374A457009202AD /* Localizable.strings */; };
+		84635C4F2374A5D2009202AD /* PanelRigthView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84635C4D2374A5D1009202AD /* PanelRigthView.m */; };
+		84AE09C223748825001410C1 /* Menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84AE09C023748825001410C1 /* Menu@2x.png */; };
 		84C632B42361433B00FFFE9C /* SelFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84C632B32361433B00FFFE9C /* SelFileViewController.m */; };
+		84D2D91423761E2F00450247 /* EditFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D2D91323761E2F00450247 /* EditFileViewController.m */; };
+		84D2D9172376294400450247 /* DefFiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D2D9162376294400450247 /* DefFiles.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,8 +52,16 @@
 		842EBA60235BABBC00BD9E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		842EBA61235BABBC00BD9E08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8446BB3B2366828200E802A3 /* Todo.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Todo.txt; sourceTree = "<group>"; };
+		84635C4B2374A457009202AD /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		84635C4D2374A5D1009202AD /* PanelRigthView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanelRigthView.m; sourceTree = "<group>"; };
+		84635C4E2374A5D1009202AD /* PanelRigthView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanelRigthView.h; sourceTree = "<group>"; };
+		84AE09C023748825001410C1 /* Menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Menu@2x.png"; sourceTree = "<group>"; };
 		84C632B22361433B00FFFE9C /* SelFileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelFileViewController.h; sourceTree = "<group>"; };
 		84C632B32361433B00FFFE9C /* SelFileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelFileViewController.m; sourceTree = "<group>"; };
+		84D2D91223761E2F00450247 /* EditFileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditFileViewController.h; sourceTree = "<group>"; };
+		84D2D91323761E2F00450247 /* EditFileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditFileViewController.m; sourceTree = "<group>"; };
+		84D2D9152376294400450247 /* DefFiles.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DefFiles.h; sourceTree = "<group>"; };
+		84D2D9162376294400450247 /* DefFiles.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DefFiles.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,23 +107,31 @@
 		842EBA51235BABB700BD9E08 /* Anuncios */ = {
 			isa = PBXGroup;
 			children = (
-				842BEA91235E8A9900981623 /* PageTest.html */,
+				842EBA58235BABB700BD9E08 /* Main.storyboard */,
 				842EBA52235BABB700BD9E08 /* AppDelegate.h */,
 				842EBA53235BABB700BD9E08 /* AppDelegate.m */,
 				842EBA55235BABB700BD9E08 /* ViewController.h */,
 				842EBA56235BABB700BD9E08 /* ViewController.m */,
-				842EBA58235BABB700BD9E08 /* Main.storyboard */,
+				84C632B22361433B00FFFE9C /* SelFileViewController.h */,
+				84C632B32361433B00FFFE9C /* SelFileViewController.m */,
+				84D2D91223761E2F00450247 /* EditFileViewController.h */,
+				84D2D91323761E2F00450247 /* EditFileViewController.m */,
+				84D2D9152376294400450247 /* DefFiles.h */,
+				84D2D9162376294400450247 /* DefFiles.m */,
+				841B6F86235F6A630030E42C /* DataAnuncios.h */,
+				841B6F87235F6A630030E42C /* DataAnuncios.m */,
+				840AD6C323629A960043DF45 /* TextEval.h */,
+				840AD6C423629A960043DF45 /* TextEval.m */,
+				84635C4E2374A5D1009202AD /* PanelRigthView.h */,
+				84635C4D2374A5D1009202AD /* PanelRigthView.m */,
 				842EBA5B235BABBC00BD9E08 /* Assets.xcassets */,
 				842EBA5D235BABBC00BD9E08 /* LaunchScreen.storyboard */,
 				842EBA60235BABBC00BD9E08 /* Info.plist */,
+				84635C4B2374A457009202AD /* Localizable.strings */,
 				842EBA61235BABBC00BD9E08 /* main.m */,
-				841B6F86235F6A630030E42C /* DataAnuncios.h */,
-				841B6F87235F6A630030E42C /* DataAnuncios.m */,
+				84AE09C023748825001410C1 /* Menu@2x.png */,
+				842BEA91235E8A9900981623 /* PageTest.html */,
 				841B6F93235FBD7A0030E42C /* Anuncios Files */,
-				84C632B22361433B00FFFE9C /* SelFileViewController.h */,
-				84C632B32361433B00FFFE9C /* SelFileViewController.m */,
-				840AD6C323629A960043DF45 /* TextEval.h */,
-				840AD6C423629A960043DF45 /* TextEval.m */,
 			);
 			path = Anuncios;
 			sourceTree = "<group>";
@@ -172,6 +193,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84AE09C223748825001410C1 /* Menu@2x.png in Resources */,
+				84635C4C2374A457009202AD /* Localizable.strings in Resources */,
 				8446BB3C2366828300E802A3 /* Todo.txt in Resources */,
 				841B6F91235FBD670030E42C /* Revolico Medicinas 2.txt in Resources */,
 				842EBA5F235BABBC00BD9E08 /* LaunchScreen.storyboard in Resources */,
@@ -192,11 +215,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D2D91423761E2F00450247 /* EditFileViewController.m in Sources */,
 				842EBA57235BABB700BD9E08 /* ViewController.m in Sources */,
 				84C632B42361433B00FFFE9C /* SelFileViewController.m in Sources */,
 				842EBA62235BABBC00BD9E08 /* main.m in Sources */,
 				842EBA54235BABB700BD9E08 /* AppDelegate.m in Sources */,
+				84D2D9172376294400450247 /* DefFiles.m in Sources */,
 				840AD6C523629A960043DF45 /* TextEval.m in Sources */,
+				84635C4F2374A5D2009202AD /* PanelRigthView.m in Sources */,
 				841B6F88235F6A630030E42C /* DataAnuncios.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

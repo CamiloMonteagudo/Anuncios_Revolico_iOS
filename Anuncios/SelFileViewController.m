@@ -7,10 +7,11 @@
 //========================================================================================================================================================
 
 #import "SelFileViewController.h"
+#import "DefFiles.h"
 
 @interface SelFileViewController ()
   {
-  NSMutableArray<NSString *> *DefFiles;
+  NSArray<NSString *> *FoundFiles;
   NSIndexPath *SelectIdxPath;
   }
 
@@ -26,16 +27,9 @@
   {
   [super viewDidLoad];
   
-  NSBundle *Bundle = [NSBundle mainBundle];
-  NSArray<NSString *> *Files = [Bundle pathsForResourcesOfType:@"txt" inDirectory:nil];
+  _SelectedFile = DefFiles.ActualFile;
   
-  DefFiles = [NSMutableArray<NSString *> new];
-  for( NSString* file in Files)
-    {
-    NSString *Name = [file lastPathComponent];
-    NSArray<NSString*>* NameExt = [Name componentsSeparatedByString:@"."];
-    [DefFiles addObject:NameExt[0]];
-    }
+  FoundFiles = [DefFiles FindFiles];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -49,7 +43,7 @@
 // Se llama para saber el número de datos de palabras o frases que se van a mostrar
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
   {
-  return DefFiles.count;
+  return FoundFiles.count;
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -60,7 +54,7 @@
   
   UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier: @"Row"];
   
-  NSString* AnuncFile = DefFiles[row];
+  NSString* AnuncFile = FoundFiles[row];
   cell.textLabel.text = AnuncFile;
   
   if( [AnuncFile isEqualToString:_SelectedFile ] )
@@ -78,8 +72,8 @@
   {
   int row = (int)[indexPath row];
 
-  self.SelectedFile = DefFiles[row];
-  [self performSegueWithIdentifier: @"Back" sender: self];  // Retorna a la vista anterior
+  self.SelectedFile = FoundFiles[row];
+  [self performSegueWithIdentifier: @"BackFormSelFile" sender: self];  // Retorna a la vista anterior
   }
 
 

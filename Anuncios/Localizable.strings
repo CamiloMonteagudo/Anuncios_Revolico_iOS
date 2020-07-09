@@ -1,0 +1,16 @@
+"UILang" = "0";
+
+"Options" = "OPCIONES";
+
+"MnuFile" = "Fichero de Anuncios";
+"MnuNavegar"  = "Modo Navegar";
+"MnuPubicar"  = "Modo Publicar";
+"MnuAuncios"  = "Modo Anuncios";
+"MnuEditar"   = "Editar Anuncios";
+
+"MnuSalir"     = "Salir sin Guardar";
+"MnuGuardar"   = "Guardar Cambios";
+"MnuRestaurar" = "Restaurar Contenido";
+"MnuBorrar"    = "Borra el fichero";
+"MnuSaveAs"    = "Guardar Como ..";
+"MnuNuevo"     = "Nuevo Fichero";

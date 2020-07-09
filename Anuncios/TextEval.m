@@ -67,7 +67,7 @@
     NSRange rg = NSMakeRange(ini.location, fin.location-ini.location+1);
     NSString* cmd = [str substringWithRange:rg];
     
-    NSString* ret = cmd;
+    NSString* ret = @"";
     NSString* CMD = [cmd uppercaseString];
          if( [CMD isEqualToString:@"{ID}"    ] ) ret = [self GetAnuncioID];
     else if( [CMD isEqualToString:@"{DIA}"   ] ) ret = [self GetDia];
