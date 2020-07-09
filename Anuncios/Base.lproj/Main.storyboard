@@ -170,6 +170,19 @@
                                             <action selector="OnMarcar:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zg4-QI-lOm"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o19-vq-X2m">
+                                        <rect key="frame" x="142" y="0.0" width="90" height="45"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="OFd-83-IDp"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                        <state key="normal" title="Refrescar">
+                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="OnRefresh:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PGm-2y-cmf"/>
+                                        </connections>
+                                    </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" reversesTitleShadowWhenHighlighted="YES" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P93-y9-6mH">
                                         <rect key="frame" x="285" y="0.0" width="90" height="45"/>
                                         <constraints>
@@ -218,6 +231,7 @@
                                     <constraint firstItem="lud-8m-9IU" firstAttribute="centerY" secondItem="Na9-7n-1fi" secondAttribute="centerY" id="35h-x6-VaE"/>
                                     <constraint firstItem="MZT-u4-daY" firstAttribute="centerY" secondItem="Na9-7n-1fi" secondAttribute="centerY" id="3OC-BD-zKf"/>
                                     <constraint firstAttribute="trailing" secondItem="haF-tC-fzg" secondAttribute="trailing" id="3f3-Zy-0Tp"/>
+                                    <constraint firstItem="o19-vq-X2m" firstAttribute="height" secondItem="Na9-7n-1fi" secondAttribute="height" id="4ZX-ip-FAt"/>
                                     <constraint firstItem="yN7-9m-Xx9" firstAttribute="leading" secondItem="Na9-7n-1fi" secondAttribute="leading" id="4z9-2n-uyy"/>
                                     <constraint firstItem="P93-y9-6mH" firstAttribute="centerY" secondItem="Na9-7n-1fi" secondAttribute="centerY" id="5Cs-2D-Vy8"/>
                                     <constraint firstItem="P93-y9-6mH" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="IbA-Mi-079" secondAttribute="trailing" constant="5" id="A4p-vr-PHK"/>
@@ -235,10 +249,12 @@
                                     <constraint firstAttribute="trailing" secondItem="MZT-u4-daY" secondAttribute="trailing" id="Qcq-hh-r6A"/>
                                     <constraint firstItem="IbA-Mi-079" firstAttribute="centerY" secondItem="Na9-7n-1fi" secondAttribute="centerY" id="S2l-Bi-Tf6"/>
                                     <constraint firstItem="zRr-eJ-Xln" firstAttribute="height" secondItem="Na9-7n-1fi" secondAttribute="height" id="U5N-oG-AKe"/>
+                                    <constraint firstItem="o19-vq-X2m" firstAttribute="centerX" secondItem="Na9-7n-1fi" secondAttribute="centerX" id="ZhQ-p5-SVZ"/>
                                     <constraint firstItem="yN7-9m-Xx9" firstAttribute="centerY" secondItem="Na9-7n-1fi" secondAttribute="centerY" id="a2b-pl-Exe"/>
                                     <constraint firstItem="Ljg-ne-gyd" firstAttribute="centerX" secondItem="Na9-7n-1fi" secondAttribute="centerX" id="a5v-Ab-3R9"/>
                                     <constraint firstItem="Ljg-ne-gyd" firstAttribute="centerY" secondItem="Na9-7n-1fi" secondAttribute="centerY" id="cHD-za-dPM"/>
                                     <constraint firstItem="zRr-eJ-Xln" firstAttribute="leading" secondItem="Na9-7n-1fi" secondAttribute="leading" id="d0a-WG-qy5"/>
+                                    <constraint firstItem="o19-vq-X2m" firstAttribute="centerY" secondItem="Na9-7n-1fi" secondAttribute="centerY" id="dSP-eH-kxp"/>
                                     <constraint firstItem="MZT-u4-daY" firstAttribute="height" secondItem="Na9-7n-1fi" secondAttribute="height" id="l6w-4Y-Y2o"/>
                                     <constraint firstItem="MZT-u4-daY" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="IbA-Mi-079" secondAttribute="trailing" constant="5" id="oEE-xj-bWW"/>
                                     <constraint firstItem="haF-tC-fzg" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="IbA-Mi-079" secondAttribute="trailing" constant="5" id="qUD-tc-aYw"/>
@@ -287,6 +303,7 @@
                         <outlet property="btnProximo" destination="P93-y9-6mH" id="Vae-Me-zo2"/>
                         <outlet property="btnPublicado" destination="Ljg-ne-gyd" id="th6-5t-dIK"/>
                         <outlet property="btnPublicar" destination="IbA-Mi-079" id="INg-Tv-wd1"/>
+                        <outlet property="btnRefresh" destination="o19-vq-X2m" id="b8B-tn-0yg"/>
                         <outlet property="curWait" destination="dQg-ag-JJO" id="RBs-pF-CdJ"/>
                         <outlet property="lbInfo" destination="CQC-AW-mfK" id="vgT-sR-ln0"/>
                         <outlet property="lbTitle" destination="fYw-8i-BeF" id="22g-iI-mWH"/>

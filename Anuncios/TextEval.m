@@ -172,16 +172,16 @@
 -(NSString*) GetRandomMail
   {
   NSString*   Names[] = {@"Camilo",@"Carlos", @"Pedro",@"Juan", @"David", @"Armando", @"Felix", @"Maria", @"Juana", @"Margar", @"Tere", @"Josefa", @"Fran" ,@"Pepe", @"Maira", @"Teresita", @"Josefa", @"Ana", @"Anita", @"Aida", @"Lola", @"Laura", @"Ivan", @"Manuel", @"Elvis" ,@"Eva", @"Clara" ,@"Gael", @"Joel", @"Jony", @"Joana", @"Yoan", @"Yoani", @"Lorena", @"Patricia", @"Gilda", @"Ariel" ,@"Alex", @"Ernesto", @"Jose", @"Elsa", @"Jainer", @"Julian", @"Victor", @"Eve", @"Fara", @"Jorge", @"Sivia", @"Amelia" ,@"Grettel", @"Nicolas", @"Fidel", @"Raul", @"Mariela", @"Agustin", @"Alfredo", @"Daniel", @"Fide", @"Oscar", @"Juaqin", @"Malena" ,@"Ivon", @"Agusto" ,@"Cecilia", @"Celia", @"Cesar", @"Homero", @"Ristro", @"Lazaro", @"Yeyo", @"Miguel", @"Rafael", @"Andres", @"Regla", @"Bruno", @"Elena", @"Blanca", @"Aurelio", @"Yelianis", @"Ledys", @"Monica", @"Rebeca", @"Yenifer", @"Yadira", @"Esteban", @"Sebastian", @"Alturo", @"Alejandro", @"Diosdado", @"Dematrio", @"Abel", @"Hector", @"Roberto", @"Alain", @"Alicia", @"Eduardo", @"Angel", @"Jesus", @"Hugo", @"Nestor", @"Julian", @"Armando", @"Rodolfo", @"Richar", @"Cristian", @"Alberto", @"Julio", @"Mandy", @"Dinora", @"Vivian", @"Rigo", @"Damian", @"Oriol"  };
-  NSString*  Apllds[] = {@"Fdez",@"Monte" ,@"Dias" ,@"Abrir", @"Suares", @"Valdez", @"Castro", @"Gzles", @"Peres", @"Ochoa", @"Hrdez", @"Sanches", @"Tabares", @"1970", @"1980", @"1985", @"1968", @"Orosco", @"Mora", @"Garcia", @"Torres", @"Almirar", @"Enrique", @"Blanco", @"Cruz", @"Palomo", @"Caro", @"Carrazana", @"Pena", @"Orozco", @"Guevara", @"Morales", @"Piñera", @"Prieto", @"Carcaces", @"Alonso", @"Alfonso", @"Chavez", @"Dies", @"Jimenes", @"More", @"Canel", @"Ojeda", @"Leon", @"Noa", @"Moa", @"Reyes", @"Ortega" };
-  NSString* Servers[] = {@"gmail.com",@"outlook.com", @"hotmail.com", @"infomed.sld.cu", @"yahoo.com", @"yahoo.ar", @"ms.net", @"amazon.com", @"cultur.cu", @"aol.com" };
+  NSString*  Apllds[] = {@"Fdez",@"Monte" ,@"Dias" ,@"Abrir", @"Suares", @"Valdez", @"Castro", @"Gzles", @"Peres", @"Ochoa", @"Hrdez", @"Sanchez", @"Tabares", @"Ramires", @"Oliva", @"Dmiguez", @"Benites", @"Orosco", @"Mora", @"Garcia", @"Torres", @"Almirar", @"Enrique", @"Blanco", @"Cruz", @"Palomo", @"Caro", @"Carrazana", @"Pena", @"Orozco", @"Guevara", @"Morales", @"Pinera", @"Prieto", @"Carcaces", @"Alonso", @"Alfonso", @"Chavez", @"Dies", @"Jimenes", @"More", @"Canel", @"Ojeda", @"Leon", @"Noa", @"Moa", @"Reyes", @"Ortega", @"Alarcon", @"Quesada", @"Ortis", @"Bernal", @"Oropeza", @"Kindelan", @"Torientes", @"Garcez", @"Obregon", @"Otamedis", @"Medinas", @"Menendez", @"Menocal", @"Batista", @"Arteaga", @"Agramonte", @"Almenteros", @"Acosta", @"Alvares", @"Almanza", @"Tamayo", @"Cuevas", @"Cuervo", @"Coldero", @"Cabrera", @"Infante", @"Cardenas", @"Linares", @"Limas", @"Limonta", @"Llanes", @"Labrada", @"Lopez", @"Lorenzo", @"Montesuma", @"Torriente", @"Brau", @"Maradona", @"Calmona", @"Orta", @"Clavajal", @"Castellanos", @"Curbelo", @"Cuba", @"Anglada", @"Valle", @"Vasquez", @"Valezuela", @"Villegas", @"Villanueva", @"Vidal", @"Sandoval", @"Sarmiento", @"Chinea", @"Camejo", @"Cobo", @"Maso", @"Moncada", @"Rivera" };
+  NSString* Servers[] = {@"gmail.com",@"outlook.com", @"hotmail.com", @"infomed.sld.cu", @"yahoo.com", @"yahoo.ar", @"ms.net", @"amazon.com", @"cultur.cu", @"aol.com", @"nauta.cu" };
   
-  int iName    = rand() % ( sizeof(Names)/sizeof(Names[0]) );
-  int iApllds  = rand() % ( sizeof(Apllds)/sizeof(Apllds[0]) );
-  int iServers = rand() % ( sizeof(Servers)/sizeof(Servers[0]) );
+  uint iName    = arc4random_uniform( sizeof(Names)  /sizeof(Names[0])   );
+  uint iApllds  = arc4random_uniform( sizeof(Apllds) /sizeof(Apllds[0])  );
+  uint iServers = arc4random_uniform( sizeof(Servers)/sizeof(Servers[0]) );
   
   NSString* sMail = [NSString stringWithFormat:@"%@%@@%@", Names[iName], Apllds[iApllds], Servers[iServers] ];
   
-  return sMail;
+  return [sMail lowercaseString];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------

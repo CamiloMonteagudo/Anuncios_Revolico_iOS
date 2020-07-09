@@ -41,6 +41,7 @@
 @property (weak, nonatomic) IBOutlet UIButton *btnBack;
 @property (weak, nonatomic) IBOutlet UIButton *btnNext;
 @property (weak, nonatomic) IBOutlet UIButton *btnMark;
+@property (weak, nonatomic) IBOutlet UIButton *btnRefresh;
 
 @property (weak, nonatomic) IBOutlet UIActivityIndicatorView *curWait;
 @property (weak, nonatomic) IBOutlet NSLayoutConstraint *BottomSep;
@@ -57,6 +58,7 @@
 - (IBAction)OnNext:(id)sender;
 - (IBAction)OnClickTitle:(id)sender;
 - (IBAction)OnMarcar:(id)sender;
+- (IBAction)OnRefresh:(id)sender;
 
 @end
 
@@ -183,9 +185,9 @@
   
   NSURL *url = [NSURL URLWithString: nowItem.Url];
   
-//  NSBundle *Bundle = [NSBundle mainBundle];
-//  NSString* file = [Bundle pathForResource:@"PageTest" ofType:@"html" ];
-//  url = [NSURL URLWithString: file];
+  NSBundle *Bundle = [NSBundle mainBundle];
+  NSString* file = [Bundle pathForResource:@"PageTest" ofType:@"html" ];
+  url = [NSURL URLWithString: file];
   
   [_webPage loadRequest:[NSURLRequest requestWithURL:url]];
   
@@ -207,6 +209,14 @@
   {
   [_webPage stopLoading];
   [self ShowButtonsMode:0];
+  }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+// Detiene la carga de la pagina Web
+- (IBAction)OnRefresh:(id)sender
+  {
+  [_webPage reload];
+  [self ShowWebNavigate];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -454,9 +464,10 @@ UIView* HideKeyboard( UIView* view )
     {
     _btnBack.hidden = !_webPage.canGoBack;
     _btnNext.hidden = !_webPage.canGoForward;
+    _btnRefresh.hidden = false;
     }
   else
-    _btnBack.hidden = _btnNext.hidden = true;
+    _btnBack.hidden = _btnNext.hidden = _btnRefresh.hidden = true;
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -758,6 +769,31 @@ UIView* HideKeyboard( UIView* view )
   showTitle = !showTitle;
   [self ShowNowAnuncioInfo];
   }
+
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
+// Muestra los cookies de la pagina
+//- (void) ShowPageCookies
+//  {
+//  function getCookies() {
+//    var cookies = {}; // The object we will return
+//    var all = document.cookie; // Get all cookies in one big string
+//    if (all === "") // If the property is the empty string
+//      return cookies; // return an empty object
+//    var list = all.split("; "); // Split into individual name=value pairs
+//    for(var i = 0; i < list.length; i++) { // For each cookie
+//      var cookie = list[i];
+//      var p = cookie.indexOf("="); // Find the first = sign
+//      var name = cookie.substring(0,p); // Get cookie name
+//      var value = cookie.substring(p+1); // Get cookie value
+//      value = decodeURIComponent(value); // Decode the value
+//      cookies[name] = value; // Store name and value in object
+//    }
+//    return cookies;
+//  }
+//  
+//document.cookie = key + "=; max-age=0"
+//  
+//  }
 
 @end
 
