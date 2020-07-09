@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841B6F88235F6A630030E42C /* DataAnuncios.m in Sources */ = {isa = PBXBuildFile; fileRef = 841B6F87235F6A630030E42C /* DataAnuncios.m */; };
+		841B6F8E235FBD670030E42C /* Revolico Viagras.txt in Resources */ = {isa = PBXBuildFile; fileRef = 841B6F89235FBD660030E42C /* Revolico Viagras.txt */; };
+		841B6F8F235FBD670030E42C /* Revolico Medicinas 1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 841B6F8A235FBD660030E42C /* Revolico Medicinas 1.txt */; };
+		841B6F90235FBD670030E42C /* Revolico Lavadoras.txt in Resources */ = {isa = PBXBuildFile; fileRef = 841B6F8B235FBD660030E42C /* Revolico Lavadoras.txt */; };
+		841B6F91235FBD670030E42C /* Revolico Medicinas 2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 841B6F8C235FBD660030E42C /* Revolico Medicinas 2.txt */; };
+		841B6F92235FBD670030E42C /* PorLaLivre Lavadoras.txt in Resources */ = {isa = PBXBuildFile; fileRef = 841B6F8D235FBD660030E42C /* PorLaLivre Lavadoras.txt */; };
+		842BEA92235E8A9900981623 /* PageTest.html in Resources */ = {isa = PBXBuildFile; fileRef = 842BEA91235E8A9900981623 /* PageTest.html */; };
+		842EBA54235BABB700BD9E08 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 842EBA53235BABB700BD9E08 /* AppDelegate.m */; };
+		842EBA57235BABB700BD9E08 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 842EBA56235BABB700BD9E08 /* ViewController.m */; };
+		842EBA5A235BABB700BD9E08 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842EBA58235BABB700BD9E08 /* Main.storyboard */; };
+		842EBA5C235BABBC00BD9E08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842EBA5B235BABBC00BD9E08 /* Assets.xcassets */; };
+		842EBA5F235BABBC00BD9E08 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842EBA5D235BABBC00BD9E08 /* LaunchScreen.storyboard */; };
+		842EBA62235BABBC00BD9E08 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 842EBA61235BABBC00BD9E08 /* main.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		841B6F86235F6A630030E42C /* DataAnuncios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataAnuncios.h; sourceTree = "<group>"; };
+		841B6F87235F6A630030E42C /* DataAnuncios.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataAnuncios.m; sourceTree = "<group>"; };
+		841B6F89235FBD660030E42C /* Revolico Viagras.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Revolico Viagras.txt"; sourceTree = "<group>"; };
+		841B6F8A235FBD660030E42C /* Revolico Medicinas 1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Revolico Medicinas 1.txt"; sourceTree = "<group>"; };
+		841B6F8B235FBD660030E42C /* Revolico Lavadoras.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Revolico Lavadoras.txt"; sourceTree = "<group>"; };
+		841B6F8C235FBD660030E42C /* Revolico Medicinas 2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Revolico Medicinas 2.txt"; sourceTree = "<group>"; };
+		841B6F8D235FBD660030E42C /* PorLaLivre Lavadoras.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "PorLaLivre Lavadoras.txt"; sourceTree = "<group>"; };
+		842BEA91235E8A9900981623 /* PageTest.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = PageTest.html; sourceTree = "<group>"; };
+		842EBA4F235BABB700BD9E08 /* Anuncios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Anuncios.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		842EBA52235BABB700BD9E08 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		842EBA53235BABB700BD9E08 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		842EBA55235BABB700BD9E08 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		842EBA56235BABB700BD9E08 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		842EBA59235BABB700BD9E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		842EBA5B235BABBC00BD9E08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		842EBA5E235BABBC00BD9E08 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		842EBA60235BABBC00BD9E08 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842EBA61235BABBC00BD9E08 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		842EBA4C235BABB700BD9E08 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841B6F93235FBD7A0030E42C /* Anuncios Files */ = {
+			isa = PBXGroup;
+			children = (
+				841B6F8D235FBD660030E42C /* PorLaLivre Lavadoras.txt */,
+				841B6F8B235FBD660030E42C /* Revolico Lavadoras.txt */,
+				841B6F8A235FBD660030E42C /* Revolico Medicinas 1.txt */,
+				841B6F8C235FBD660030E42C /* Revolico Medicinas 2.txt */,
+				841B6F89235FBD660030E42C /* Revolico Viagras.txt */,
+			);
+			path = "Anuncios Files";
+			sourceTree = "<group>";
+		};
+		842EBA46235BABB700BD9E08 = {
+			isa = PBXGroup;
+			children = (
+				842EBA51235BABB700BD9E08 /* Anuncios */,
+				842EBA50235BABB700BD9E08 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		842EBA50235BABB700BD9E08 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				842EBA4F235BABB700BD9E08 /* Anuncios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		842EBA51235BABB700BD9E08 /* Anuncios */ = {
+			isa = PBXGroup;
+			children = (
+				842BEA91235E8A9900981623 /* PageTest.html */,
+				842EBA52235BABB700BD9E08 /* AppDelegate.h */,
+				842EBA53235BABB700BD9E08 /* AppDelegate.m */,
+				842EBA55235BABB700BD9E08 /* ViewController.h */,
+				842EBA56235BABB700BD9E08 /* ViewController.m */,
+				842EBA58235BABB700BD9E08 /* Main.storyboard */,
+				842EBA5B235BABBC00BD9E08 /* Assets.xcassets */,
+				842EBA5D235BABBC00BD9E08 /* LaunchScreen.storyboard */,
+				842EBA60235BABBC00BD9E08 /* Info.plist */,
+				842EBA61235BABBC00BD9E08 /* main.m */,
+				841B6F86235F6A630030E42C /* DataAnuncios.h */,
+				841B6F87235F6A630030E42C /* DataAnuncios.m */,
+				841B6F93235FBD7A0030E42C /* Anuncios Files */,
+			);
+			path = Anuncios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		842EBA4E235BABB700BD9E08 /* Anuncios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 842EBA65235BABBC00BD9E08 /* Build configuration list for PBXNativeTarget "Anuncios" */;
+			buildPhases = (
+				842EBA4B235BABB700BD9E08 /* Sources */,
+				842EBA4C235BABB700BD9E08 /* Frameworks */,
+				842EBA4D235BABB700BD9E08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Anuncios;
+			productName = Anuncios;
+			productReference = 842EBA4F235BABB700BD9E08 /* Anuncios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		842EBA47235BABB700BD9E08 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = BigXSoft;
+				TargetAttributes = {
+					842EBA4E235BABB700BD9E08 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 842EBA4A235BABB700BD9E08 /* Build configuration list for PBXProject "Anuncios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 842EBA46235BABB700BD9E08;
+			productRefGroup = 842EBA50235BABB700BD9E08 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				842EBA4E235BABB700BD9E08 /* Anuncios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		842EBA4D235BABB700BD9E08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841B6F91235FBD670030E42C /* Revolico Medicinas 2.txt in Resources */,
+				842EBA5F235BABBC00BD9E08 /* LaunchScreen.storyboard in Resources */,
+				842BEA92235E8A9900981623 /* PageTest.html in Resources */,
+				842EBA5C235BABBC00BD9E08 /* Assets.xcassets in Resources */,
+				841B6F90235FBD670030E42C /* Revolico Lavadoras.txt in Resources */,
+				841B6F8F235FBD670030E42C /* Revolico Medicinas 1.txt in Resources */,
+				841B6F92235FBD670030E42C /* PorLaLivre Lavadoras.txt in Resources */,
+				842EBA5A235BABB700BD9E08 /* Main.storyboard in Resources */,
+				841B6F8E235FBD670030E42C /* Revolico Viagras.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		842EBA4B235BABB700BD9E08 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				842EBA57235BABB700BD9E08 /* ViewController.m in Sources */,
+				842EBA62235BABBC00BD9E08 /* main.m in Sources */,
+				842EBA54235BABB700BD9E08 /* AppDelegate.m in Sources */,
+				841B6F88235F6A630030E42C /* DataAnuncios.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		842EBA58235BABB700BD9E08 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842EBA59235BABB700BD9E08 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		842EBA5D235BABBC00BD9E08 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				842EBA5E235BABBC00BD9E08 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		842EBA63235BABBC00BD9E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		842EBA64235BABBC00BD9E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		842EBA66235BABBC00BD9E08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Anuncios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigxsoft.Anuncios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		842EBA67235BABBC00BD9E08 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Anuncios/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.bigxsoft.Anuncios;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		842EBA4A235BABB700BD9E08 /* Build configuration list for PBXProject "Anuncios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842EBA63235BABBC00BD9E08 /* Debug */,
+				842EBA64235BABBC00BD9E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		842EBA65235BABBC00BD9E08 /* Build configuration list for PBXNativeTarget "Anuncios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				842EBA66235BABBC00BD9E08 /* Debug */,
+				842EBA67235BABBC00BD9E08 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 842EBA47235BABB700BD9E08 /* Project object */;
+}

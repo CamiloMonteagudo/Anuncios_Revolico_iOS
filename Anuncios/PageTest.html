@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pagina de prueba</title>
+</head>
+<body>
+<form id="form1" name="form1" method="post">
+<label for="txtName">Nombre:</label>
+<input type="text" name="nombre" id="txtName">
+  
+<br/>
+<select name="seleccion" onChange="alert('La selección cambio');" >
+  <option value="11">Selección 1</option>
+  <option value="12">Selección 2</option>
+  <option value="13">Selección 3</option>
+  <option value="14" selected="SELECTED">Selección 4</option>
+  <option value="15">Selección 5</option>
+  <option value="16">Selección 6</option>
+</select>  
+  
+<br/>
+<br/>
+  
+<label for="txtNameVal">Valor del Nombre:</label>
+<input type="text" id="txtNameVal">
+<input type="button" value="Poner" onClick="ChangeText('input','nombre','Nuevo Nombre')">
+<br/>
+<label for="txtSelVal">Valor de Selección:</label>
+<input type="text" id="txtSelVal">
+<input type="button" value="Seleccionar" onClick="ChangeSelection('Seleccion','Selección 6')">
+</form>
+  
+<script type="text/javascript">
+  
+  function ChangeText( TagName, AttrName, newVal )
+    {
+    var elem = document.all( AttrName );  
+        
+    if( elem )
+      {
+      elem.value = newVal;
+      return;
+      }
+      
+    alert("No fue encontrado ningún elemento '" + TagName + "' con nombre '" + AttrName + "'" );
+    }
+  
+  function ChangeSelection( AttrName, OptText )
+    {
+    var elem = document.all( AttrName ); 
+    if( !elem )  
+      {
+      alert("No fue encontrado ningún elemento Select con nombre '" + AttrName + "'" );
+      return;  
+      }
+        
+    var sOpt = OptText.toLowerCase();
+    var Options = elem.getElementsByTagName("option");
+
+    for( var j=0; j<Options.length; ++j )
+      {
+      var opt = Options[j];  
+
+      if( opt.innerText.toLowerCase() == sOpt )
+        {
+        opt.selected = true;
+        elem.onchange( this );
+        return
+        }
+      }
+
+    alert("La opcion '" + OptText + "' no fue encontrada en el elemento '" + AttrName + "'"  );
+    }
+  
+  function ChangeTextOld( TagName, AttrName, newVal )
+    {
+    var elems = document.getElementsByTagName( TagName );
+
+    for( var i=0; i<elems.length; ++i )
+      {
+      var elem = elems[i];  
+        
+      if( elem.name == AttrName )
+        {
+        elem.value = newVal;
+        return;
+        }
+      }
+      
+    alert("No fue encontrado ningún elemento '" + TagName + "' con nombre '" + AttrName + "'" );
+    }
+  
+  function ChangeSelectionOld( AttrName, OptText )
+    {
+    var elems = document.getElementsByTagName( "select" );
+
+    for( var i=0; i<elems.length; ++i )
+      {
+      var elem = elems[i];  
+        
+      if( elem.name == AttrName )
+        {
+        var sOpt = OptText.toLowerCase();
+        var Options = elem.getElementsByTagName("option");
+
+        for( var j=0; j<Options.length; ++j )
+          {
+          var opt = Options[j];  
+
+          if( opt.innerText.toLowerCase() == sOpt )
+            {
+            opt.selected = true;
+            elem.onchange( this );
+            return
+            }
+          }
+
+        alert("La opcion '" + OptText + "' no fue encontrada en el elemento '" + AttrName + "'"  );
+        return;
+        }
+        
+      alert("No fue encontrado ningún elemento Select con nombre '" + AttrName + "'" );
+      }
+    }
+</script>
+  
+</body>
+</html>
