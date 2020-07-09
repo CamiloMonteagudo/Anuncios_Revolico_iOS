@@ -380,27 +380,31 @@ UIView* HideKeyboard( UIView* view )
   
   _btnPrevio.hidden = _btnPublicar.hidden  = _btnProximo.hidden = true;
   _btnLlenar.hidden = _btnPublicado.hidden = _btnDetener.hidden = true;
-  _btnBack.hidden   = _btnMark.hidden      = _btnNext.hidden    = true;
-  
+  _btnMark.hidden   = true;
+
        if( mode == 0 ) _btnPrevio.hidden = _btnPublicar.hidden = _btnProximo.hidden = false;    // Modo Anuncios
   else if( mode == 1 ) _btnLlenar.hidden = _btnDetener.hidden  = false;                         // Modo Publicar
-  else if( mode == 2 ) _btnBack.hidden   = _btnNext.hidden     = false;                         // Modo Navegar
   else if( mode == 3 ) _btnPrevio.hidden = _btnMark.hidden     = _btnProximo.hidden  = false;   // Modo Revisar
 
   _InfoAnuc.hidden = (mode!=0);
   
   Modo = mode;
   
-  [self EnableWebNavigate];
+  [self ShowWebNavigate];
   [self ShowNowAnuncioInfo];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
-// Habilita o desabilita los botones navegación según el contenido de la historia del navegador
-- (void) EnableWebNavigate
+// Muestra/Oculata los botones navegación según el modo y el contenido de la historia del navegador
+- (void) ShowWebNavigate
   {
-  _btnBack.hidden = !_webPage.canGoBack;
-  _btnNext.hidden = !_webPage.canGoForward;
+  if( Modo == 2 )
+    {
+    _btnBack.hidden = !_webPage.canGoBack;
+    _btnNext.hidden = !_webPage.canGoForward;
+    }
+  else
+    _btnBack.hidden = _btnNext.hidden = true;
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -662,7 +666,7 @@ UIView* HideKeyboard( UIView* view )
   PopUp = nil;                                                                     // Indica que no hay menú a partir de este momento
   NSString* mnu = view.SelectedID;
   
-  if( [mnu isEqualToString:@"File"     ] ) [self performSegueWithIdentifier: @"SelectFile" sender: self];
+       if( [mnu isEqualToString:@"File"     ] ) [self performSegueWithIdentifier: @"SelectFile" sender: self];
   else if( [mnu isEqualToString:@"Auncios"  ] ) [self ShowButtonsMode:0];
   else if( [mnu isEqualToString:@"Pubicar"  ] ) [self ShowButtonsMode:1];
   else if( [mnu isEqualToString:@"Navegar"  ] ) [self ShowButtonsMode:2];
@@ -678,7 +682,7 @@ UIView* HideKeyboard( UIView* view )
   {
   [_webPage goBack];
   
-  [self EnableWebNavigate];
+  [self ShowWebNavigate];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -687,7 +691,7 @@ UIView* HideKeyboard( UIView* view )
   {
   [_webPage goForward];
   
-  [self EnableWebNavigate];
+  [self ShowWebNavigate];
   }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
